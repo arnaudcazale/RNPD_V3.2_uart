@@ -90,7 +90,7 @@
 // <3=> 14 bit 
 
 #ifndef SAADC_CONFIG_RESOLUTION
-#define SAADC_CONFIG_RESOLUTION 1
+#define SAADC_CONFIG_RESOLUTION 0
 #endif
 
 // <o> SAADC_CONFIG_OVERSAMPLE  - Sample period
@@ -3661,44 +3661,6 @@
 
 // </h> 
 //==========================================================
-
-//<h>
-#ifndef NRF_LOG_BACKEND_RTT_ENABLED
-#define NRF_LOG_BACKEND_RTT_ENABLED 1
-#endif
-
-#ifndef NRF_LOG_BACKEND_RTT_TEMP_BUFFER_SIZE
-#define NRF_LOG_BACKEND_RTT_TEMP_BUFFER_SIZE 64
-#endif
-
-#ifndef NRF_LOG_BACKEND_RTT_TX_RETRY_DELAY_MS
-#define NRF_LOG_BACKEND_RTT_TX_RETRY_DELAY_MS 1
-#endif
-
-#ifndef NRF_LOG_BACKEND_RTT_TX_RETRY_CNT
-#define NRF_LOG_BACKEND_RTT_TX_RETRY_CNT 3
-#endif
-
-#ifndef SEGGER_RTT_CONFIG_BUFFER_SIZE_UP
-#define SEGGER_RTT_CONFIG_BUFFER_SIZE_UP 512
-#endif
-
-#ifndef SEGGER_RTT_CONFIG_MAX_NUM_UP_BUFFERS
-#define SEGGER_RTT_CONFIG_MAX_NUM_UP_BUFFERS 2
-#endif
-
-#ifndef SEGGER_RTT_CONFIG_BUFFER_SIZE_DOWN
-#define SEGGER_RTT_CONFIG_BUFFER_SIZE_DOWN 16
-#endif
-
-#ifndef SEGGER_RTT_CONFIG_MAX_NUM_DOWN_BUFFERS
-#define SEGGER_RTT_CONFIG_MAX_NUM_DOWN_BUFFERS 2
-#endif
-
-#ifndef SEGGER_RTT_CONFIG_DEFAULT_MODE
-#define SEGGER_RTT_CONFIG_DEFAULT_MODE 0
-#endif
-//</h>
 
 // <<< end of configuration section >>>
 #endif //SDK_CONFIG_H

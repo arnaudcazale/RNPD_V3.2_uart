@@ -65,9 +65,9 @@
 #include "boards.h"
 #include "nrf_drv_saadc.h"
 
-#include "nrf_log.h"
-#include "nrf_log_ctrl.h"
-#include "nrf_log_default_backends.h"
+//#include "nrf_log.h"
+//#include "nrf_log_ctrl.h"
+//#include "nrf_log_default_backends.h"
 
 //#define NRFX_GPIOTE_ENABLED       1
 #define ROW_COUNT                 48
@@ -77,10 +77,11 @@
 #define CHANNEL_PINS_PER_MUX      4
 #define SAADC_CHANNEL 0
 #define MIN_SEND_VALUE       0
-#define MAX_SEND_VALUE       1022
+#define MAX_SEND_VALUE       254
 
-static uint16_t PACKET_START_WORD = 0xFFFF;
+static uint16_t PACKET_START_BYTE = 0xFF;
 static nrf_saadc_value_t sample;
+//static uint8_t sample;
 static int current_enabled_mux = MUX_COUNT - 1;  //init to number of last mux so enabled mux increments to first mux on first scan.
 static volatile bool uart_tx_in_progress = false;
 static volatile bool saadc_convert_in_progress = false;
@@ -275,7 +276,7 @@ void shiftColumn(bool is_first)
 * printFixed() - print a value padded with leading spaces such that the value always occupies a fixed
 * number of characters / space in the output terminal.
 **********************************************************************************************************/
-void putword(uint16_t value)
+/*void putword(uint16_t value)
 {
   uart_tx_in_progress = true;
   putchar(value);
@@ -284,19 +285,30 @@ void putword(uint16_t value)
   uart_tx_in_progress = true;
   putchar(value >> 8);
   while(uart_tx_in_progress);
+}*/
+
+/**********************************************************************************************************
+* printFixed() - print a value padded with leading spaces such that the value always occupies a fixed
+* number of characters / space in the output terminal.
+**********************************************************************************************************/
+void send(uint8_t value)
+{
+  uart_tx_in_progress = true;
+  putchar(value);
+  while(uart_tx_in_progress);
 }
 
 /**********************************************************************************************************
 * printFixed() - print a value padded with leading spaces such that the value always occupies a fixed
 * number of characters / space in the output terminal.
 **********************************************************************************************************/
-void printSerial(int16_t value)
+void printSerial(uint8_t value)
 {
     if(value > MAX_SEND_VALUE)
     {
-        value = 1022;
+        value = 254;
     }
-    putword(value);
+    send(value);
 }
 
 #ifdef ENABLE_LOOPBACK_TEST
@@ -350,7 +362,7 @@ void process(void)
 {
     uint32_t err_code;
 
-    putword(PACKET_START_WORD);
+    send(PACKET_START_BYTE);
     
     for(int i = 0; i < ROW_COUNT; i ++)
     {
@@ -366,13 +378,13 @@ void process(void)
             {
                 sample = 0;
             }
+             
+            uint8_t data = sample & 0xFF;
 
             shiftColumn(false);
 
-            printSerial(sample);
+            printSerial(data);
         }
-
-        //putword("\r\n");
     }
 }
 
@@ -382,10 +394,6 @@ void process(void)
 int main(void)
 {
     uint32_t err_code;
-
-    //NRF_LOG_INIT(NULL);
-    //APP_ERROR_CHECK(err_code);
-    //NRF_LOG_DEFAULT_BACKENDS_INIT();
 
     gpio_init();
     saadc_init();
@@ -418,8 +426,6 @@ int main(void)
 
 #ifndef ENABLE_LOOPBACK_TEST
     //printf("\r\nUART example started.\r\n");
-    //NRF_LOG_INFO("\r\nUART example started.\r\n");
-    //NRF_LOG_FLUSH();
 
     while (true)
     {
@@ -459,20 +465,6 @@ int main(void)
           default:
             break;
         }
-
-        
-
-        
-
-        /*if (cr == 'q' || cr == 'Q')
-        {
-            printf(" \r\nExit!\r\n");
-
-            while (true)
-            {
-                // Do nothing.
-            }
-        }*/
     }
 #else
 

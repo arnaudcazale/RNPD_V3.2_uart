@@ -57,23 +57,4 @@ Output/uart_pca10040\ Debug/Obj/main.o: \
  ../../../../../../modules/nrfx/hal/nrf_gpio.h \
  ../../../../../../integration/nrfx/legacy/nrf_drv_saadc.h \
  ../../../../../../modules/nrfx/drivers/include/nrfx_saadc.h \
- ../../../../../../modules/nrfx/hal/nrf_saadc.h \
- ../../../../../../components/libraries/log/nrf_log.h \
- ../../../../../../components/libraries/util/sdk_common.h \
- C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 4.16/include/string.h \
- ../../../../../../components/libraries/util/sdk_os.h \
- ../../../../../../components/libraries/util/app_util.h \
- ../../../../../../components/libraries/util/sdk_macros.h \
- ../../../../../../components/libraries/experimental_section_vars/nrf_section.h \
- ../../../../../../components/libraries/strerror/nrf_strerror.h \
- ../../../../../../components/libraries/log/src/nrf_log_internal.h \
- ../../../../../../components/libraries/log/nrf_log_instance.h \
- ../../../../../../components/libraries/log/nrf_log_types.h \
- ../../../../../../components/libraries/log/nrf_log_types.h \
- ../../../../../../components/libraries/log/nrf_log_ctrl.h \
- ../../../../../../components/libraries/log/src/nrf_log_ctrl_internal.h \
- ../../../../../../components/libraries/log/nrf_log_backend_interface.h \
- ../../../../../../components/libraries/memobj/nrf_memobj.h \
- C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 4.16/include/stdlib.h \
- ../../../../../../components/libraries/balloc/nrf_balloc.h \
- ../../../../../../components/libraries/log/nrf_log_default_backends.h
+ ../../../../../../modules/nrfx/hal/nrf_saadc.h
