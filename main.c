@@ -65,11 +65,8 @@
 #include "boards.h"
 #include "nrf_drv_saadc.h"
 
-//#include "nrf_log.h"
-//#include "nrf_log_ctrl.h"
-//#include "nrf_log_default_backends.h"
+//#define SIMU
 
-//#define NRFX_GPIOTE_ENABLED       1
 #define ROW_COUNT                 48
 #define COLUMN_COUNT              16
 #define ROWS_PER_MUX              16
@@ -304,11 +301,16 @@ void send(uint8_t value)
 **********************************************************************************************************/
 void printSerial(uint8_t value)
 {
-    if(value > MAX_SEND_VALUE)
-    {
-        value = 254;
-    }
-    send(value);
+   
+    #ifdef SIMU
+      send(0xFE);
+    #else
+      if(value > MAX_SEND_VALUE)
+      {
+          value = 254;
+      }
+      send(value);
+    #endif
 }
 
 #ifdef ENABLE_LOOPBACK_TEST
