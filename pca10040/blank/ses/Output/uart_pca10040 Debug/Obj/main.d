@@ -1,5 +1,5 @@
 Output/uart_pca10040\ Debug/Obj/main.o: \
- C:\Nordic\SDK\nRF5_SDK_17.0.2_d674dde\examples\peripheral\RNPD_V3.2_uart\main.c \
+ C:\Nordic\SDK\nRF5_SDK_17.0.2_d674dde\examples\peripheral\RNPD_V3.1_uart\main.c \
  C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 4.16/include/stdbool.h \
  C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 4.16/include/stdint.h \
  C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 4.16/include/stdio.h \
@@ -48,7 +48,7 @@ Output/uart_pca10040\ Debug/Obj/main.o: \
  ../../../../../../components/libraries/bsp/bsp.h \
  ../../../../../../components/boards/boards.h \
  ../../../../../../modules/nrfx/hal/nrf_gpio.h \
- ../../../../../../components/boards/rnpd_V3_2_board.h \
+ ../../../../../../components/boards/rnpd_V3_1_board.h \
  ../../../../../../modules/nrfx/hal/nrf_uart.h \
  ../../../../../../modules/nrfx/hal/nrf_uarte.h \
  ../../../../../../integration/nrfx/legacy/nrf_drv_gpiote.h \
@@ -57,4 +57,11 @@ Output/uart_pca10040\ Debug/Obj/main.o: \
  ../../../../../../modules/nrfx/hal/nrf_gpio.h \
  ../../../../../../integration/nrfx/legacy/nrf_drv_saadc.h \
  ../../../../../../modules/nrfx/drivers/include/nrfx_saadc.h \
- ../../../../../../modules/nrfx/hal/nrf_saadc.h
+ ../../../../../../modules/nrfx/hal/nrf_saadc.h \
+ ../../../../../../components/libraries/timer/app_timer.h \
+ ../../../../../../integration/nrfx/legacy/nrf_drv_ppi.h \
+ ../../../../../../modules/nrfx/drivers/include/nrfx_ppi.h \
+ ../../../../../../modules/nrfx/hal/nrf_ppi.h \
+ ../../../../../../integration/nrfx/legacy/nrf_drv_timer.h \
+ ../../../../../../modules/nrfx/drivers/include/nrfx_timer.h \
+ ../../../../../../modules/nrfx/hal/nrf_timer.h

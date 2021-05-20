@@ -1,7 +1,5 @@
-Output/uart_pca10040\ Debug/Obj/boards.o: \
- C:\Nordic\SDK\nRF5_SDK_17.0.2_d674dde\components\boards\boards.c \
- C:\Nordic\SDK\nRF5_SDK_17.0.2_d674dde\components\boards\boards.h \
- ../../../../../../modules/nrfx/hal/nrf_gpio.h \
+Output/uart_pca10040\ Debug/Obj/nrfx_ppi.o: \
+ C:\Nordic\SDK\nRF5_SDK_17.0.2_d674dde\modules\nrfx\drivers\src\nrfx_ppi.c \
  ../../../../../../modules/nrfx/nrfx.h \
  ../../../../../../integration/nrfx/nrfx_config.h ../config/sdk_config.h \
  ../../../../../../modules/nrfx/drivers/nrfx_common.h \
@@ -44,4 +42,18 @@ Output/uart_pca10040\ Debug/Obj/boards.o: \
  ../../../../../../components/libraries/util/sdk_errors.h \
  ../../../../../../components/libraries/util/sdk_resources.h \
  ../../../../../../modules/nrfx/drivers/nrfx_errors.h \
- C:\Nordic\SDK\nRF5_SDK_17.0.2_d674dde\components\boards\rnpd_V3_1_board.h
+ ../../../../../../modules/nrfx/drivers/include/nrfx_ppi.h \
+ ../../../../../../modules/nrfx/hal/nrf_ppi.h \
+ ../../../../../../integration/nrfx/nrfx_log.h \
+ ../../../../../../components/libraries/log/nrf_log.h \
+ ../../../../../../components/libraries/util/sdk_common.h \
+ C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 4.16/include/string.h \
+ ../../../../../../components/libraries/util/sdk_os.h \
+ ../../../../../../components/libraries/util/app_util.h \
+ ../../../../../../components/libraries/util/sdk_macros.h \
+ ../../../../../../components/libraries/experimental_section_vars/nrf_section.h \
+ ../../../../../../components/libraries/strerror/nrf_strerror.h \
+ ../../../../../../components/libraries/log/src/nrf_log_internal.h \
+ ../../../../../../components/libraries/log/nrf_log_instance.h \
+ ../../../../../../components/libraries/log/nrf_log_types.h \
+ ../../../../../../components/libraries/log/nrf_log_types.h

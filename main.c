@@ -64,24 +64,34 @@
 #include "nrf_drv_gpiote.h"
 #include "boards.h"
 #include "nrf_drv_saadc.h"
+#include "app_timer.h"
+#include "nrf_drv_ppi.h"
+#include "nrf_drv_timer.h"
 
 //#define SIMU
 
 #define ROW_COUNT                 48
 #define COLUMN_COUNT              16
-#define ROWS_PER_MUX              16
-#define MUX_COUNT                 3
-#define CHANNEL_PINS_PER_MUX      4
-#define SAADC_CHANNEL 0
-#define MIN_SEND_VALUE       0
-#define MAX_SEND_VALUE       254
+#define COL_GROUP                 4
+#define COL_BY_GROUP              4
+#define OFFSET_SAADC_INPUT        NRF_SAADC_INPUT_AIN1
+#define SAADC_CHANNEL             0
+#define MIN_SEND_VALUE            0
+#define MAX_SEND_VALUE            254
 
 static uint16_t PACKET_START_BYTE = 0xFF;
 static nrf_saadc_value_t sample;
 //static uint8_t sample;
-static int current_enabled_mux = MUX_COUNT - 1;  //init to number of last mux so enabled mux increments to first mux on first scan.
 static volatile bool uart_tx_in_progress = false;
-static volatile bool saadc_convert_in_progress = false;
+static volatile bool saadc_in_progress = false;
+
+#define SAADC_SAMPLES_IN_BUFFER         4
+//#define SAADC_SAMPLE_RATE               250 
+static const nrf_drv_timer_t   m_timer = NRF_DRV_TIMER_INSTANCE(3);
+static nrf_saadc_value_t       m_buffer_pool[2][SAADC_SAMPLES_IN_BUFFER];
+static nrf_ppi_channel_t       m_ppi_channel;
+static uint32_t                m_adc_evt_counter;
+static uint8_t                 m_bufferData[SAADC_SAMPLES_IN_BUFFER];
 
 typedef enum
 {
@@ -90,8 +100,15 @@ typedef enum
    WAIT
 }FSM_state_t;
 
-static FSM_state_t state_FSM = WAIT;
+enum
+{
+    COL_GROUP_0 = 0,	/* C1, C2, C3, C4 */
+    COL_GROUP_1,	/* C5, C6, C7, C8 */
+    COL_GROUP_2,	/* C9, C10, C11, C12 */
+    COL_GROUP_3		/* C13, C14, C15, C16 */
+};
 
+static FSM_state_t state_FSM = WAIT;
 
 //#define ENABLE_LOOPBACK_TEST  /**< if defined, then this example will be a loopback test, which means that TX should be connected to RX to get data loopback. */
 
@@ -117,14 +134,6 @@ void uart_error_handle(app_uart_evt_t * p_event)
 /**
 * @brief Function 
 */
-void saadc_callback(nrf_drv_saadc_evt_t const * p_event)
-{
-
-}
-
-/**
-* @brief Function 
-*/
 void gpio_init()
 {
     ret_code_t err_code;
@@ -137,35 +146,92 @@ void gpio_init()
     err_code = nrf_drv_gpiote_out_init(MUX, &out_config);
     APP_ERROR_CHECK(err_code);
 
-    err_code = nrf_drv_gpiote_out_init(SHIFT_REGISTER_DATA, &out_config);
+    err_code = nrf_drv_gpiote_out_init(LS_1_16, &out_config);
     APP_ERROR_CHECK(err_code);
 
-    err_code = nrf_drv_gpiote_out_init(SHIFT_REGISTER_CLOCK, &out_config);
+    err_code = nrf_drv_gpiote_out_init(LS_17_32, &out_config);
     APP_ERROR_CHECK(err_code);
 
-    err_code = nrf_drv_gpiote_out_init(PIN_MUX_CHANNEL_0, &out_config);
+    err_code = nrf_drv_gpiote_out_init(LS_33_48, &out_config);
     APP_ERROR_CHECK(err_code);
 
-    err_code = nrf_drv_gpiote_out_init(PIN_MUX_CHANNEL_1, &out_config);
+    err_code = nrf_drv_gpiote_out_init(LS_A3, &out_config);
     APP_ERROR_CHECK(err_code);
 
-    err_code = nrf_drv_gpiote_out_init(PIN_MUX_CHANNEL_2, &out_config);
+    err_code = nrf_drv_gpiote_out_init(LS_A2, &out_config);
     APP_ERROR_CHECK(err_code);
 
-    err_code = nrf_drv_gpiote_out_init(PIN_MUX_CHANNEL_3, &out_config);
+    err_code = nrf_drv_gpiote_out_init(LS_A1, &out_config);
     APP_ERROR_CHECK(err_code);
 
-    err_code = nrf_drv_gpiote_out_init(MUX_INIB0, &out_config);
+    err_code = nrf_drv_gpiote_out_init(LS_A0, &out_config);
     APP_ERROR_CHECK(err_code);
-    nrf_drv_gpiote_out_set(MUX_INIB0);
 
-    err_code = nrf_drv_gpiote_out_init(MUX_INIB1, &out_config);
+    err_code = nrf_drv_gpiote_out_init(SET_COL_B, &out_config);
     APP_ERROR_CHECK(err_code);
-    nrf_drv_gpiote_out_set(MUX_INIB1);
 
-    err_code = nrf_drv_gpiote_out_init(MUX_INIB2, &out_config);
+    err_code = nrf_drv_gpiote_out_init(SET_COL_A, &out_config);
     APP_ERROR_CHECK(err_code);
-    nrf_drv_gpiote_out_set(MUX_INIB2);
+
+    err_code = nrf_drv_gpiote_out_init(DAC, &out_config);
+    APP_ERROR_CHECK(err_code);
+    nrf_drv_gpiote_out_set(DAC);
+}
+
+/**********************************************************************************************************
+* saadc_callback
+**********************************************************************************************************/
+void saadc_callback(nrf_drv_saadc_evt_t const * p_event)
+{
+    if (p_event->type == NRF_DRV_SAADC_EVT_DONE)
+    {
+        ret_code_t err_code;
+        uint16_t adc_value;
+        uint8_t value[SAADC_SAMPLES_IN_BUFFER*2];
+        uint16_t bytes_to_send;
+        uint8_t data;
+
+        // set buffers
+        err_code = nrf_drv_saadc_buffer_convert(p_event->data.done.p_buffer, SAADC_SAMPLES_IN_BUFFER);
+        APP_ERROR_CHECK(err_code);
+     			
+        // print samples on hardware UART and parse data for BLE transmission
+        //printf("ADC event number: %d\r\n",(int)m_adc_evt_counter);
+        for (int i = 0; i < SAADC_SAMPLES_IN_BUFFER; i++)
+        {
+            //printf("buffer%d\r\n", p_event->data.done.p_buffer[i]);
+            if(p_event->data.done.p_buffer[i] < 0)
+            {
+                p_event->data.done.p_buffer[i] = 0;
+            }
+
+            m_bufferData[i] = p_event->data.done.p_buffer[i];
+            
+            //adc_value = p_event->data.done.p_buffer[i];
+            //value[i*2] = adc_value;
+            //value[(i*2)+1] = adc_value >> 8;
+            //printf("data%d\r\n", data);
+        }
+
+         // Send data over BLE via NUS service. Create string from samples and send string with correct length.
+        /*uint8_t nus_string[50];
+        bytes_to_send = sprintf(nus_string, 
+                                "CH0: %d\r\nCH1: %d\r\nCH2: %d\r\nCH3: %d",
+                                p_event->data.done.p_buffer[0],
+                                p_event->data.done.p_buffer[1],
+                                p_event->data.done.p_buffer[2],
+                                p_event->data.done.p_buffer[3]);
+
+        err_code = ble_nus_data_send(&m_nus, nus_string, &bytes_to_send, m_conn_handle);
+        if ((err_code != NRF_ERROR_INVALID_STATE) && (err_code != NRF_ERROR_NOT_FOUND))
+        {
+            APP_ERROR_CHECK(err_code);
+        }*/
+	
+        m_adc_evt_counter++;
+       
+        saadc_in_progress = false;
+    }
 }
 
 /**********************************************************************************************************
@@ -174,115 +240,47 @@ void gpio_init()
 void saadc_init(void)
 {
     ret_code_t err_code;
-    nrf_saadc_channel_config_t channel_config =
-        NRF_DRV_SAADC_DEFAULT_CHANNEL_CONFIG_SE(NRF_SAADC_INPUT_AIN1);  //P0.03
-        channel_config.acq_time = NRF_SAADC_ACQTIME_3US;
-
-
-    err_code = nrf_drv_saadc_init(NULL, saadc_callback);
+	
+    nrf_drv_saadc_config_t saadc_config = NRF_DRV_SAADC_DEFAULT_CONFIG;
+    saadc_config.resolution = NRF_SAADC_RESOLUTION_8BIT;
+	
+    nrf_saadc_channel_config_t channel_0_config =
+        NRF_DRV_SAADC_DEFAULT_CHANNEL_CONFIG_SE(NRF_SAADC_INPUT_AIN1);
+    channel_0_config.gain = NRF_SAADC_GAIN1;
+    channel_0_config.reference = NRF_SAADC_REFERENCE_VDD4;
+	
+    nrf_saadc_channel_config_t channel_1_config =
+        NRF_DRV_SAADC_DEFAULT_CHANNEL_CONFIG_SE(NRF_SAADC_INPUT_AIN2);
+    channel_1_config.gain = NRF_SAADC_GAIN1;
+    channel_1_config.reference = NRF_SAADC_REFERENCE_VDD4;
+	
+    nrf_saadc_channel_config_t channel_2_config =
+        NRF_DRV_SAADC_DEFAULT_CHANNEL_CONFIG_SE(NRF_SAADC_INPUT_AIN4);
+    channel_2_config.gain = NRF_SAADC_GAIN1;
+    channel_2_config.reference = NRF_SAADC_REFERENCE_VDD4;
+	
+    nrf_saadc_channel_config_t channel_3_config =
+        NRF_DRV_SAADC_DEFAULT_CHANNEL_CONFIG_SE(NRF_SAADC_INPUT_AIN5);
+    channel_3_config.gain = NRF_SAADC_GAIN1;
+    channel_3_config.reference = NRF_SAADC_REFERENCE_VDD4;				
+	
+    err_code = nrf_drv_saadc_init(&saadc_config, saadc_callback);
     APP_ERROR_CHECK(err_code);
 
-    err_code = nrf_drv_saadc_channel_init(0, &channel_config);
+    err_code = nrf_drv_saadc_channel_init(0, &channel_0_config);
+    APP_ERROR_CHECK(err_code);
+    err_code = nrf_drv_saadc_channel_init(1, &channel_1_config);
+    APP_ERROR_CHECK(err_code);
+    err_code = nrf_drv_saadc_channel_init(2, &channel_2_config);
+    APP_ERROR_CHECK(err_code);
+    err_code = nrf_drv_saadc_channel_init(3, &channel_3_config);
+    APP_ERROR_CHECK(err_code);	
+
+    err_code = nrf_drv_saadc_buffer_convert(m_buffer_pool[0],SAADC_SAMPLES_IN_BUFFER);
+    APP_ERROR_CHECK(err_code);   
+    err_code = nrf_drv_saadc_buffer_convert(m_buffer_pool[1],SAADC_SAMPLES_IN_BUFFER);
     APP_ERROR_CHECK(err_code);
 }
-
-/**********************************************************************************************************
-* convert_Mux_nbr_to_Mux_addr() - Convert mux number to the associated pin address
-**********************************************************************************************************/
-int convert_mux_nbr_to_mux_addr(int current_enabled_mux)
-{
-    int addr;
-    switch(current_enabled_mux)
-    {
-        case 0:
-            addr = MUX_INIB0;
-          break;
-        case 1:
-            addr = MUX_INIB1;
-          break;
-        case 2:
-            addr = MUX_INIB2;
-          break;
-        default:
-          break;
-    }
-    return addr;
-}
-
-/**********************************************************************************************************
-* setRow() - Enable single mux IC and channel to read specified matrix row.
-**********************************************************************************************************/
-void setRow(int row_number)
-{
-    int addr;
-    //NRF_LOG_INFO("CURRENT_MUX %d", current_enabled_mux);
-    if((row_number % ROWS_PER_MUX) == 0)  //We've reached channel 0 of a mux IC, so disable the previous mux IC, and enable the next mux IC
-    {
-        //NRF_LOG_INFO("CHANNEL 0 REACHED");
-        //NRF_LOG_INFO("current_enabled_mux %d", current_enabled_mux);
-        addr = convert_mux_nbr_to_mux_addr(current_enabled_mux);
-        //NRF_LOG_INFO("convert_mux_nbr_to_mux_addr %d", addr);
-        nrf_drv_gpiote_out_set(addr);  //Muxes are enabled using offset from MUX_INHIBIT_0. This is why mux inhibits MUST be wired to consecutive Arduino pins!
-        current_enabled_mux ++;
-
-        if(current_enabled_mux >= MUX_COUNT)
-        {
-            current_enabled_mux = 0;
-        }
-
-        //NRF_LOG_INFO("current_enabled_mux %d", current_enabled_mux);
-        addr = convert_mux_nbr_to_mux_addr(current_enabled_mux);
-        //NRF_LOG_INFO("convert_mux_nbr_to_mux_addr %d", addr);
-        nrf_drv_gpiote_out_clear(addr);  //enable the next mux, active low
-    }
-
-    for(int i = 0; i < CHANNEL_PINS_PER_MUX; i ++)
-    {
-        int bit = (row_number >> i) & 0x01;
-        if(bit)
-        {
-            nrf_drv_gpiote_out_set(PIN_MUX_CHANNEL_0 + i);
-        }else
-        {
-            nrf_drv_gpiote_out_clear(PIN_MUX_CHANNEL_0 + i);
-        }
-    }
-}
-
-/**********************************************************************************************************
-* shiftColumn() - Shift out a high bit to drive first column, or increment column by shifting out a low
-* bit to roll high bit through cascaded shift register outputs.
-**********************************************************************************************************/
-void shiftColumn(bool is_first)
-{
-    if(is_first)
-    {
-        nrf_drv_gpiote_out_set(SHIFT_REGISTER_DATA);
-    }
-
-    nrf_drv_gpiote_out_set(SHIFT_REGISTER_CLOCK);
-    nrf_drv_gpiote_out_clear(SHIFT_REGISTER_CLOCK);
-
-    if(is_first)
-    {
-        nrf_drv_gpiote_out_clear(SHIFT_REGISTER_DATA);
-    }
-}
-
-/**********************************************************************************************************
-* printFixed() - print a value padded with leading spaces such that the value always occupies a fixed
-* number of characters / space in the output terminal.
-**********************************************************************************************************/
-/*void putword(uint16_t value)
-{
-  uart_tx_in_progress = true;
-  putchar(value);
-  while(uart_tx_in_progress);
-
-  uart_tx_in_progress = true;
-  putchar(value >> 8);
-  while(uart_tx_in_progress);
-}*/
 
 /**********************************************************************************************************
 * printFixed() - print a value padded with leading spaces such that the value always occupies a fixed
@@ -311,6 +309,83 @@ void printSerial(uint8_t value)
       }
       send(value);
     #endif
+}
+
+/**********************************************************************************************************
+* 
+**********************************************************************************************************/
+void lineSelect(uint8_t line)
+{
+    if( line < 16)
+    {
+          nrf_drv_gpiote_out_clear(LS_1_16);
+          nrf_drv_gpiote_out_set(LS_17_32);
+          nrf_drv_gpiote_out_set(LS_33_48);
+    }
+    else if( line < 32)
+    {
+          nrf_drv_gpiote_out_set(LS_1_16);
+          nrf_drv_gpiote_out_clear(LS_17_32);
+          nrf_drv_gpiote_out_set(LS_33_48);
+    }
+    else
+    {
+          nrf_drv_gpiote_out_set(LS_1_16);
+          nrf_drv_gpiote_out_set(LS_17_32);
+          nrf_drv_gpiote_out_clear(LS_33_48);
+    }
+
+    if(line &  1) nrf_drv_gpiote_out_set (LS_A0);
+    else nrf_drv_gpiote_out_clear (LS_A0);
+    if(line &  (1<<1)) nrf_drv_gpiote_out_set (LS_A1);
+    else nrf_drv_gpiote_out_clear (LS_A1);
+    if(line &  (1<<2)) nrf_drv_gpiote_out_set (LS_A2);
+    else nrf_drv_gpiote_out_clear (LS_A2);
+    if(line &  (1<<3)) nrf_drv_gpiote_out_set (LS_A3);
+    else nrf_drv_gpiote_out_clear (LS_A3);
+}
+
+/**********************************************************************************************************
+* 
+**********************************************************************************************************/
+void colSelect(uint8_t colgroup)
+{
+    switch( colgroup)
+    {
+    case COL_GROUP_0:
+          nrf_drv_gpiote_out_clear(SET_COL_A);
+          nrf_drv_gpiote_out_clear(SET_COL_B);
+          break;
+
+    case COL_GROUP_1:
+          nrf_drv_gpiote_out_set(SET_COL_A);
+          nrf_drv_gpiote_out_clear(SET_COL_B);
+          break;
+
+    case COL_GROUP_2:
+          nrf_drv_gpiote_out_clear(SET_COL_A);
+          nrf_drv_gpiote_out_set(SET_COL_B);
+          break;
+
+    case COL_GROUP_3:
+          nrf_drv_gpiote_out_set(SET_COL_A);
+          nrf_drv_gpiote_out_set(SET_COL_B);
+          break;
+
+    default:
+          break;
+    }
+}
+
+void adc_getData(void)
+{           
+    saadc_in_progress = true;
+    NRF_SAADC->TASKS_SAMPLE = 1;
+    /*
+    // Alternatively, you can use the driver to trigger a sample:
+    nrf_drv_saadc_sample();
+    */
+    while(saadc_in_progress);
 }
 
 #ifdef ENABLE_LOOPBACK_TEST
@@ -365,27 +440,21 @@ void process(void)
     uint32_t err_code;
 
     send(PACKET_START_BYTE);
-    
-    for(int i = 0; i < ROW_COUNT; i ++)
+
+    for(uint8_t i = 0; i < ROW_COUNT; i ++)
     {
-        setRow(i);
-        shiftColumn(true);
-        shiftColumn(false);  //with SR clks tied, latched outputs are one clock behind
-        for(int j = 0; j < COLUMN_COUNT; j ++)
+        lineSelect(i);
+        nrf_delay_ms(3);
+        for(uint8_t j = 0; j < COL_GROUP; j ++)
         {
-            err_code = nrfx_saadc_sample_convert(SAADC_CHANNEL, &sample);
-            APP_ERROR_CHECK(err_code);
-
-            if(sample < 0)
-            {
-                sample = 0;
-            }
-             
-            uint8_t data = sample & 0xFF;
-
-            shiftColumn(false);
-
-            printSerial(data);
+            colSelect(j);
+            adc_getData();
+            
+            //Send all bytes from column group
+            printSerial(m_bufferData[0]);
+            printSerial(m_bufferData[1]);
+            printSerial(m_bufferData[2]);
+            printSerial(m_bufferData[3]);
         }
     }
 }

@@ -1,7 +1,7 @@
-Output/uart_pca10040\ Debug/Obj/boards.o: \
- C:\Nordic\SDK\nRF5_SDK_17.0.2_d674dde\components\boards\boards.c \
- C:\Nordic\SDK\nRF5_SDK_17.0.2_d674dde\components\boards\boards.h \
- ../../../../../../modules/nrfx/hal/nrf_gpio.h \
+Output/uart_pca10040\ Debug/Obj/nrf_drv_ppi.o: \
+ C:\Nordic\SDK\nRF5_SDK_17.0.2_d674dde\integration\nrfx\legacy\nrf_drv_ppi.c \
+ C:\Nordic\SDK\nRF5_SDK_17.0.2_d674dde\integration\nrfx\legacy\nrf_drv_ppi.h \
+ ../../../../../../modules/nrfx/drivers/include/nrfx_ppi.h \
  ../../../../../../modules/nrfx/nrfx.h \
  ../../../../../../integration/nrfx/nrfx_config.h ../config/sdk_config.h \
  ../../../../../../modules/nrfx/drivers/nrfx_common.h \
@@ -44,4 +44,4 @@ Output/uart_pca10040\ Debug/Obj/boards.o: \
  ../../../../../../components/libraries/util/sdk_errors.h \
  ../../../../../../components/libraries/util/sdk_resources.h \
  ../../../../../../modules/nrfx/drivers/nrfx_errors.h \
- C:\Nordic\SDK\nRF5_SDK_17.0.2_d674dde\components\boards\rnpd_V3_1_board.h
+ ../../../../../../modules/nrfx/hal/nrf_ppi.h
