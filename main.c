@@ -92,6 +92,9 @@ static nrf_saadc_value_t       m_buffer_pool[2][SAADC_SAMPLES_IN_BUFFER];
 static nrf_ppi_channel_t       m_ppi_channel;
 static uint32_t                m_adc_evt_counter;
 static uint8_t                 m_bufferData[SAADC_SAMPLES_IN_BUFFER];
+static uint32_t                m_bufferDataMean[96][16];
+static uint8_t                 m_bufferDataMeanByte[96][16];
+
 
 typedef enum
 {
@@ -435,11 +438,13 @@ static void uart_loopback_test()
 #define UART_HWFC APP_UART_FLOW_CONTROL_DISABLED
 #endif
 
-void process(void)
+void process_one_shot(void)
 {
     uint32_t err_code;
 
     send(PACKET_START_BYTE);
+
+    nrf_drv_gpiote_out_clear(MUX);
 
     for(uint8_t i = 0; i < ROW_COUNT; i ++)
     {
@@ -455,6 +460,114 @@ void process(void)
             printSerial(m_bufferData[1]);
             printSerial(m_bufferData[2]);
             printSerial(m_bufferData[3]);
+        }
+    }
+
+    nrf_drv_gpiote_out_set(MUX);
+
+    for(uint8_t i = 0; i < ROW_COUNT; i ++)
+    {
+        lineSelect(i);
+        nrf_delay_ms(3);
+        for(uint8_t j = 0; j < COL_GROUP; j ++)
+        {
+            colSelect(j);
+            adc_getData();
+            
+            //Send all bytes from column group
+            printSerial(m_bufferData[0]);
+            printSerial(m_bufferData[1]);
+            printSerial(m_bufferData[2]);
+            printSerial(m_bufferData[3]);
+        }
+    }
+   
+}
+
+void reset_data()
+{
+    for(uint8_t i = 0; i < ROW_COUNT*2; i ++)
+    {
+        for(uint8_t j = 0; j < COL_GROUP; j ++)
+        {
+            m_bufferDataMean[i][j*4] = 0;
+            m_bufferDataMean[i][(j*4)+1] = 0;
+            m_bufferDataMean[i][(j*4)+2] = 0;
+            m_bufferDataMean[i][(j*4)+3] = 0;
+        }
+    }
+}
+
+void process_multi_shot()
+{
+    reset_data();
+
+    for(uint8_t i = 0; i < 5; i++)
+    {
+        nrf_drv_gpiote_out_clear(MUX);
+
+        for(uint8_t i = 0; i < ROW_COUNT; i ++)
+        {
+            lineSelect(i);
+            nrf_delay_ms(3);
+            for(uint8_t j = 0; j < COL_GROUP; j ++)
+            {
+                colSelect(j);
+                adc_getData();
+
+                m_bufferDataMean[i][j*4]     += m_bufferData[0];
+                m_bufferDataMean[i][(j*4)+1] += m_bufferData[1];
+                m_bufferDataMean[i][(j*4)+2] += m_bufferData[2];
+                m_bufferDataMean[i][(j*4)+3] += m_bufferData[3];
+            }
+        }
+
+        nrf_drv_gpiote_out_set(MUX);
+
+        for(uint8_t i = 0; i < ROW_COUNT; i ++)
+        {
+            lineSelect(i);
+            nrf_delay_ms(3);
+            for(uint8_t j = 0; j < COL_GROUP; j ++)
+            {
+                colSelect(j);
+                adc_getData();
+
+                m_bufferDataMean[i+ROW_COUNT][j*4]     += m_bufferData[0];
+                m_bufferDataMean[i+ROW_COUNT][(j*4)+1] += m_bufferData[1];
+                m_bufferDataMean[i+ROW_COUNT][(j*4)+2] += m_bufferData[2];
+                m_bufferDataMean[i+ROW_COUNT][(j*4)+3] += m_bufferData[3];
+            }
+        }
+    }
+
+    //Mean
+    for(uint8_t i = 0; i < ROW_COUNT*2; i ++)
+    {
+        for(uint8_t j = 0; j < COL_GROUP; j ++)
+        {
+            m_bufferDataMean[i][j*4]     /= 5;
+            m_bufferDataMean[i][(j*4)+1] /= 5;
+            m_bufferDataMean[i][(j*4)+2] /= 5;
+            m_bufferDataMean[i][(j*4)+3] /= 5;
+        }
+    }
+
+    //Send
+    send(PACKET_START_BYTE);
+    for(uint8_t i = 0; i < ROW_COUNT*2; i ++)
+    {
+        for(uint8_t j = 0; j < COL_GROUP; j ++)
+        {
+            m_bufferDataMeanByte[i][j*4]     = (uint8_t)m_bufferDataMean[i][j*4];
+            m_bufferDataMeanByte[i][(j*4)+1] = (uint8_t)m_bufferDataMean[i][(j*4)+1];
+            m_bufferDataMeanByte[i][(j*4)+2] = (uint8_t)m_bufferDataMean[i][(j*4)+2];
+            m_bufferDataMeanByte[i][(j*4)+3] = (uint8_t)m_bufferDataMean[i][(j*4)+3];
+
+            printSerial(m_bufferDataMeanByte[i][j*4]);
+            printSerial(m_bufferDataMeanByte[i][(j*4)+1]);
+            printSerial(m_bufferDataMeanByte[i][(j*4)+2]);
+            printSerial(m_bufferDataMeanByte[i][(j*4)+3]);
         }
     }
 }
@@ -506,23 +619,29 @@ int main(void)
 
         if(app_uart_get(&cr))
         {
-            if(cr == 'R')
+            if(cr == 'S')
             {
-              printf(" \r\nRUN ADC\r\n");
-              state_FSM = RUN;
+              printf(" \r\nRUN ADC SINGLE\r\n");
+              process_one_shot();
+              //state_FSM = RUN_SINGLE;
             }
-            else if(cr == 'S')
+            else if(cr == 'M')
+            {
+              printf(" \r\nRUN ADC MULTI\r\n");
+              process_multi_shot();
+            }
+            /*else if(cr == 'S')
             {
               printf(" \r\nSTOP ADC\r\n");
               state_FSM = STOP;
-            }
+            }*/
             cr = "";
         }
 
-        switch(state_FSM)
+        /*switch(state_FSM)
         {
-          case RUN:
-              process();
+          case RUN_SINGLE:
+              process_one_shot();
             break;
 
           case STOP:
@@ -535,7 +654,7 @@ int main(void)
 
           default:
             break;
-        }
+        }*/
     }
 #else
 
