@@ -78,8 +78,10 @@
 #define SAADC_CHANNEL             0
 #define MIN_SEND_VALUE            0
 #define MAX_SEND_VALUE            254
+#define DELAY                     1
+#define DELAY_MUX                 1
 
-static uint16_t PACKET_START_BYTE = 0xFF;
+#define PACKET_START_BYTE 0xFF
 static nrf_saadc_value_t sample;
 //static uint8_t sample;
 static volatile bool uart_tx_in_progress = false;
@@ -94,11 +96,12 @@ static uint32_t                m_adc_evt_counter;
 static uint8_t                 m_bufferData[SAADC_SAMPLES_IN_BUFFER];
 static uint32_t                m_bufferDataMean[96][16];
 static uint8_t                 m_bufferDataMeanByte[96][16];
+static uint8_t                 m_buffer_data_byte[96][16];
 
 
 typedef enum
 {
-   RUN,
+   RUN_SINGLE,
    STOP,
    WAIT
 }FSM_state_t;
@@ -208,7 +211,8 @@ void saadc_callback(nrf_drv_saadc_evt_t const * p_event)
                 p_event->data.done.p_buffer[i] = 0;
             }
 
-            m_bufferData[i] = p_event->data.done.p_buffer[i];
+            adc_value = p_event->data.done.p_buffer[i];
+            m_bufferData[i] = (uint8_t) adc_value & 0xFF;
             
             //adc_value = p_event->data.done.p_buffer[i];
             //value[i*2] = adc_value;
@@ -304,7 +308,8 @@ void printSerial(uint8_t value)
 {
    
     #ifdef SIMU
-      send(0xFE);
+      value = 254;
+      send(value);
     #else
       if(value > MAX_SEND_VALUE)
       {
@@ -319,6 +324,22 @@ void printSerial(uint8_t value)
 **********************************************************************************************************/
 void lineSelect(uint8_t line)
 {
+
+    //Inihb all channels
+    nrf_drv_gpiote_out_set(LS_1_16);
+    nrf_drv_gpiote_out_set(LS_17_32);
+    nrf_drv_gpiote_out_set(LS_33_48);
+    nrf_delay_ms(3);
+
+    if(line &  1) nrf_drv_gpiote_out_set (LS_A0);
+    else nrf_drv_gpiote_out_clear (LS_A0);
+    if(line &  (1<<1)) nrf_drv_gpiote_out_set (LS_A1);
+    else nrf_drv_gpiote_out_clear (LS_A1);
+    if(line &  (1<<2)) nrf_drv_gpiote_out_set (LS_A2);
+    else nrf_drv_gpiote_out_clear (LS_A2);
+    if(line &  (1<<3)) nrf_drv_gpiote_out_set (LS_A3);
+    else nrf_drv_gpiote_out_clear (LS_A3);
+
     if( line < 16)
     {
           nrf_drv_gpiote_out_clear(LS_1_16);
@@ -337,15 +358,7 @@ void lineSelect(uint8_t line)
           nrf_drv_gpiote_out_set(LS_17_32);
           nrf_drv_gpiote_out_clear(LS_33_48);
     }
-
-    if(line &  1) nrf_drv_gpiote_out_set (LS_A0);
-    else nrf_drv_gpiote_out_clear (LS_A0);
-    if(line &  (1<<1)) nrf_drv_gpiote_out_set (LS_A1);
-    else nrf_drv_gpiote_out_clear (LS_A1);
-    if(line &  (1<<2)) nrf_drv_gpiote_out_set (LS_A2);
-    else nrf_drv_gpiote_out_clear (LS_A2);
-    if(line &  (1<<3)) nrf_drv_gpiote_out_set (LS_A3);
-    else nrf_drv_gpiote_out_clear (LS_A3);
+    nrf_delay_ms(3);
 }
 
 /**********************************************************************************************************
@@ -438,50 +451,95 @@ static void uart_loopback_test()
 #define UART_HWFC APP_UART_FLOW_CONTROL_DISABLED
 #endif
 
-void process_one_shot(void)
+void reset_data_byte()
+{
+    for(uint8_t i = 0; i < ROW_COUNT*2; i ++)
+    {
+        for(uint8_t j = 0; j < COL_GROUP; j ++)
+        {
+            m_buffer_data_byte[i][j*4] = 0;
+            m_buffer_data_byte[i][(j*4)+1] = 0;
+            m_buffer_data_byte[i][(j*4)+2] = 0;
+            m_buffer_data_byte[i][(j*4)+3] = 0;
+        }
+    }
+}
+
+void process_single_shot(void)
 {
     uint32_t err_code;
 
-    send(PACKET_START_BYTE);
+    reset_data_byte();
 
     nrf_drv_gpiote_out_clear(MUX);
+
+    //Inihb all lines for avoid overlap
+    nrf_drv_gpiote_out_set(LS_1_16);
+    nrf_drv_gpiote_out_set(LS_17_32);
+    nrf_drv_gpiote_out_set(LS_33_48);
+    nrf_delay_ms(3);
 
     for(uint8_t i = 0; i < ROW_COUNT; i ++)
     {
         lineSelect(i);
-        nrf_delay_ms(3);
         for(uint8_t j = 0; j < COL_GROUP; j ++)
         {
             colSelect(j);
             adc_getData();
             
             //Send all bytes from column group
-            printSerial(m_bufferData[0]);
+            /*printSerial(m_bufferData[0]);
             printSerial(m_bufferData[1]);
             printSerial(m_bufferData[2]);
-            printSerial(m_bufferData[3]);
+            printSerial(m_bufferData[3]);*/
+            m_buffer_data_byte[i][j*4]     = m_bufferData[0];
+            m_buffer_data_byte[i][(j*4)+1] = m_bufferData[1];
+            m_buffer_data_byte[i][(j*4)+2] = m_bufferData[2];
+            m_buffer_data_byte[i][(j*4)+3] = m_bufferData[3];
         }
     }
 
     nrf_drv_gpiote_out_set(MUX);
-
+   
     for(uint8_t i = 0; i < ROW_COUNT; i ++)
     {
         lineSelect(i);
-        nrf_delay_ms(3);
         for(uint8_t j = 0; j < COL_GROUP; j ++)
         {
             colSelect(j);
             adc_getData();
             
             //Send all bytes from column group
-            printSerial(m_bufferData[0]);
+            /*printSerial(m_bufferData[0]);
             printSerial(m_bufferData[1]);
             printSerial(m_bufferData[2]);
-            printSerial(m_bufferData[3]);
+            printSerial(m_bufferData[3]);*/
+
+            m_buffer_data_byte[i+ROW_COUNT][j*4]     = m_bufferData[0];
+            m_buffer_data_byte[i+ROW_COUNT][(j*4)+1] = m_bufferData[1];
+            m_buffer_data_byte[i+ROW_COUNT][(j*4)+2] = m_bufferData[2];
+            m_buffer_data_byte[i+ROW_COUNT][(j*4)+3] = m_bufferData[3];
         }
     }
-   
+
+    //Inihb all lines for avoid overlap
+    nrf_drv_gpiote_out_set(LS_1_16);
+    nrf_drv_gpiote_out_set(LS_17_32);
+    nrf_drv_gpiote_out_set(LS_33_48);
+    nrf_delay_ms(3);
+
+    //Send data
+    send(PACKET_START_BYTE);
+    for(uint8_t i = 0; i < ROW_COUNT*2; i ++)
+    {
+        for(uint8_t j = 0; j < COL_GROUP; j ++)
+        {
+            printSerial(m_buffer_data_byte[i][j*4]);
+            printSerial(m_buffer_data_byte[i][(j*4)+1]);
+            printSerial(m_buffer_data_byte[i][(j*4)+2]);
+            printSerial(m_buffer_data_byte[i][(j*4)+3]);
+        }
+    }
 }
 
 void reset_data()
@@ -509,7 +567,6 @@ void process_multi_shot()
         for(uint8_t i = 0; i < ROW_COUNT; i ++)
         {
             lineSelect(i);
-            nrf_delay_ms(3);
             for(uint8_t j = 0; j < COL_GROUP; j ++)
             {
                 colSelect(j);
@@ -527,7 +584,6 @@ void process_multi_shot()
         for(uint8_t i = 0; i < ROW_COUNT; i ++)
         {
             lineSelect(i);
-            nrf_delay_ms(3);
             for(uint8_t j = 0; j < COL_GROUP; j ++)
             {
                 colSelect(j);
@@ -539,6 +595,12 @@ void process_multi_shot()
                 m_bufferDataMean[i+ROW_COUNT][(j*4)+3] += m_bufferData[3];
             }
         }
+
+        //Inihb all channels
+        nrf_drv_gpiote_out_set(LS_1_16);
+        nrf_drv_gpiote_out_set(LS_17_32);
+        nrf_drv_gpiote_out_set(LS_33_48);
+        nrf_delay_ms(3);
     }
 
     //Mean
@@ -581,8 +643,6 @@ int main(void)
 
     gpio_init();
     saadc_init();
-    
-    nrf_drv_gpiote_out_set(MUX);
 
     const app_uart_comm_params_t comm_params =
       {
@@ -621,13 +681,13 @@ int main(void)
         {
             if(cr == 'S')
             {
-              printf(" \r\nRUN ADC SINGLE\r\n");
-              process_one_shot();
+              //printf(" \r\nRUN ADC SINGLE\r\n");
+              process_single_shot();
               //state_FSM = RUN_SINGLE;
             }
             else if(cr == 'M')
             {
-              printf(" \r\nRUN ADC MULTI\r\n");
+              //printf(" \r\nRUN ADC MULTI\r\n");
               process_multi_shot();
             }
             /*else if(cr == 'S')
