@@ -68,6 +68,16 @@
 #include "nrf_drv_ppi.h"
 #include "nrf_drv_timer.h"
 
+#include "nrf_log.h"
+#include "nrf_log_ctrl.h"
+#include "nrf_log_default_backends.h"
+
+#include "drv_PCAL6408.h"
+
+#define TWI_INSTANCE_ID     0
+/* TWI instance. */
+static const nrf_drv_twi_t m_twi = NRF_DRV_TWI_INSTANCE(TWI_INSTANCE_ID);
+
 //#define SIMU
 
 #define ROW_COUNT                 48
@@ -182,6 +192,10 @@ void gpio_init()
     err_code = nrf_drv_gpiote_out_init(DAC, &out_config);
     APP_ERROR_CHECK(err_code);
     nrf_drv_gpiote_out_set(DAC);
+
+    err_code = nrf_drv_gpiote_out_init(NRST, &out_config);
+    APP_ERROR_CHECK(err_code);
+    nrf_drv_gpiote_out_set(NRST);
 }
 
 /**********************************************************************************************************
@@ -391,6 +405,8 @@ void colSelect(uint8_t colgroup)
     default:
           break;
     }
+
+    //nrf_delay_ms(3);
 }
 
 void adc_getData(void)
@@ -634,6 +650,27 @@ void process_multi_shot()
     }
 }
 
+static void twi_init(void)
+{
+    uint32_t            err_code;
+    drv_PCAL6408_init_t  PCAL6408_init_params;
+
+    static const nrf_drv_twi_config_t twi_config =
+    {
+        .scl                = ARDUINO_SCL_PIN,
+        .sda                = ARDUINO_SDA_PIN,
+        .frequency          = NRF_TWI_FREQ_100K,
+        .interrupt_priority = APP_IRQ_PRIORITY_LOW,  //APP_IRQ_PRIORITY_LOW 
+        .clear_bus_init     = false
+    };
+  
+    PCAL6408_init_params.p_twi_instance = &m_twi;
+    PCAL6408_init_params.p_twi_cfg = &twi_config;
+
+    err_code = drv_PCAL6408_init(&PCAL6408_init_params);
+    APP_ERROR_CHECK(err_code);
+}
+
 /**
  * @brief Function for main application entry.
  */
@@ -641,8 +678,15 @@ int main(void)
 {
     uint32_t err_code;
 
+    /*APP_ERROR_CHECK(NRF_LOG_INIT(NULL));
+    NRF_LOG_DEFAULT_BACKENDS_INIT();
+
+    NRF_LOG_INFO("TWI scanner started.");
+    NRF_LOG_FLUSH();*/
+
     gpio_init();
     saadc_init();
+    twi_init();
 
     const app_uart_comm_params_t comm_params =
       {
