@@ -45,11 +45,11 @@ uint32_t drv_PCAL6408_init(drv_PCAL6408_init_t * p_params)
     err_code = drv_PCAL6408_write(PCAL6408_ADDR, PCAL6408_OUTPUT_PORT, &data);
     APP_ERROR_CHECK(err_code);
 
-    for(uint8_t i = 0; i<5; i++)
+    /*for(uint8_t i = 0; i<5; i++)
     {
       set_led(i);
       nrf_delay_ms(250);
-    }
+    }*/
     
     return NRF_SUCCESS;
 }
@@ -57,6 +57,7 @@ uint32_t drv_PCAL6408_init(drv_PCAL6408_init_t * p_params)
 uint32_t set_led(uint32_t led_number)
 {
     uint32_t err_code;
+
     //Set all to 0
     uint8_t data = 0x00;
     err_code = drv_PCAL6408_write(PCAL6408_ADDR, PCAL6408_OUTPUT_PORT, &data);

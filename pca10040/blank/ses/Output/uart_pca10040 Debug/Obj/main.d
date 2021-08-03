@@ -58,7 +58,6 @@ Output/uart_pca10040\ Debug/Obj/main.o: \
  ../../../../../../integration/nrfx/legacy/nrf_drv_saadc.h \
  ../../../../../../modules/nrfx/drivers/include/nrfx_saadc.h \
  ../../../../../../modules/nrfx/hal/nrf_saadc.h \
- ../../../../../../components/libraries/timer/app_timer.h \
  ../../../../../../integration/nrfx/legacy/nrf_drv_ppi.h \
  ../../../../../../modules/nrfx/drivers/include/nrfx_ppi.h \
  ../../../../../../modules/nrfx/hal/nrf_ppi.h \

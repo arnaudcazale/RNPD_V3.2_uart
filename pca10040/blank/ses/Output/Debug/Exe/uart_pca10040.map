@@ -182,7 +182,7 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x22 Output/uart_pca10040 Debug/Obj/nrf_log_str_formatter.o
  .debug_macro   0x0000000000000000       0x89 Output/uart_pca10040 Debug/Obj/nrf_log_str_formatter.o
  .debug_macro   0x0000000000000000       0x10 Output/uart_pca10040 Debug/Obj/nrf_log_str_formatter.o
- .debug_macro   0x0000000000000000      0x9d4 Output/uart_pca10040 Debug/Obj/nrf_log_str_formatter.o
+ .debug_macro   0x0000000000000000      0xa36 Output/uart_pca10040 Debug/Obj/nrf_log_str_formatter.o
  .debug_macro   0x0000000000000000      0x16d Output/uart_pca10040 Debug/Obj/nrf_log_str_formatter.o
  .debug_macro   0x0000000000000000       0x5c Output/uart_pca10040 Debug/Obj/nrf_log_str_formatter.o
  .debug_macro   0x0000000000000000       0x22 Output/uart_pca10040 Debug/Obj/nrf_log_str_formatter.o
@@ -275,7 +275,7 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x22 Output/uart_pca10040 Debug/Obj/nrf_log_backend_rtt.o
  .debug_macro   0x0000000000000000       0x89 Output/uart_pca10040 Debug/Obj/nrf_log_backend_rtt.o
  .debug_macro   0x0000000000000000       0x10 Output/uart_pca10040 Debug/Obj/nrf_log_backend_rtt.o
- .debug_macro   0x0000000000000000      0x9d4 Output/uart_pca10040 Debug/Obj/nrf_log_backend_rtt.o
+ .debug_macro   0x0000000000000000      0xa36 Output/uart_pca10040 Debug/Obj/nrf_log_backend_rtt.o
  .debug_macro   0x0000000000000000      0x16d Output/uart_pca10040 Debug/Obj/nrf_log_backend_rtt.o
  .debug_macro   0x0000000000000000       0x5c Output/uart_pca10040 Debug/Obj/nrf_log_backend_rtt.o
  .debug_macro   0x0000000000000000       0x22 Output/uart_pca10040 Debug/Obj/nrf_log_backend_rtt.o
@@ -361,7 +361,7 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x22 Output/uart_pca10040 Debug/Obj/nrf_log_default_backends.o
  .debug_macro   0x0000000000000000       0x89 Output/uart_pca10040 Debug/Obj/nrf_log_default_backends.o
  .debug_macro   0x0000000000000000       0x10 Output/uart_pca10040 Debug/Obj/nrf_log_default_backends.o
- .debug_macro   0x0000000000000000      0x9d4 Output/uart_pca10040 Debug/Obj/nrf_log_default_backends.o
+ .debug_macro   0x0000000000000000      0xa36 Output/uart_pca10040 Debug/Obj/nrf_log_default_backends.o
  .debug_macro   0x0000000000000000      0x16d Output/uart_pca10040 Debug/Obj/nrf_log_default_backends.o
  .debug_macro   0x0000000000000000       0x5c Output/uart_pca10040 Debug/Obj/nrf_log_default_backends.o
  .debug_macro   0x0000000000000000       0x22 Output/uart_pca10040 Debug/Obj/nrf_log_default_backends.o
@@ -441,7 +441,7 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x22 Output/uart_pca10040 Debug/Obj/nrf_log_backend_serial.o
  .debug_macro   0x0000000000000000       0x89 Output/uart_pca10040 Debug/Obj/nrf_log_backend_serial.o
  .debug_macro   0x0000000000000000       0x10 Output/uart_pca10040 Debug/Obj/nrf_log_backend_serial.o
- .debug_macro   0x0000000000000000      0x9d4 Output/uart_pca10040 Debug/Obj/nrf_log_backend_serial.o
+ .debug_macro   0x0000000000000000      0xa36 Output/uart_pca10040 Debug/Obj/nrf_log_backend_serial.o
  .debug_macro   0x0000000000000000      0x16d Output/uart_pca10040 Debug/Obj/nrf_log_backend_serial.o
  .debug_macro   0x0000000000000000       0x5c Output/uart_pca10040 Debug/Obj/nrf_log_backend_serial.o
  .debug_macro   0x0000000000000000       0x22 Output/uart_pca10040 Debug/Obj/nrf_log_backend_serial.o
@@ -537,7 +537,7 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x22 Output/uart_pca10040 Debug/Obj/nrf_log_backend_uart.o
  .debug_macro   0x0000000000000000       0x89 Output/uart_pca10040 Debug/Obj/nrf_log_backend_uart.o
  .debug_macro   0x0000000000000000       0x10 Output/uart_pca10040 Debug/Obj/nrf_log_backend_uart.o
- .debug_macro   0x0000000000000000      0x9d4 Output/uart_pca10040 Debug/Obj/nrf_log_backend_uart.o
+ .debug_macro   0x0000000000000000      0xa36 Output/uart_pca10040 Debug/Obj/nrf_log_backend_uart.o
  .debug_macro   0x0000000000000000      0x16d Output/uart_pca10040 Debug/Obj/nrf_log_backend_uart.o
  .debug_macro   0x0000000000000000       0x5c Output/uart_pca10040 Debug/Obj/nrf_log_backend_uart.o
  .debug_macro   0x0000000000000000       0x22 Output/uart_pca10040 Debug/Obj/nrf_log_backend_uart.o
@@ -658,7 +658,7 @@ Discarded input sections
  .debug_ranges  0x0000000000000000       0x60 Output/uart_pca10040 Debug/Obj/boards.o
  .debug_macro   0x0000000000000000      0x225 Output/uart_pca10040 Debug/Obj/boards.o
  .debug_macro   0x0000000000000000      0xade Output/uart_pca10040 Debug/Obj/boards.o
- .debug_macro   0x0000000000000000      0x9d4 Output/uart_pca10040 Debug/Obj/boards.o
+ .debug_macro   0x0000000000000000      0xa36 Output/uart_pca10040 Debug/Obj/boards.o
  .debug_macro   0x0000000000000000      0x1a3 Output/uart_pca10040 Debug/Obj/boards.o
  .debug_macro   0x0000000000000000       0x89 Output/uart_pca10040 Debug/Obj/boards.o
  .debug_macro   0x0000000000000000       0x1c Output/uart_pca10040 Debug/Obj/boards.o
@@ -698,7 +698,7 @@ Discarded input sections
  .debug_macro   0x0000000000000000      0x15d Output/uart_pca10040 Debug/Obj/boards.o
  .debug_macro   0x0000000000000000      0x16d Output/uart_pca10040 Debug/Obj/boards.o
  .debug_line    0x0000000000000000      0x6e3 Output/uart_pca10040 Debug/Obj/boards.o
- .debug_str     0x0000000000000000    0x6e31c Output/uart_pca10040 Debug/Obj/boards.o
+ .debug_str     0x0000000000000000    0x6e4b2 Output/uart_pca10040 Debug/Obj/boards.o
  .comment       0x0000000000000000       0x44 Output/uart_pca10040 Debug/Obj/boards.o
  .ARM.attributes
                 0x0000000000000000       0x39 Output/uart_pca10040 Debug/Obj/boards.o
@@ -784,7 +784,7 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x22 Output/uart_pca10040 Debug/Obj/app_error_handler_gcc.o
  .debug_macro   0x0000000000000000       0x89 Output/uart_pca10040 Debug/Obj/app_error_handler_gcc.o
  .debug_macro   0x0000000000000000       0x10 Output/uart_pca10040 Debug/Obj/app_error_handler_gcc.o
- .debug_macro   0x0000000000000000      0x9d4 Output/uart_pca10040 Debug/Obj/app_error_handler_gcc.o
+ .debug_macro   0x0000000000000000      0xa36 Output/uart_pca10040 Debug/Obj/app_error_handler_gcc.o
  .debug_macro   0x0000000000000000      0x16d Output/uart_pca10040 Debug/Obj/app_error_handler_gcc.o
  .debug_macro   0x0000000000000000       0x5c Output/uart_pca10040 Debug/Obj/app_error_handler_gcc.o
  .debug_macro   0x0000000000000000       0x22 Output/uart_pca10040 Debug/Obj/app_error_handler_gcc.o
@@ -870,7 +870,7 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0xad Output/uart_pca10040 Debug/Obj/app_error_weak.o
  .debug_macro   0x0000000000000000      0x16d Output/uart_pca10040 Debug/Obj/app_error_weak.o
  .debug_macro   0x0000000000000000       0x49 Output/uart_pca10040 Debug/Obj/app_error_weak.o
- .debug_macro   0x0000000000000000      0x9d4 Output/uart_pca10040 Debug/Obj/app_error_weak.o
+ .debug_macro   0x0000000000000000      0xa36 Output/uart_pca10040 Debug/Obj/app_error_weak.o
  .debug_macro   0x0000000000000000       0x22 Output/uart_pca10040 Debug/Obj/app_error_weak.o
  .debug_macro   0x0000000000000000       0x16 Output/uart_pca10040 Debug/Obj/app_error_weak.o
  .debug_macro   0x0000000000000000      0x7ca Output/uart_pca10040 Debug/Obj/app_error_weak.o
@@ -931,7 +931,7 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x22 Output/uart_pca10040 Debug/Obj/app_fifo.o
  .debug_macro   0x0000000000000000       0x89 Output/uart_pca10040 Debug/Obj/app_fifo.o
  .debug_macro   0x0000000000000000       0x10 Output/uart_pca10040 Debug/Obj/app_fifo.o
- .debug_macro   0x0000000000000000      0x9d4 Output/uart_pca10040 Debug/Obj/app_fifo.o
+ .debug_macro   0x0000000000000000      0xa36 Output/uart_pca10040 Debug/Obj/app_fifo.o
  .debug_macro   0x0000000000000000      0x16d Output/uart_pca10040 Debug/Obj/app_fifo.o
  .debug_macro   0x0000000000000000       0x5c Output/uart_pca10040 Debug/Obj/app_fifo.o
  .debug_macro   0x0000000000000000       0x22 Output/uart_pca10040 Debug/Obj/app_fifo.o
@@ -1015,7 +1015,7 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x22 Output/uart_pca10040 Debug/Obj/app_uart_fifo.o
  .debug_macro   0x0000000000000000       0x89 Output/uart_pca10040 Debug/Obj/app_uart_fifo.o
  .debug_macro   0x0000000000000000       0x10 Output/uart_pca10040 Debug/Obj/app_uart_fifo.o
- .debug_macro   0x0000000000000000      0x9d4 Output/uart_pca10040 Debug/Obj/app_uart_fifo.o
+ .debug_macro   0x0000000000000000      0xa36 Output/uart_pca10040 Debug/Obj/app_uart_fifo.o
  .debug_macro   0x0000000000000000      0x16d Output/uart_pca10040 Debug/Obj/app_uart_fifo.o
  .debug_macro   0x0000000000000000       0x5c Output/uart_pca10040 Debug/Obj/app_uart_fifo.o
  .debug_macro   0x0000000000000000       0x22 Output/uart_pca10040 Debug/Obj/app_uart_fifo.o
@@ -1217,7 +1217,7 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x22 Output/uart_pca10040 Debug/Obj/nrf_atomic.o
  .debug_macro   0x0000000000000000       0x89 Output/uart_pca10040 Debug/Obj/nrf_atomic.o
  .debug_macro   0x0000000000000000       0x10 Output/uart_pca10040 Debug/Obj/nrf_atomic.o
- .debug_macro   0x0000000000000000      0x9d4 Output/uart_pca10040 Debug/Obj/nrf_atomic.o
+ .debug_macro   0x0000000000000000      0xa36 Output/uart_pca10040 Debug/Obj/nrf_atomic.o
  .debug_macro   0x0000000000000000      0x16d Output/uart_pca10040 Debug/Obj/nrf_atomic.o
  .debug_macro   0x0000000000000000       0x5c Output/uart_pca10040 Debug/Obj/nrf_atomic.o
  .debug_macro   0x0000000000000000       0x22 Output/uart_pca10040 Debug/Obj/nrf_atomic.o
@@ -1283,7 +1283,7 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x22 Output/uart_pca10040 Debug/Obj/nrf_balloc.o
  .debug_macro   0x0000000000000000       0x89 Output/uart_pca10040 Debug/Obj/nrf_balloc.o
  .debug_macro   0x0000000000000000       0x10 Output/uart_pca10040 Debug/Obj/nrf_balloc.o
- .debug_macro   0x0000000000000000      0x9d4 Output/uart_pca10040 Debug/Obj/nrf_balloc.o
+ .debug_macro   0x0000000000000000      0xa36 Output/uart_pca10040 Debug/Obj/nrf_balloc.o
  .debug_macro   0x0000000000000000      0x16d Output/uart_pca10040 Debug/Obj/nrf_balloc.o
  .debug_macro   0x0000000000000000       0x5c Output/uart_pca10040 Debug/Obj/nrf_balloc.o
  .debug_macro   0x0000000000000000       0x22 Output/uart_pca10040 Debug/Obj/nrf_balloc.o
@@ -1348,7 +1348,7 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x22 Output/uart_pca10040 Debug/Obj/nrf_fprintf.o
  .debug_macro   0x0000000000000000       0x89 Output/uart_pca10040 Debug/Obj/nrf_fprintf.o
  .debug_macro   0x0000000000000000       0x10 Output/uart_pca10040 Debug/Obj/nrf_fprintf.o
- .debug_macro   0x0000000000000000      0x9d4 Output/uart_pca10040 Debug/Obj/nrf_fprintf.o
+ .debug_macro   0x0000000000000000      0xa36 Output/uart_pca10040 Debug/Obj/nrf_fprintf.o
  .debug_macro   0x0000000000000000      0x16d Output/uart_pca10040 Debug/Obj/nrf_fprintf.o
  .debug_macro   0x0000000000000000       0x5c Output/uart_pca10040 Debug/Obj/nrf_fprintf.o
  .debug_macro   0x0000000000000000       0x22 Output/uart_pca10040 Debug/Obj/nrf_fprintf.o
@@ -1406,7 +1406,7 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x22 Output/uart_pca10040 Debug/Obj/nrf_fprintf_format.o
  .debug_macro   0x0000000000000000       0x89 Output/uart_pca10040 Debug/Obj/nrf_fprintf_format.o
  .debug_macro   0x0000000000000000       0x10 Output/uart_pca10040 Debug/Obj/nrf_fprintf_format.o
- .debug_macro   0x0000000000000000      0x9d4 Output/uart_pca10040 Debug/Obj/nrf_fprintf_format.o
+ .debug_macro   0x0000000000000000      0xa36 Output/uart_pca10040 Debug/Obj/nrf_fprintf_format.o
  .debug_macro   0x0000000000000000      0x16d Output/uart_pca10040 Debug/Obj/nrf_fprintf_format.o
  .debug_macro   0x0000000000000000       0x5c Output/uart_pca10040 Debug/Obj/nrf_fprintf_format.o
  .debug_macro   0x0000000000000000       0x22 Output/uart_pca10040 Debug/Obj/nrf_fprintf_format.o
@@ -1472,7 +1472,7 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x89 Output/uart_pca10040 Debug/Obj/nrf_memobj.o
  .debug_macro   0x0000000000000000       0x8e Output/uart_pca10040 Debug/Obj/nrf_memobj.o
  .debug_macro   0x0000000000000000       0xad Output/uart_pca10040 Debug/Obj/nrf_memobj.o
- .debug_macro   0x0000000000000000      0x9d4 Output/uart_pca10040 Debug/Obj/nrf_memobj.o
+ .debug_macro   0x0000000000000000      0xa36 Output/uart_pca10040 Debug/Obj/nrf_memobj.o
  .debug_macro   0x0000000000000000       0x5c Output/uart_pca10040 Debug/Obj/nrf_memobj.o
  .debug_macro   0x0000000000000000       0x22 Output/uart_pca10040 Debug/Obj/nrf_memobj.o
  .debug_macro   0x0000000000000000       0x3b Output/uart_pca10040 Debug/Obj/nrf_memobj.o
@@ -1560,7 +1560,7 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x22 Output/uart_pca10040 Debug/Obj/nrf_ringbuf.o
  .debug_macro   0x0000000000000000       0x89 Output/uart_pca10040 Debug/Obj/nrf_ringbuf.o
  .debug_macro   0x0000000000000000       0x10 Output/uart_pca10040 Debug/Obj/nrf_ringbuf.o
- .debug_macro   0x0000000000000000      0x9d4 Output/uart_pca10040 Debug/Obj/nrf_ringbuf.o
+ .debug_macro   0x0000000000000000      0xa36 Output/uart_pca10040 Debug/Obj/nrf_ringbuf.o
  .debug_macro   0x0000000000000000      0x16d Output/uart_pca10040 Debug/Obj/nrf_ringbuf.o
  .debug_macro   0x0000000000000000       0x5c Output/uart_pca10040 Debug/Obj/nrf_ringbuf.o
  .debug_macro   0x0000000000000000       0x22 Output/uart_pca10040 Debug/Obj/nrf_ringbuf.o
@@ -1585,7 +1585,7 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x49 Output/uart_pca10040 Debug/Obj/nrf_ringbuf.o
  .debug_macro   0x0000000000000000       0x8c Output/uart_pca10040 Debug/Obj/nrf_ringbuf.o
  .debug_line    0x0000000000000000      0x7c3 Output/uart_pca10040 Debug/Obj/nrf_ringbuf.o
- .debug_str     0x0000000000000000    0x69e4c Output/uart_pca10040 Debug/Obj/nrf_ringbuf.o
+ .debug_str     0x0000000000000000    0x69fe2 Output/uart_pca10040 Debug/Obj/nrf_ringbuf.o
  .comment       0x0000000000000000       0x44 Output/uart_pca10040 Debug/Obj/nrf_ringbuf.o
  .ARM.attributes
                 0x0000000000000000       0x39 Output/uart_pca10040 Debug/Obj/nrf_ringbuf.o
@@ -1623,7 +1623,7 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x22 Output/uart_pca10040 Debug/Obj/nrf_strerror.o
  .debug_macro   0x0000000000000000       0x89 Output/uart_pca10040 Debug/Obj/nrf_strerror.o
  .debug_macro   0x0000000000000000       0x10 Output/uart_pca10040 Debug/Obj/nrf_strerror.o
- .debug_macro   0x0000000000000000      0x9d4 Output/uart_pca10040 Debug/Obj/nrf_strerror.o
+ .debug_macro   0x0000000000000000      0xa36 Output/uart_pca10040 Debug/Obj/nrf_strerror.o
  .debug_macro   0x0000000000000000      0x16d Output/uart_pca10040 Debug/Obj/nrf_strerror.o
  .debug_macro   0x0000000000000000       0x5c Output/uart_pca10040 Debug/Obj/nrf_strerror.o
  .debug_macro   0x0000000000000000       0x22 Output/uart_pca10040 Debug/Obj/nrf_strerror.o
@@ -1684,7 +1684,7 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x22 Output/uart_pca10040 Debug/Obj/retarget.o
  .debug_macro   0x0000000000000000       0x89 Output/uart_pca10040 Debug/Obj/retarget.o
  .debug_macro   0x0000000000000000       0x10 Output/uart_pca10040 Debug/Obj/retarget.o
- .debug_macro   0x0000000000000000      0x9d4 Output/uart_pca10040 Debug/Obj/retarget.o
+ .debug_macro   0x0000000000000000      0xa36 Output/uart_pca10040 Debug/Obj/retarget.o
  .debug_macro   0x0000000000000000      0x16d Output/uart_pca10040 Debug/Obj/retarget.o
  .debug_macro   0x0000000000000000       0x5c Output/uart_pca10040 Debug/Obj/retarget.o
  .debug_macro   0x0000000000000000       0x22 Output/uart_pca10040 Debug/Obj/retarget.o
@@ -1789,7 +1789,7 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x22 Output/uart_pca10040 Debug/Obj/app_timer.o
  .debug_macro   0x0000000000000000       0x89 Output/uart_pca10040 Debug/Obj/app_timer.o
  .debug_macro   0x0000000000000000       0x10 Output/uart_pca10040 Debug/Obj/app_timer.o
- .debug_macro   0x0000000000000000      0x9d4 Output/uart_pca10040 Debug/Obj/app_timer.o
+ .debug_macro   0x0000000000000000      0xa36 Output/uart_pca10040 Debug/Obj/app_timer.o
  .debug_macro   0x0000000000000000      0x16d Output/uart_pca10040 Debug/Obj/app_timer.o
  .debug_macro   0x0000000000000000       0x5c Output/uart_pca10040 Debug/Obj/app_timer.o
  .debug_macro   0x0000000000000000       0x22 Output/uart_pca10040 Debug/Obj/app_timer.o
@@ -1870,7 +1870,7 @@ Discarded input sections
  .data          0x0000000000000000        0x0 Output/uart_pca10040 Debug/Obj/nrf_drv_uart.o
  .bss           0x0000000000000000        0x0 Output/uart_pca10040 Debug/Obj/nrf_drv_uart.o
  .debug_macro   0x0000000000000000      0xade Output/uart_pca10040 Debug/Obj/nrf_drv_uart.o
- .debug_macro   0x0000000000000000      0x9d4 Output/uart_pca10040 Debug/Obj/nrf_drv_uart.o
+ .debug_macro   0x0000000000000000      0xa36 Output/uart_pca10040 Debug/Obj/nrf_drv_uart.o
  .debug_macro   0x0000000000000000      0x1a3 Output/uart_pca10040 Debug/Obj/nrf_drv_uart.o
  .debug_macro   0x0000000000000000       0x89 Output/uart_pca10040 Debug/Obj/nrf_drv_uart.o
  .debug_macro   0x0000000000000000       0x1c Output/uart_pca10040 Debug/Obj/nrf_drv_uart.o
@@ -2005,7 +2005,7 @@ Discarded input sections
  .debug_ranges  0x0000000000000000       0xa8 Output/uart_pca10040 Debug/Obj/nrfx_atomic.o
  .debug_macro   0x0000000000000000      0x213 Output/uart_pca10040 Debug/Obj/nrfx_atomic.o
  .debug_macro   0x0000000000000000      0xade Output/uart_pca10040 Debug/Obj/nrfx_atomic.o
- .debug_macro   0x0000000000000000      0x9d4 Output/uart_pca10040 Debug/Obj/nrfx_atomic.o
+ .debug_macro   0x0000000000000000      0xa36 Output/uart_pca10040 Debug/Obj/nrfx_atomic.o
  .debug_macro   0x0000000000000000      0x1a3 Output/uart_pca10040 Debug/Obj/nrfx_atomic.o
  .debug_macro   0x0000000000000000       0x89 Output/uart_pca10040 Debug/Obj/nrfx_atomic.o
  .debug_macro   0x0000000000000000       0x1c Output/uart_pca10040 Debug/Obj/nrfx_atomic.o
@@ -2043,7 +2043,7 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x20 Output/uart_pca10040 Debug/Obj/nrfx_atomic.o
  .debug_macro   0x0000000000000000       0x42 Output/uart_pca10040 Debug/Obj/nrfx_atomic.o
  .debug_line    0x0000000000000000      0x72f Output/uart_pca10040 Debug/Obj/nrfx_atomic.o
- .debug_str     0x0000000000000000    0x6da2c Output/uart_pca10040 Debug/Obj/nrfx_atomic.o
+ .debug_str     0x0000000000000000    0x6dbc2 Output/uart_pca10040 Debug/Obj/nrfx_atomic.o
  .comment       0x0000000000000000       0x44 Output/uart_pca10040 Debug/Obj/nrfx_atomic.o
  .ARM.attributes
                 0x0000000000000000       0x39 Output/uart_pca10040 Debug/Obj/nrfx_atomic.o
@@ -2098,7 +2098,7 @@ Discarded input sections
  .data          0x0000000000000000        0x0 Output/uart_pca10040 Debug/Obj/nrfx_prs.o
  .bss           0x0000000000000000        0x0 Output/uart_pca10040 Debug/Obj/nrfx_prs.o
  .debug_macro   0x0000000000000000      0xade Output/uart_pca10040 Debug/Obj/nrfx_prs.o
- .debug_macro   0x0000000000000000      0x9d4 Output/uart_pca10040 Debug/Obj/nrfx_prs.o
+ .debug_macro   0x0000000000000000      0xa36 Output/uart_pca10040 Debug/Obj/nrfx_prs.o
  .debug_macro   0x0000000000000000      0x1a3 Output/uart_pca10040 Debug/Obj/nrfx_prs.o
  .debug_macro   0x0000000000000000       0x89 Output/uart_pca10040 Debug/Obj/nrfx_prs.o
  .debug_macro   0x0000000000000000       0x1c Output/uart_pca10040 Debug/Obj/nrfx_prs.o
@@ -2205,7 +2205,7 @@ Discarded input sections
  .text.nrfx_uart_rx_abort
                 0x0000000000000000       0x28 Output/uart_pca10040 Debug/Obj/nrfx_uart.o
  .debug_macro   0x0000000000000000      0xade Output/uart_pca10040 Debug/Obj/nrfx_uart.o
- .debug_macro   0x0000000000000000      0x9d4 Output/uart_pca10040 Debug/Obj/nrfx_uart.o
+ .debug_macro   0x0000000000000000      0xa36 Output/uart_pca10040 Debug/Obj/nrfx_uart.o
  .debug_macro   0x0000000000000000      0x1a3 Output/uart_pca10040 Debug/Obj/nrfx_uart.o
  .debug_macro   0x0000000000000000       0x89 Output/uart_pca10040 Debug/Obj/nrfx_uart.o
  .debug_macro   0x0000000000000000       0x1c Output/uart_pca10040 Debug/Obj/nrfx_uart.o
@@ -2315,7 +2315,7 @@ Discarded input sections
  .text.nrfx_uarte_rx_abort
                 0x0000000000000000       0x48 Output/uart_pca10040 Debug/Obj/nrfx_uarte.o
  .debug_macro   0x0000000000000000      0xade Output/uart_pca10040 Debug/Obj/nrfx_uarte.o
- .debug_macro   0x0000000000000000      0x9d4 Output/uart_pca10040 Debug/Obj/nrfx_uarte.o
+ .debug_macro   0x0000000000000000      0xa36 Output/uart_pca10040 Debug/Obj/nrfx_uarte.o
  .debug_macro   0x0000000000000000      0x1a3 Output/uart_pca10040 Debug/Obj/nrfx_uarte.o
  .debug_macro   0x0000000000000000       0x89 Output/uart_pca10040 Debug/Obj/nrfx_uarte.o
  .debug_macro   0x0000000000000000       0x1c Output/uart_pca10040 Debug/Obj/nrfx_uarte.o
@@ -2508,7 +2508,7 @@ Discarded input sections
  .text.nrfx_gpiote_in_event_addr_get
                 0x0000000000000000       0x26 Output/uart_pca10040 Debug/Obj/nrfx_gpiote.o
  .debug_macro   0x0000000000000000      0xade Output/uart_pca10040 Debug/Obj/nrfx_gpiote.o
- .debug_macro   0x0000000000000000      0x9d4 Output/uart_pca10040 Debug/Obj/nrfx_gpiote.o
+ .debug_macro   0x0000000000000000      0xa36 Output/uart_pca10040 Debug/Obj/nrfx_gpiote.o
  .debug_macro   0x0000000000000000      0x1a3 Output/uart_pca10040 Debug/Obj/nrfx_gpiote.o
  .debug_macro   0x0000000000000000       0x89 Output/uart_pca10040 Debug/Obj/nrfx_gpiote.o
  .debug_macro   0x0000000000000000       0x1c Output/uart_pca10040 Debug/Obj/nrfx_gpiote.o
@@ -2638,7 +2638,7 @@ Discarded input sections
  .rodata.delay_machine_code.7667
                 0x0000000000000000        0x6 Output/uart_pca10040 Debug/Obj/nrfx_saadc.o
  .debug_macro   0x0000000000000000      0xade Output/uart_pca10040 Debug/Obj/nrfx_saadc.o
- .debug_macro   0x0000000000000000      0x9d4 Output/uart_pca10040 Debug/Obj/nrfx_saadc.o
+ .debug_macro   0x0000000000000000      0xa36 Output/uart_pca10040 Debug/Obj/nrfx_saadc.o
  .debug_macro   0x0000000000000000      0x1a3 Output/uart_pca10040 Debug/Obj/nrfx_saadc.o
  .debug_macro   0x0000000000000000       0x89 Output/uart_pca10040 Debug/Obj/nrfx_saadc.o
  .debug_macro   0x0000000000000000       0x1c Output/uart_pca10040 Debug/Obj/nrfx_saadc.o
@@ -2743,7 +2743,7 @@ Discarded input sections
  .debug_ranges  0x0000000000000000       0x18 Output/uart_pca10040 Debug/Obj/nrf_drv_ppi.o
  .debug_macro   0x0000000000000000      0x226 Output/uart_pca10040 Debug/Obj/nrf_drv_ppi.o
  .debug_macro   0x0000000000000000      0xade Output/uart_pca10040 Debug/Obj/nrf_drv_ppi.o
- .debug_macro   0x0000000000000000      0x9d4 Output/uart_pca10040 Debug/Obj/nrf_drv_ppi.o
+ .debug_macro   0x0000000000000000      0xa36 Output/uart_pca10040 Debug/Obj/nrf_drv_ppi.o
  .debug_macro   0x0000000000000000      0x1a3 Output/uart_pca10040 Debug/Obj/nrf_drv_ppi.o
  .debug_macro   0x0000000000000000       0x89 Output/uart_pca10040 Debug/Obj/nrf_drv_ppi.o
  .debug_macro   0x0000000000000000       0x1c Output/uart_pca10040 Debug/Obj/nrf_drv_ppi.o
@@ -2782,7 +2782,7 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x16 Output/uart_pca10040 Debug/Obj/nrf_drv_ppi.o
  .debug_macro   0x0000000000000000       0x88 Output/uart_pca10040 Debug/Obj/nrf_drv_ppi.o
  .debug_line    0x0000000000000000      0x58e Output/uart_pca10040 Debug/Obj/nrf_drv_ppi.o
- .debug_str     0x0000000000000000    0x6d9b8 Output/uart_pca10040 Debug/Obj/nrf_drv_ppi.o
+ .debug_str     0x0000000000000000    0x6db4e Output/uart_pca10040 Debug/Obj/nrf_drv_ppi.o
  .comment       0x0000000000000000       0x44 Output/uart_pca10040 Debug/Obj/nrf_drv_ppi.o
  .ARM.attributes
                 0x0000000000000000       0x39 Output/uart_pca10040 Debug/Obj/nrf_drv_ppi.o
@@ -2904,7 +2904,7 @@ Discarded input sections
  .text.nrfx_timer_compare_int_disable
                 0x0000000000000000       0x64 Output/uart_pca10040 Debug/Obj/nrfx_timer.o
  .debug_macro   0x0000000000000000      0xade Output/uart_pca10040 Debug/Obj/nrfx_timer.o
- .debug_macro   0x0000000000000000      0x9d4 Output/uart_pca10040 Debug/Obj/nrfx_timer.o
+ .debug_macro   0x0000000000000000      0xa36 Output/uart_pca10040 Debug/Obj/nrfx_timer.o
  .debug_macro   0x0000000000000000      0x1a3 Output/uart_pca10040 Debug/Obj/nrfx_timer.o
  .debug_macro   0x0000000000000000       0x89 Output/uart_pca10040 Debug/Obj/nrfx_timer.o
  .debug_macro   0x0000000000000000       0x1c Output/uart_pca10040 Debug/Obj/nrfx_timer.o
@@ -3078,7 +3078,7 @@ Discarded input sections
  .text.nrfx_ppi_channels_include_in_group
                 0x0000000000000000       0x82 Output/uart_pca10040 Debug/Obj/nrfx_ppi.o
  .debug_macro   0x0000000000000000      0xade Output/uart_pca10040 Debug/Obj/nrfx_ppi.o
- .debug_macro   0x0000000000000000      0x9d4 Output/uart_pca10040 Debug/Obj/nrfx_ppi.o
+ .debug_macro   0x0000000000000000      0xa36 Output/uart_pca10040 Debug/Obj/nrfx_ppi.o
  .debug_macro   0x0000000000000000      0x1a3 Output/uart_pca10040 Debug/Obj/nrfx_ppi.o
  .debug_macro   0x0000000000000000       0x89 Output/uart_pca10040 Debug/Obj/nrfx_ppi.o
  .debug_macro   0x0000000000000000       0x1c Output/uart_pca10040 Debug/Obj/nrfx_ppi.o
@@ -3169,10 +3169,52 @@ Discarded input sections
  .text          0x0000000000000000        0x0 Output/uart_pca10040 Debug/Obj/nrf_drv_twi.o
  .data          0x0000000000000000        0x0 Output/uart_pca10040 Debug/Obj/nrf_drv_twi.o
  .bss           0x0000000000000000        0x0 Output/uart_pca10040 Debug/Obj/nrf_drv_twi.o
+ .text.nrfx_coredep_delay_us
+                0x0000000000000000       0x30 Output/uart_pca10040 Debug/Obj/nrf_drv_twi.o
+ .rodata        0x0000000000000000       0x2e Output/uart_pca10040 Debug/Obj/nrf_drv_twi.o
+ .text.nrf_gpio_pin_port_decode
+                0x0000000000000000       0x30 Output/uart_pca10040 Debug/Obj/nrf_drv_twi.o
+ .text.nrf_gpio_pin_set
+                0x0000000000000000       0x28 Output/uart_pca10040 Debug/Obj/nrf_drv_twi.o
+ .text.nrf_gpio_pin_clear
+                0x0000000000000000       0x28 Output/uart_pca10040 Debug/Obj/nrf_drv_twi.o
+ .text.nrf_gpio_pin_read
+                0x0000000000000000       0x2a Output/uart_pca10040 Debug/Obj/nrf_drv_twi.o
+ .text.nrf_gpio_port_in_read
+                0x0000000000000000       0x10 Output/uart_pca10040 Debug/Obj/nrf_drv_twi.o
+ .text.nrf_gpio_port_out_set
+                0x0000000000000000       0x14 Output/uart_pca10040 Debug/Obj/nrf_drv_twi.o
+ .text.nrf_gpio_port_out_clear
+                0x0000000000000000       0x14 Output/uart_pca10040 Debug/Obj/nrf_drv_twi.o
+ .text.nrf_gpio_pin_present_check
+                0x0000000000000000       0x40 Output/uart_pca10040 Debug/Obj/nrf_drv_twi.o
+ .bss.m_handlers
+                0x0000000000000000        0x8 Output/uart_pca10040 Debug/Obj/nrf_drv_twi.o
+ .bss.m_contexts
+                0x0000000000000000        0x8 Output/uart_pca10040 Debug/Obj/nrf_drv_twi.o
+ .text.twi_clear_bus
+                0x0000000000000000       0xde Output/uart_pca10040 Debug/Obj/nrf_drv_twi.o
+ .text.twim_evt_handler
+                0x0000000000000000       0x6c Output/uart_pca10040 Debug/Obj/nrf_drv_twi.o
  .text.twi_evt_handler
                 0x0000000000000000       0x6c Output/uart_pca10040 Debug/Obj/nrf_drv_twi.o
+ .text.nrf_drv_twi_init
+                0x0000000000000000       0x68 Output/uart_pca10040 Debug/Obj/nrf_drv_twi.o
+ .rodata.delay_machine_code.7667
+                0x0000000000000000        0x6 Output/uart_pca10040 Debug/Obj/nrf_drv_twi.o
+ .debug_frame   0x0000000000000000      0x1f8 Output/uart_pca10040 Debug/Obj/nrf_drv_twi.o
+ .debug_info    0x0000000000000000     0x18c6 Output/uart_pca10040 Debug/Obj/nrf_drv_twi.o
+ .debug_abbrev  0x0000000000000000      0x30b Output/uart_pca10040 Debug/Obj/nrf_drv_twi.o
+ .debug_pubnames
+                0x0000000000000000      0x1c8 Output/uart_pca10040 Debug/Obj/nrf_drv_twi.o
+ .debug_pubtypes
+                0x0000000000000000      0x43f Output/uart_pca10040 Debug/Obj/nrf_drv_twi.o
+ .debug_aranges
+                0x0000000000000000       0x80 Output/uart_pca10040 Debug/Obj/nrf_drv_twi.o
+ .debug_ranges  0x0000000000000000       0x70 Output/uart_pca10040 Debug/Obj/nrf_drv_twi.o
+ .debug_macro   0x0000000000000000      0x285 Output/uart_pca10040 Debug/Obj/nrf_drv_twi.o
  .debug_macro   0x0000000000000000      0xade Output/uart_pca10040 Debug/Obj/nrf_drv_twi.o
- .debug_macro   0x0000000000000000      0x9d4 Output/uart_pca10040 Debug/Obj/nrf_drv_twi.o
+ .debug_macro   0x0000000000000000      0xa36 Output/uart_pca10040 Debug/Obj/nrf_drv_twi.o
  .debug_macro   0x0000000000000000      0x1a3 Output/uart_pca10040 Debug/Obj/nrf_drv_twi.o
  .debug_macro   0x0000000000000000       0x89 Output/uart_pca10040 Debug/Obj/nrf_drv_twi.o
  .debug_macro   0x0000000000000000       0x1c Output/uart_pca10040 Debug/Obj/nrf_drv_twi.o
@@ -3208,7 +3250,16 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x7b Output/uart_pca10040 Debug/Obj/nrf_drv_twi.o
  .debug_macro   0x0000000000000000       0x64 Output/uart_pca10040 Debug/Obj/nrf_drv_twi.o
  .debug_macro   0x0000000000000000       0x20 Output/uart_pca10040 Debug/Obj/nrf_drv_twi.o
+ .debug_macro   0x0000000000000000       0x56 Output/uart_pca10040 Debug/Obj/nrf_drv_twi.o
+ .debug_macro   0x0000000000000000       0x3e Output/uart_pca10040 Debug/Obj/nrf_drv_twi.o
+ .debug_macro   0x0000000000000000       0x78 Output/uart_pca10040 Debug/Obj/nrf_drv_twi.o
+ .debug_macro   0x0000000000000000       0x10 Output/uart_pca10040 Debug/Obj/nrf_drv_twi.o
  .debug_macro   0x0000000000000000       0x22 Output/uart_pca10040 Debug/Obj/nrf_drv_twi.o
+ .debug_line    0x0000000000000000      0x883 Output/uart_pca10040 Debug/Obj/nrf_drv_twi.o
+ .debug_str     0x0000000000000000    0x6f425 Output/uart_pca10040 Debug/Obj/nrf_drv_twi.o
+ .comment       0x0000000000000000       0x44 Output/uart_pca10040 Debug/Obj/nrf_drv_twi.o
+ .ARM.attributes
+                0x0000000000000000       0x39 Output/uart_pca10040 Debug/Obj/nrf_drv_twi.o
  .group         0x0000000000000000        0xc Output/uart_pca10040 Debug/Obj/nrfx_twi.o
  .group         0x0000000000000000        0xc Output/uart_pca10040 Debug/Obj/nrfx_twi.o
  .group         0x0000000000000000        0xc Output/uart_pca10040 Debug/Obj/nrfx_twi.o
@@ -3259,7 +3310,7 @@ Discarded input sections
                 0x0000000000000000       0x18 Output/uart_pca10040 Debug/Obj/nrfx_twi.o
  .debug_macro   0x0000000000000000      0x1fe Output/uart_pca10040 Debug/Obj/nrfx_twi.o
  .debug_macro   0x0000000000000000      0xade Output/uart_pca10040 Debug/Obj/nrfx_twi.o
- .debug_macro   0x0000000000000000      0x9d4 Output/uart_pca10040 Debug/Obj/nrfx_twi.o
+ .debug_macro   0x0000000000000000      0xa36 Output/uart_pca10040 Debug/Obj/nrfx_twi.o
  .debug_macro   0x0000000000000000      0x1a3 Output/uart_pca10040 Debug/Obj/nrfx_twi.o
  .debug_macro   0x0000000000000000       0x89 Output/uart_pca10040 Debug/Obj/nrfx_twi.o
  .debug_macro   0x0000000000000000       0x1c Output/uart_pca10040 Debug/Obj/nrfx_twi.o
@@ -3296,7 +3347,7 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x64 Output/uart_pca10040 Debug/Obj/nrfx_twi.o
  .debug_macro   0x0000000000000000       0x20 Output/uart_pca10040 Debug/Obj/nrfx_twi.o
  .debug_line    0x0000000000000000      0x4c5 Output/uart_pca10040 Debug/Obj/nrfx_twi.o
- .debug_str     0x0000000000000000    0x6d2f9 Output/uart_pca10040 Debug/Obj/nrfx_twi.o
+ .debug_str     0x0000000000000000    0x6d48f Output/uart_pca10040 Debug/Obj/nrfx_twi.o
  .comment       0x0000000000000000       0x44 Output/uart_pca10040 Debug/Obj/nrfx_twi.o
  .ARM.attributes
                 0x0000000000000000       0x39 Output/uart_pca10040 Debug/Obj/nrfx_twi.o
@@ -3352,8 +3403,18 @@ Discarded input sections
  .text          0x0000000000000000        0x0 Output/uart_pca10040 Debug/Obj/nrfx_twim.o
  .data          0x0000000000000000        0x0 Output/uart_pca10040 Debug/Obj/nrfx_twim.o
  .bss           0x0000000000000000        0x0 Output/uart_pca10040 Debug/Obj/nrfx_twim.o
+ .text.__NVIC_EnableIRQ
+                0x0000000000000000       0x34 Output/uart_pca10040 Debug/Obj/nrfx_twim.o
  .text.__NVIC_DisableIRQ
                 0x0000000000000000       0x40 Output/uart_pca10040 Debug/Obj/nrfx_twim.o
+ .text.__NVIC_SetPriority
+                0x0000000000000000       0x50 Output/uart_pca10040 Debug/Obj/nrfx_twim.o
+ .text.nrfx_is_in_ram
+                0x0000000000000000       0x1c Output/uart_pca10040 Debug/Obj/nrfx_twim.o
+ .text._NRFX_IRQ_PRIORITY_SET
+                0x0000000000000000       0x40 Output/uart_pca10040 Debug/Obj/nrfx_twim.o
+ .text._NRFX_IRQ_ENABLE
+                0x0000000000000000       0x1c Output/uart_pca10040 Debug/Obj/nrfx_twim.o
  .text._NRFX_IRQ_DISABLE
                 0x0000000000000000       0x1c Output/uart_pca10040 Debug/Obj/nrfx_twim.o
  .text.nrf_twim_task_address_get
@@ -3362,22 +3423,62 @@ Discarded input sections
                 0x0000000000000000       0x18 Output/uart_pca10040 Debug/Obj/nrfx_twim.o
  .text.nrf_twim_shorts_disable
                 0x0000000000000000       0x1e Output/uart_pca10040 Debug/Obj/nrfx_twim.o
+ .text.nrf_twim_pins_set
+                0x0000000000000000       0x1e Output/uart_pca10040 Debug/Obj/nrfx_twim.o
+ .text.nrf_twim_frequency_set
+                0x0000000000000000       0x14 Output/uart_pca10040 Debug/Obj/nrfx_twim.o
+ .text.nrf_twim_address_set
+                0x0000000000000000       0x1a Output/uart_pca10040 Debug/Obj/nrfx_twim.o
+ .text.nrf_twim_tx_buffer_set
+                0x0000000000000000       0x1e Output/uart_pca10040 Debug/Obj/nrfx_twim.o
+ .text.nrf_twim_rx_buffer_set
+                0x0000000000000000       0x1e Output/uart_pca10040 Debug/Obj/nrfx_twim.o
+ .text.nrf_twim_tx_list_enable
+                0x0000000000000000       0x12 Output/uart_pca10040 Debug/Obj/nrfx_twim.o
+ .text.nrf_twim_tx_list_disable
+                0x0000000000000000       0x12 Output/uart_pca10040 Debug/Obj/nrfx_twim.o
+ .text.nrf_twim_rx_list_enable
+                0x0000000000000000       0x12 Output/uart_pca10040 Debug/Obj/nrfx_twim.o
+ .text.nrf_twim_rx_list_disable
+                0x0000000000000000       0x12 Output/uart_pca10040 Debug/Obj/nrfx_twim.o
+ .text.nrf_gpio_pin_port_decode
+                0x0000000000000000       0x30 Output/uart_pca10040 Debug/Obj/nrfx_twim.o
+ .text.nrf_gpio_cfg
+                0x0000000000000000       0x62 Output/uart_pca10040 Debug/Obj/nrfx_twim.o
  .text.nrf_gpio_cfg_default
                 0x0000000000000000       0x22 Output/uart_pca10040 Debug/Obj/nrfx_twim.o
+ .text.nrf_gpio_pin_present_check
+                0x0000000000000000       0x40 Output/uart_pca10040 Debug/Obj/nrfx_twim.o
+ .text.twi_process_error
+                0x0000000000000000       0x40 Output/uart_pca10040 Debug/Obj/nrfx_twim.o
+ .text.nrfx_twim_init
+                0x0000000000000000      0x148 Output/uart_pca10040 Debug/Obj/nrfx_twim.o
  .text.nrfx_twim_uninit
                 0x0000000000000000       0x9c Output/uart_pca10040 Debug/Obj/nrfx_twim.o
+ .text.nrfx_twim_enable
+                0x0000000000000000       0x50 Output/uart_pca10040 Debug/Obj/nrfx_twim.o
  .text.nrfx_twim_disable
                 0x0000000000000000       0x6c Output/uart_pca10040 Debug/Obj/nrfx_twim.o
  .text.nrfx_twim_is_busy
                 0x0000000000000000       0x28 Output/uart_pca10040 Debug/Obj/nrfx_twim.o
+ .text.twim_list_enable_handle
+                0x0000000000000000       0x40 Output/uart_pca10040 Debug/Obj/nrfx_twim.o
+ .text.twim_xfer
+                0x0000000000000000      0x440 Output/uart_pca10040 Debug/Obj/nrfx_twim.o
+ .text.nrfx_twim_xfer
+                0x0000000000000000       0x98 Output/uart_pca10040 Debug/Obj/nrfx_twim.o
+ .text.nrfx_twim_tx
+                0x0000000000000000       0x50 Output/uart_pca10040 Debug/Obj/nrfx_twim.o
  .text.nrfx_twim_rx
                 0x0000000000000000       0x44 Output/uart_pca10040 Debug/Obj/nrfx_twim.o
  .text.nrfx_twim_start_task_get
                 0x0000000000000000       0x30 Output/uart_pca10040 Debug/Obj/nrfx_twim.o
  .text.nrfx_twim_stopped_event_get
                 0x0000000000000000       0x1e Output/uart_pca10040 Debug/Obj/nrfx_twim.o
+ .rodata.irq_handlers.8650
+                0x0000000000000000        0x4 Output/uart_pca10040 Debug/Obj/nrfx_twim.o
  .debug_macro   0x0000000000000000      0xade Output/uart_pca10040 Debug/Obj/nrfx_twim.o
- .debug_macro   0x0000000000000000      0x9d4 Output/uart_pca10040 Debug/Obj/nrfx_twim.o
+ .debug_macro   0x0000000000000000      0xa36 Output/uart_pca10040 Debug/Obj/nrfx_twim.o
  .debug_macro   0x0000000000000000      0x1a3 Output/uart_pca10040 Debug/Obj/nrfx_twim.o
  .debug_macro   0x0000000000000000       0x89 Output/uart_pca10040 Debug/Obj/nrfx_twim.o
  .debug_macro   0x0000000000000000       0x1c Output/uart_pca10040 Debug/Obj/nrfx_twim.o
@@ -3497,10 +3598,18 @@ Discarded input sections
  .group         0x0000000000000000        0xc Output/uart_pca10040 Debug/Obj/main.o
  .group         0x0000000000000000        0xc Output/uart_pca10040 Debug/Obj/main.o
  .group         0x0000000000000000        0xc Output/uart_pca10040 Debug/Obj/main.o
- .group         0x0000000000000000        0xc Output/uart_pca10040 Debug/Obj/main.o
  .text          0x0000000000000000        0x0 Output/uart_pca10040 Debug/Obj/main.o
  .data          0x0000000000000000        0x0 Output/uart_pca10040 Debug/Obj/main.o
  .bss           0x0000000000000000        0x0 Output/uart_pca10040 Debug/Obj/main.o
+ .text.nrf_timer_frequency_get
+                0x0000000000000000       0x12 Output/uart_pca10040 Debug/Obj/main.o
+ .text.nrf_timer_ms_to_ticks
+                0x0000000000000000       0xb4 Output/uart_pca10040 Debug/Obj/main.o
+ .text.nrfx_timer_ms_to_ticks
+                0x0000000000000000       0x26 Output/uart_pca10040 Debug/Obj/main.o
+ .rodata.m_twi  0x0000000000000000       0x10 Output/uart_pca10040 Debug/Obj/main.o
+ .rodata.TIMER_LED
+                0x0000000000000000        0x8 Output/uart_pca10040 Debug/Obj/main.o
  .bss.sample    0x0000000000000000        0x2 Output/uart_pca10040 Debug/Obj/main.o
  .rodata.m_timer
                 0x0000000000000000        0x8 Output/uart_pca10040 Debug/Obj/main.o
@@ -3508,6 +3617,19 @@ Discarded input sections
                 0x0000000000000000        0x1 Output/uart_pca10040 Debug/Obj/main.o
  .data.state_FSM
                 0x0000000000000000        0x1 Output/uart_pca10040 Debug/Obj/main.o
+ .text.chenillard_start
+                0x0000000000000000       0x10 Output/uart_pca10040 Debug/Obj/main.o
+ .text.chenillard_stop
+                0x0000000000000000       0x10 Output/uart_pca10040 Debug/Obj/main.o
+ .text.timer_led_event_handler
+                0x0000000000000000       0x4c Output/uart_pca10040 Debug/Obj/main.o
+ .text.timer_init
+                0x0000000000000000       0x6c Output/uart_pca10040 Debug/Obj/main.o
+ .text.twi_init
+                0x0000000000000000       0x40 Output/uart_pca10040 Debug/Obj/main.o
+ .bss.i.11438   0x0000000000000000        0x4 Output/uart_pca10040 Debug/Obj/main.o
+ .rodata.twi_config.11456
+                0x0000000000000000       0x10 Output/uart_pca10040 Debug/Obj/main.o
  .debug_macro   0x0000000000000000      0xade Output/uart_pca10040 Debug/Obj/main.o
  .debug_macro   0x0000000000000000       0x22 Output/uart_pca10040 Debug/Obj/main.o
  .debug_macro   0x0000000000000000      0x1a3 Output/uart_pca10040 Debug/Obj/main.o
@@ -3532,7 +3654,7 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x49 Output/uart_pca10040 Debug/Obj/main.o
  .debug_macro   0x0000000000000000       0x8c Output/uart_pca10040 Debug/Obj/main.o
  .debug_macro   0x0000000000000000       0x18 Output/uart_pca10040 Debug/Obj/main.o
- .debug_macro   0x0000000000000000      0x9d4 Output/uart_pca10040 Debug/Obj/main.o
+ .debug_macro   0x0000000000000000      0xa36 Output/uart_pca10040 Debug/Obj/main.o
  .debug_macro   0x0000000000000000       0x16 Output/uart_pca10040 Debug/Obj/main.o
  .debug_macro   0x0000000000000000      0x3dc Output/uart_pca10040 Debug/Obj/main.o
  .debug_macro   0x0000000000000000       0x59 Output/uart_pca10040 Debug/Obj/main.o
@@ -3626,15 +3748,38 @@ Discarded input sections
  .text          0x0000000000000000        0x0 Output/uart_pca10040 Debug/Obj/drv_PCAL6408.o
  .data          0x0000000000000000        0x0 Output/uart_pca10040 Debug/Obj/drv_PCAL6408.o
  .bss           0x0000000000000000        0x0 Output/uart_pca10040 Debug/Obj/drv_PCAL6408.o
+ .text.nrf_drv_twi_enable
+                0x0000000000000000       0x18 Output/uart_pca10040 Debug/Obj/drv_PCAL6408.o
+ .text.nrf_drv_twi_tx
+                0x0000000000000000       0x40 Output/uart_pca10040 Debug/Obj/drv_PCAL6408.o
  .text.nrf_drv_twi_rx
                 0x0000000000000000       0x38 Output/uart_pca10040 Debug/Obj/drv_PCAL6408.o
+ .bss.m_PCAL6408
+                0x0000000000000000        0xc Output/uart_pca10040 Debug/Obj/drv_PCAL6408.o
+ .rodata        0x0000000000000000       0x8e Output/uart_pca10040 Debug/Obj/drv_PCAL6408.o
+ .text.drv_PCAL6408_init
+                0x0000000000000000       0xe4 Output/uart_pca10040 Debug/Obj/drv_PCAL6408.o
+ .text.set_led  0x0000000000000000       0x70 Output/uart_pca10040 Debug/Obj/drv_PCAL6408.o
+ .text.drv_PCAL6408_write
+                0x0000000000000000       0x74 Output/uart_pca10040 Debug/Obj/drv_PCAL6408.o
  .text.drv_PCAL6408_read
                 0x0000000000000000       0x54 Output/uart_pca10040 Debug/Obj/drv_PCAL6408.o
+ .debug_frame   0x0000000000000000      0x128 Output/uart_pca10040 Debug/Obj/drv_PCAL6408.o
+ .debug_info    0x0000000000000000     0x1490 Output/uart_pca10040 Debug/Obj/drv_PCAL6408.o
+ .debug_abbrev  0x0000000000000000      0x275 Output/uart_pca10040 Debug/Obj/drv_PCAL6408.o
+ .debug_pubnames
+                0x0000000000000000      0x194 Output/uart_pca10040 Debug/Obj/drv_PCAL6408.o
+ .debug_pubtypes
+                0x0000000000000000      0x311 Output/uart_pca10040 Debug/Obj/drv_PCAL6408.o
+ .debug_aranges
+                0x0000000000000000       0x50 Output/uart_pca10040 Debug/Obj/drv_PCAL6408.o
+ .debug_ranges  0x0000000000000000       0x40 Output/uart_pca10040 Debug/Obj/drv_PCAL6408.o
+ .debug_macro   0x0000000000000000      0x2e2 Output/uart_pca10040 Debug/Obj/drv_PCAL6408.o
  .debug_macro   0x0000000000000000      0xade Output/uart_pca10040 Debug/Obj/drv_PCAL6408.o
  .debug_macro   0x0000000000000000      0x1a3 Output/uart_pca10040 Debug/Obj/drv_PCAL6408.o
  .debug_macro   0x0000000000000000       0x89 Output/uart_pca10040 Debug/Obj/drv_PCAL6408.o
  .debug_macro   0x0000000000000000       0x1c Output/uart_pca10040 Debug/Obj/drv_PCAL6408.o
- .debug_macro   0x0000000000000000      0x9d4 Output/uart_pca10040 Debug/Obj/drv_PCAL6408.o
+ .debug_macro   0x0000000000000000      0xa36 Output/uart_pca10040 Debug/Obj/drv_PCAL6408.o
  .debug_macro   0x0000000000000000       0x22 Output/uart_pca10040 Debug/Obj/drv_PCAL6408.o
  .debug_macro   0x0000000000000000       0x22 Output/uart_pca10040 Debug/Obj/drv_PCAL6408.o
  .debug_macro   0x0000000000000000       0x3b Output/uart_pca10040 Debug/Obj/drv_PCAL6408.o
@@ -3679,6 +3824,11 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x9a Output/uart_pca10040 Debug/Obj/drv_PCAL6408.o
  .debug_macro   0x0000000000000000       0x1c Output/uart_pca10040 Debug/Obj/drv_PCAL6408.o
  .debug_macro   0x0000000000000000       0x10 Output/uart_pca10040 Debug/Obj/drv_PCAL6408.o
+ .debug_line    0x0000000000000000      0x88c Output/uart_pca10040 Debug/Obj/drv_PCAL6408.o
+ .debug_str     0x0000000000000000    0x719e1 Output/uart_pca10040 Debug/Obj/drv_PCAL6408.o
+ .comment       0x0000000000000000       0x44 Output/uart_pca10040 Debug/Obj/drv_PCAL6408.o
+ .ARM.attributes
+                0x0000000000000000       0x39 Output/uart_pca10040 Debug/Obj/drv_PCAL6408.o
  .text          0x0000000000000000        0x0 Output/uart_pca10040 Debug/Obj/ses_startup_nrf52.o
  .data          0x0000000000000000        0x0 Output/uart_pca10040 Debug/Obj/ses_startup_nrf52.o
  .bss           0x0000000000000000        0x0 Output/uart_pca10040 Debug/Obj/ses_startup_nrf52.o
@@ -4542,7 +4692,7 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0xad Output/uart_pca10040 Debug/Obj/SEGGER_RTT.o
  .debug_macro   0x0000000000000000       0x49 Output/uart_pca10040 Debug/Obj/SEGGER_RTT.o
  .debug_macro   0x0000000000000000       0x8c Output/uart_pca10040 Debug/Obj/SEGGER_RTT.o
- .debug_macro   0x0000000000000000      0x9d4 Output/uart_pca10040 Debug/Obj/SEGGER_RTT.o
+ .debug_macro   0x0000000000000000      0xa36 Output/uart_pca10040 Debug/Obj/SEGGER_RTT.o
  .debug_macro   0x0000000000000000      0x115 Output/uart_pca10040 Debug/Obj/SEGGER_RTT.o
  .group         0x0000000000000000        0xc Output/uart_pca10040 Debug/Obj/SEGGER_RTT_printf.o
  .group         0x0000000000000000        0xc Output/uart_pca10040 Debug/Obj/SEGGER_RTT_printf.o
@@ -4621,13 +4771,13 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0xad Output/uart_pca10040 Debug/Obj/SEGGER_RTT_printf.o
  .debug_macro   0x0000000000000000       0x49 Output/uart_pca10040 Debug/Obj/SEGGER_RTT_printf.o
  .debug_macro   0x0000000000000000       0x8c Output/uart_pca10040 Debug/Obj/SEGGER_RTT_printf.o
- .debug_macro   0x0000000000000000      0x9d4 Output/uart_pca10040 Debug/Obj/SEGGER_RTT_printf.o
+ .debug_macro   0x0000000000000000      0xa36 Output/uart_pca10040 Debug/Obj/SEGGER_RTT_printf.o
  .debug_macro   0x0000000000000000       0x47 Output/uart_pca10040 Debug/Obj/SEGGER_RTT_printf.o
  .debug_macro   0x0000000000000000      0x115 Output/uart_pca10040 Debug/Obj/SEGGER_RTT_printf.o
  .debug_macro   0x0000000000000000       0x28 Output/uart_pca10040 Debug/Obj/SEGGER_RTT_printf.o
  .debug_macro   0x0000000000000000       0x22 Output/uart_pca10040 Debug/Obj/SEGGER_RTT_printf.o
  .debug_line    0x0000000000000000      0x6dc Output/uart_pca10040 Debug/Obj/SEGGER_RTT_printf.o
- .debug_str     0x0000000000000000    0x6272e Output/uart_pca10040 Debug/Obj/SEGGER_RTT_printf.o
+ .debug_str     0x0000000000000000    0x628c4 Output/uart_pca10040 Debug/Obj/SEGGER_RTT_printf.o
  .comment       0x0000000000000000       0x44 Output/uart_pca10040 Debug/Obj/SEGGER_RTT_printf.o
  .ARM.attributes
                 0x0000000000000000       0x39 Output/uart_pca10040 Debug/Obj/SEGGER_RTT_printf.o
@@ -4646,9 +4796,9 @@ Discarded input sections
                 0x0000000000000000       0x18 Output/uart_pca10040 Debug/Obj/SEGGER_RTT_Syscalls_SES.o
  .debug_macro   0x0000000000000000       0x1a Output/uart_pca10040 Debug/Obj/SEGGER_RTT_Syscalls_SES.o
  .debug_macro   0x0000000000000000      0xade Output/uart_pca10040 Debug/Obj/SEGGER_RTT_Syscalls_SES.o
- .debug_macro   0x0000000000000000      0x9d4 Output/uart_pca10040 Debug/Obj/SEGGER_RTT_Syscalls_SES.o
+ .debug_macro   0x0000000000000000      0xa36 Output/uart_pca10040 Debug/Obj/SEGGER_RTT_Syscalls_SES.o
  .debug_line    0x0000000000000000       0x8e Output/uart_pca10040 Debug/Obj/SEGGER_RTT_Syscalls_SES.o
- .debug_str     0x0000000000000000     0x5743 Output/uart_pca10040 Debug/Obj/SEGGER_RTT_Syscalls_SES.o
+ .debug_str     0x0000000000000000     0x58d9 Output/uart_pca10040 Debug/Obj/SEGGER_RTT_Syscalls_SES.o
  .comment       0x0000000000000000       0x44 Output/uart_pca10040 Debug/Obj/SEGGER_RTT_Syscalls_SES.o
  .ARM.attributes
                 0x0000000000000000       0x39 Output/uart_pca10040 Debug/Obj/SEGGER_RTT_Syscalls_SES.o
@@ -6917,7 +7067,6 @@ Linker script and memory map
                 0x000000000000036e                TIMER4_IRQHandler
                 0x000000000000036e                I2S_IRQHandler
                 0x000000000000036e                SWI4_EGU4_IRQHandler
-                0x000000000000036e                TIMER0_IRQHandler
                 0x000000000000036e                Dummy_Handler
                 0x000000000000036e                TIMER1_IRQHandler
                 0x000000000000036e                PWM2_IRQHandler
@@ -6957,7 +7106,7 @@ Linker script and memory map
                 0x0000000000000001                . = ASSERT (((__init_rodata_start__ == __init_rodata_end__) || ((__init_rodata_end__ - __FLASH_segment_start__) <= __FLASH_segment_size__)), error: .init_rodata is too large to fit in FLASH memory segment)
                 0x00000000000003d0                __text_load_start__ = ALIGN (__init_rodata_end__, 0x4)
 
-.text           0x00000000000003d0     0x97be
+.text           0x00000000000003d0     0x880a
                 0x00000000000003d0                __text_start__ = .
  *(.text .text.* .glue_7t .glue_7 .gnu.linkonce.t.* .gcc_except_table .ARM.extab* .gnu.linkonce.armextab.*)
  .glue_7        0x00000000000003d0        0x0 linker stubs
@@ -7661,270 +7810,176 @@ Linker script and memory map
  .text.irq_handler
                 0x00000000000069fa       0x8c Output/uart_pca10040 Debug/Obj/nrfx_timer.o
  *fill*         0x0000000000006a86        0x2 
- .text.TIMER3_IRQHandler
+ .text.TIMER0_IRQHandler
                 0x0000000000006a88       0x18 Output/uart_pca10040 Debug/Obj/nrfx_timer.o
-                0x0000000000006a88                TIMER3_IRQHandler
- .text.nrfx_coredep_delay_us
-                0x0000000000006aa0       0x30 Output/uart_pca10040 Debug/Obj/nrf_drv_twi.o
- .text.nrf_gpio_pin_port_decode
-                0x0000000000006ad0       0x30 Output/uart_pca10040 Debug/Obj/nrf_drv_twi.o
- .text.nrf_gpio_pin_set
-                0x0000000000006b00       0x28 Output/uart_pca10040 Debug/Obj/nrf_drv_twi.o
- .text.nrf_gpio_pin_clear
-                0x0000000000006b28       0x28 Output/uart_pca10040 Debug/Obj/nrf_drv_twi.o
- .text.nrf_gpio_pin_read
-                0x0000000000006b50       0x2a Output/uart_pca10040 Debug/Obj/nrf_drv_twi.o
- .text.nrf_gpio_port_in_read
-                0x0000000000006b7a       0x10 Output/uart_pca10040 Debug/Obj/nrf_drv_twi.o
- .text.nrf_gpio_port_out_set
-                0x0000000000006b8a       0x14 Output/uart_pca10040 Debug/Obj/nrf_drv_twi.o
- .text.nrf_gpio_port_out_clear
-                0x0000000000006b9e       0x14 Output/uart_pca10040 Debug/Obj/nrf_drv_twi.o
- .text.nrf_gpio_pin_present_check
-                0x0000000000006bb2       0x40 Output/uart_pca10040 Debug/Obj/nrf_drv_twi.o
- .text.twi_clear_bus
-                0x0000000000006bf2       0xde Output/uart_pca10040 Debug/Obj/nrf_drv_twi.o
- .text.twim_evt_handler
-                0x0000000000006cd0       0x6c Output/uart_pca10040 Debug/Obj/nrf_drv_twi.o
- .text.nrf_drv_twi_init
-                0x0000000000006d3c       0x68 Output/uart_pca10040 Debug/Obj/nrf_drv_twi.o
-                0x0000000000006d3c                nrf_drv_twi_init
- .text.__NVIC_EnableIRQ
-                0x0000000000006da4       0x34 Output/uart_pca10040 Debug/Obj/nrfx_twim.o
+                0x0000000000006a88                TIMER0_IRQHandler
+ .text.TIMER3_IRQHandler
+                0x0000000000006aa0       0x18 Output/uart_pca10040 Debug/Obj/nrfx_timer.o
+                0x0000000000006aa0                TIMER3_IRQHandler
  .text.__NVIC_ClearPendingIRQ
-                0x0000000000006dd8       0x38 Output/uart_pca10040 Debug/Obj/nrfx_twim.o
- .text.__NVIC_SetPriority
-                0x0000000000006e10       0x50 Output/uart_pca10040 Debug/Obj/nrfx_twim.o
- .text.nrfx_is_in_ram
-                0x0000000000006e60       0x1c Output/uart_pca10040 Debug/Obj/nrfx_twim.o
+                0x0000000000006ab8       0x38 Output/uart_pca10040 Debug/Obj/nrfx_twim.o
  .text.nrfx_get_irq_number
-                0x0000000000006e7c       0x10 Output/uart_pca10040 Debug/Obj/nrfx_twim.o
- .text._NRFX_IRQ_PRIORITY_SET
-                0x0000000000006e8c       0x40 Output/uart_pca10040 Debug/Obj/nrfx_twim.o
- .text._NRFX_IRQ_ENABLE
-                0x0000000000006ecc       0x1c Output/uart_pca10040 Debug/Obj/nrfx_twim.o
+                0x0000000000006af0       0x10 Output/uart_pca10040 Debug/Obj/nrfx_twim.o
  .text._NRFX_IRQ_PENDING_CLEAR
-                0x0000000000006ee8       0x1c Output/uart_pca10040 Debug/Obj/nrfx_twim.o
+                0x0000000000006b00       0x1c Output/uart_pca10040 Debug/Obj/nrfx_twim.o
  .text.nrf_twim_task_trigger
-                0x0000000000006f04       0x1c Output/uart_pca10040 Debug/Obj/nrfx_twim.o
+                0x0000000000006b1c       0x1c Output/uart_pca10040 Debug/Obj/nrfx_twim.o
  .text.nrf_twim_event_clear
-                0x0000000000006f20       0x2a Output/uart_pca10040 Debug/Obj/nrfx_twim.o
+                0x0000000000006b38       0x2a Output/uart_pca10040 Debug/Obj/nrfx_twim.o
  .text.nrf_twim_event_check
-                0x0000000000006f4a       0x24 Output/uart_pca10040 Debug/Obj/nrfx_twim.o
+                0x0000000000006b62       0x24 Output/uart_pca10040 Debug/Obj/nrfx_twim.o
  .text.nrf_twim_int_enable
-                0x0000000000006f6e       0x14 Output/uart_pca10040 Debug/Obj/nrfx_twim.o
+                0x0000000000006b86       0x14 Output/uart_pca10040 Debug/Obj/nrfx_twim.o
  .text.nrf_twim_int_disable
-                0x0000000000006f82       0x14 Output/uart_pca10040 Debug/Obj/nrfx_twim.o
+                0x0000000000006b9a       0x14 Output/uart_pca10040 Debug/Obj/nrfx_twim.o
  .text.nrf_twim_enable
-                0x0000000000006f96       0x12 Output/uart_pca10040 Debug/Obj/nrfx_twim.o
+                0x0000000000006bae       0x12 Output/uart_pca10040 Debug/Obj/nrfx_twim.o
  .text.nrf_twim_disable
-                0x0000000000006fa8       0x12 Output/uart_pca10040 Debug/Obj/nrfx_twim.o
- .text.nrf_twim_pins_set
-                0x0000000000006fba       0x1e Output/uart_pca10040 Debug/Obj/nrfx_twim.o
- .text.nrf_twim_frequency_set
-                0x0000000000006fd8       0x14 Output/uart_pca10040 Debug/Obj/nrfx_twim.o
+                0x0000000000006bc0       0x12 Output/uart_pca10040 Debug/Obj/nrfx_twim.o
  .text.nrf_twim_errorsrc_get_and_clear
-                0x0000000000006fec       0x1c Output/uart_pca10040 Debug/Obj/nrfx_twim.o
- .text.nrf_twim_address_set
-                0x0000000000007008       0x1a Output/uart_pca10040 Debug/Obj/nrfx_twim.o
- .text.nrf_twim_tx_buffer_set
-                0x0000000000007022       0x1e Output/uart_pca10040 Debug/Obj/nrfx_twim.o
- .text.nrf_twim_rx_buffer_set
-                0x0000000000007040       0x1e Output/uart_pca10040 Debug/Obj/nrfx_twim.o
+                0x0000000000006bd2       0x1c Output/uart_pca10040 Debug/Obj/nrfx_twim.o
  .text.nrf_twim_shorts_set
-                0x000000000000705e       0x14 Output/uart_pca10040 Debug/Obj/nrfx_twim.o
+                0x0000000000006bee       0x14 Output/uart_pca10040 Debug/Obj/nrfx_twim.o
  .text.nrf_twim_txd_amount_get
-                0x0000000000007072       0x10 Output/uart_pca10040 Debug/Obj/nrfx_twim.o
+                0x0000000000006c02       0x10 Output/uart_pca10040 Debug/Obj/nrfx_twim.o
  .text.nrf_twim_shorts_get
-                0x0000000000007082       0x10 Output/uart_pca10040 Debug/Obj/nrfx_twim.o
+                0x0000000000006c12       0x10 Output/uart_pca10040 Debug/Obj/nrfx_twim.o
  .text.nrf_twim_rxd_amount_get
-                0x0000000000007092       0x10 Output/uart_pca10040 Debug/Obj/nrfx_twim.o
- .text.nrf_twim_tx_list_enable
-                0x00000000000070a2       0x12 Output/uart_pca10040 Debug/Obj/nrfx_twim.o
- .text.nrf_twim_tx_list_disable
-                0x00000000000070b4       0x12 Output/uart_pca10040 Debug/Obj/nrfx_twim.o
- .text.nrf_twim_rx_list_enable
-                0x00000000000070c6       0x12 Output/uart_pca10040 Debug/Obj/nrfx_twim.o
- .text.nrf_twim_rx_list_disable
-                0x00000000000070d8       0x12 Output/uart_pca10040 Debug/Obj/nrfx_twim.o
- *fill*         0x00000000000070ea        0x2 
- .text.nrf_gpio_pin_port_decode
-                0x00000000000070ec       0x30 Output/uart_pca10040 Debug/Obj/nrfx_twim.o
- .text.nrf_gpio_cfg
-                0x000000000000711c       0x62 Output/uart_pca10040 Debug/Obj/nrfx_twim.o
- .text.nrf_gpio_pin_present_check
-                0x000000000000717e       0x40 Output/uart_pca10040 Debug/Obj/nrfx_twim.o
- .text.twi_process_error
-                0x00000000000071be       0x40 Output/uart_pca10040 Debug/Obj/nrfx_twim.o
- *fill*         0x00000000000071fe        0x2 
+                0x0000000000006c22       0x10 Output/uart_pca10040 Debug/Obj/nrfx_twim.o
+ *fill*         0x0000000000006c32        0x2 
  .text.xfer_completeness_check
-                0x0000000000007200       0xfc Output/uart_pca10040 Debug/Obj/nrfx_twim.o
- .text.nrfx_twim_init
-                0x00000000000072fc      0x148 Output/uart_pca10040 Debug/Obj/nrfx_twim.o
-                0x00000000000072fc                nrfx_twim_init
- .text.nrfx_twim_enable
-                0x0000000000007444       0x50 Output/uart_pca10040 Debug/Obj/nrfx_twim.o
-                0x0000000000007444                nrfx_twim_enable
- .text.twim_list_enable_handle
-                0x0000000000007494       0x40 Output/uart_pca10040 Debug/Obj/nrfx_twim.o
- .text.twim_xfer
-                0x00000000000074d4      0x440 Output/uart_pca10040 Debug/Obj/nrfx_twim.o
- .text.nrfx_twim_xfer
-                0x0000000000007914       0x98 Output/uart_pca10040 Debug/Obj/nrfx_twim.o
-                0x0000000000007914                nrfx_twim_xfer
- .text.nrfx_twim_tx
-                0x00000000000079ac       0x50 Output/uart_pca10040 Debug/Obj/nrfx_twim.o
-                0x00000000000079ac                nrfx_twim_tx
+                0x0000000000006c34       0xfc Output/uart_pca10040 Debug/Obj/nrfx_twim.o
  .text.twim_irq_handler
-                0x00000000000079fc      0x2a4 Output/uart_pca10040 Debug/Obj/nrfx_twim.o
+                0x0000000000006d30      0x2a4 Output/uart_pca10040 Debug/Obj/nrfx_twim.o
  .text.SPIM0_SPIS0_TWIM0_TWIS0_SPI0_TWI0_IRQHandler
-                0x0000000000007ca0       0x18 Output/uart_pca10040 Debug/Obj/nrfx_twim.o
-                0x0000000000007ca0                SPIM0_SPIS0_TWIM0_TWIS0_SPI0_TWI0_IRQHandler
+                0x0000000000006fd4       0x18 Output/uart_pca10040 Debug/Obj/nrfx_twim.o
+                0x0000000000006fd4                SPIM0_SPIS0_TWIM0_TWIS0_SPI0_TWI0_IRQHandler
  .text.nrfx_coredep_delay_us
-                0x0000000000007cb8       0x30 Output/uart_pca10040 Debug/Obj/main.o
+                0x0000000000006fec       0x30 Output/uart_pca10040 Debug/Obj/main.o
  .text.nrf_delay_ms
-                0x0000000000007ce8       0x2a Output/uart_pca10040 Debug/Obj/main.o
- *fill*         0x0000000000007d12        0x2 
+                0x000000000000701c       0x2a Output/uart_pca10040 Debug/Obj/main.o
+ *fill*         0x0000000000007046        0x2 
  .text.nrf_drv_saadc_init
-                0x0000000000007d14       0x28 Output/uart_pca10040 Debug/Obj/main.o
+                0x0000000000007048       0x28 Output/uart_pca10040 Debug/Obj/main.o
  .text.uart_error_handle
-                0x0000000000007d3c       0x54 Output/uart_pca10040 Debug/Obj/main.o
-                0x0000000000007d3c                uart_error_handle
+                0x0000000000007070       0x54 Output/uart_pca10040 Debug/Obj/main.o
+                0x0000000000007070                uart_error_handle
  .text.gpio_init
-                0x0000000000007d90      0x1c8 Output/uart_pca10040 Debug/Obj/main.o
-                0x0000000000007d90                gpio_init
+                0x00000000000070c4      0x1c8 Output/uart_pca10040 Debug/Obj/main.o
+                0x00000000000070c4                gpio_init
  .text.saadc_callback
-                0x0000000000007f58       0xac Output/uart_pca10040 Debug/Obj/main.o
-                0x0000000000007f58                saadc_callback
+                0x000000000000728c       0xac Output/uart_pca10040 Debug/Obj/main.o
+                0x000000000000728c                saadc_callback
  .text.saadc_init
-                0x0000000000008004      0x18c Output/uart_pca10040 Debug/Obj/main.o
-                0x0000000000008004                saadc_init
- .text.send     0x0000000000008190       0x34 Output/uart_pca10040 Debug/Obj/main.o
-                0x0000000000008190                send
+                0x0000000000007338      0x18c Output/uart_pca10040 Debug/Obj/main.o
+                0x0000000000007338                saadc_init
+ .text.send     0x00000000000074c4       0x34 Output/uart_pca10040 Debug/Obj/main.o
+                0x00000000000074c4                send
  .text.printSerial
-                0x00000000000081c4       0x2a Output/uart_pca10040 Debug/Obj/main.o
-                0x00000000000081c4                printSerial
+                0x00000000000074f8       0x2a Output/uart_pca10040 Debug/Obj/main.o
+                0x00000000000074f8                printSerial
  .text.lineSelect
-                0x00000000000081ee       0xe2 Output/uart_pca10040 Debug/Obj/main.o
-                0x00000000000081ee                lineSelect
+                0x0000000000007522       0xe2 Output/uart_pca10040 Debug/Obj/main.o
+                0x0000000000007522                lineSelect
  .text.colSelect
-                0x00000000000082d0       0x6c Output/uart_pca10040 Debug/Obj/main.o
-                0x00000000000082d0                colSelect
+                0x0000000000007604       0x6c Output/uart_pca10040 Debug/Obj/main.o
+                0x0000000000007604                colSelect
  .text.adc_getData
-                0x000000000000833c       0x24 Output/uart_pca10040 Debug/Obj/main.o
-                0x000000000000833c                adc_getData
+                0x0000000000007670       0x24 Output/uart_pca10040 Debug/Obj/main.o
+                0x0000000000007670                adc_getData
  .text.reset_data_byte
-                0x0000000000008360       0xa0 Output/uart_pca10040 Debug/Obj/main.o
-                0x0000000000008360                reset_data_byte
+                0x0000000000007694       0xa0 Output/uart_pca10040 Debug/Obj/main.o
+                0x0000000000007694                reset_data_byte
  .text.process_single_shot
-                0x0000000000008400      0x280 Output/uart_pca10040 Debug/Obj/main.o
-                0x0000000000008400                process_single_shot
+                0x0000000000007734      0x280 Output/uart_pca10040 Debug/Obj/main.o
+                0x0000000000007734                process_single_shot
  .text.reset_data
-                0x0000000000008680       0xa0 Output/uart_pca10040 Debug/Obj/main.o
-                0x0000000000008680                reset_data
+                0x00000000000079b4       0xa0 Output/uart_pca10040 Debug/Obj/main.o
+                0x00000000000079b4                reset_data
  .text.process_multi_shot
-                0x0000000000008720      0x524 Output/uart_pca10040 Debug/Obj/main.o
-                0x0000000000008720                process_multi_shot
- .text.twi_init
-                0x0000000000008c44       0x40 Output/uart_pca10040 Debug/Obj/main.o
- .text.main     0x0000000000008c84       0xa8 Output/uart_pca10040 Debug/Obj/main.o
-                0x0000000000008c84                main
- .text.nrfx_coredep_delay_us
-                0x0000000000008d2c       0x30 Output/uart_pca10040 Debug/Obj/drv_PCAL6408.o
- .text.nrf_drv_twi_enable
-                0x0000000000008d5c       0x18 Output/uart_pca10040 Debug/Obj/drv_PCAL6408.o
- .text.nrf_drv_twi_tx
-                0x0000000000008d74       0x40 Output/uart_pca10040 Debug/Obj/drv_PCAL6408.o
- .text.nrf_delay_ms
-                0x0000000000008db4       0x2a Output/uart_pca10040 Debug/Obj/drv_PCAL6408.o
- *fill*         0x0000000000008dde        0x2 
- .text.drv_PCAL6408_init
-                0x0000000000008de0      0x10c Output/uart_pca10040 Debug/Obj/drv_PCAL6408.o
-                0x0000000000008de0                drv_PCAL6408_init
- .text.set_led  0x0000000000008eec       0x70 Output/uart_pca10040 Debug/Obj/drv_PCAL6408.o
-                0x0000000000008eec                set_led
- .text.drv_PCAL6408_write
-                0x0000000000008f5c       0x74 Output/uart_pca10040 Debug/Obj/drv_PCAL6408.o
-                0x0000000000008f5c                drv_PCAL6408_write
+                0x0000000000007a54      0x524 Output/uart_pca10040 Debug/Obj/main.o
+                0x0000000000007a54                process_multi_shot
+ .text.main     0x0000000000007f78       0xa4 Output/uart_pca10040 Debug/Obj/main.o
+                0x0000000000007f78                main
  .text.__NVIC_SystemReset
-                0x0000000000008fd0       0x24 Output/uart_pca10040 Debug/Obj/system_nrf52.o
+                0x000000000000801c       0x24 Output/uart_pca10040 Debug/Obj/system_nrf52.o
  .text.nrf52_errata_12
-                0x0000000000008ff4       0x80 Output/uart_pca10040 Debug/Obj/system_nrf52.o
+                0x0000000000008040       0x80 Output/uart_pca10040 Debug/Obj/system_nrf52.o
  .text.nrf52_errata_16
-                0x0000000000009074       0x60 Output/uart_pca10040 Debug/Obj/system_nrf52.o
+                0x00000000000080c0       0x60 Output/uart_pca10040 Debug/Obj/system_nrf52.o
  .text.nrf52_errata_31
-                0x00000000000090d4       0x80 Output/uart_pca10040 Debug/Obj/system_nrf52.o
+                0x0000000000008120       0x80 Output/uart_pca10040 Debug/Obj/system_nrf52.o
  .text.nrf52_errata_32
-                0x0000000000009154       0x60 Output/uart_pca10040 Debug/Obj/system_nrf52.o
+                0x00000000000081a0       0x60 Output/uart_pca10040 Debug/Obj/system_nrf52.o
  .text.nrf52_errata_36
-                0x00000000000091b4       0x80 Output/uart_pca10040 Debug/Obj/system_nrf52.o
+                0x0000000000008200       0x80 Output/uart_pca10040 Debug/Obj/system_nrf52.o
  .text.nrf52_errata_37
-                0x0000000000009234       0x60 Output/uart_pca10040 Debug/Obj/system_nrf52.o
+                0x0000000000008280       0x60 Output/uart_pca10040 Debug/Obj/system_nrf52.o
  .text.nrf52_errata_57
-                0x0000000000009294       0x60 Output/uart_pca10040 Debug/Obj/system_nrf52.o
+                0x00000000000082e0       0x60 Output/uart_pca10040 Debug/Obj/system_nrf52.o
  .text.nrf52_errata_66
-                0x00000000000092f4       0x80 Output/uart_pca10040 Debug/Obj/system_nrf52.o
+                0x0000000000008340       0x80 Output/uart_pca10040 Debug/Obj/system_nrf52.o
  .text.nrf52_errata_108
-                0x0000000000009374       0x80 Output/uart_pca10040 Debug/Obj/system_nrf52.o
+                0x00000000000083c0       0x80 Output/uart_pca10040 Debug/Obj/system_nrf52.o
  .text.nrf52_errata_136
-                0x00000000000093f4       0x80 Output/uart_pca10040 Debug/Obj/system_nrf52.o
+                0x0000000000008440       0x80 Output/uart_pca10040 Debug/Obj/system_nrf52.o
  .text.nrf52_errata_182
-                0x0000000000009474       0x58 Output/uart_pca10040 Debug/Obj/system_nrf52.o
+                0x00000000000084c0       0x58 Output/uart_pca10040 Debug/Obj/system_nrf52.o
  .text.SystemCoreClockUpdate
-                0x00000000000094cc       0x14 Output/uart_pca10040 Debug/Obj/system_nrf52.o
-                0x00000000000094cc                SystemCoreClockUpdate
+                0x0000000000008518       0x14 Output/uart_pca10040 Debug/Obj/system_nrf52.o
+                0x0000000000008518                SystemCoreClockUpdate
  .text.SystemInit
-                0x00000000000094e0      0x2d4 Output/uart_pca10040 Debug/Obj/system_nrf52.o
-                0x00000000000094e0                SystemInit
+                0x000000000000852c      0x2d4 Output/uart_pca10040 Debug/Obj/system_nrf52.o
+                0x000000000000852c                SystemInit
  .text._WriteBlocking
-                0x00000000000097b4       0xb2 Output/uart_pca10040 Debug/Obj/SEGGER_RTT.o
+                0x0000000000008800       0xb2 Output/uart_pca10040 Debug/Obj/SEGGER_RTT.o
  .text._WriteNoCheck
-                0x0000000000009866       0x7e Output/uart_pca10040 Debug/Obj/SEGGER_RTT.o
+                0x00000000000088b2       0x7e Output/uart_pca10040 Debug/Obj/SEGGER_RTT.o
  .text._GetAvailWriteSpace
-                0x00000000000098e4       0x3c Output/uart_pca10040 Debug/Obj/SEGGER_RTT.o
+                0x0000000000008930       0x3c Output/uart_pca10040 Debug/Obj/SEGGER_RTT.o
  .text.SEGGER_RTT_WriteNoLock
-                0x0000000000009920       0x9c Output/uart_pca10040 Debug/Obj/SEGGER_RTT.o
-                0x0000000000009920                SEGGER_RTT_WriteNoLock
+                0x000000000000896c       0x9c Output/uart_pca10040 Debug/Obj/SEGGER_RTT.o
+                0x000000000000896c                SEGGER_RTT_WriteNoLock
  .text.libc.__RAL_ascii_isctype
-                0x00000000000099bc       0x1c C:/Program Files/SEGGER/SEGGER Embedded Studio for ARM 4.16/lib/libc_v7em_fpv4_sp_d16_hard_t_le_eabi.a(libc2.o)
+                0x0000000000008a08       0x1c C:/Program Files/SEGGER/SEGGER Embedded Studio for ARM 4.16/lib/libc_v7em_fpv4_sp_d16_hard_t_le_eabi.a(libc2.o)
  .text.libc.__RAL_ascii_toupper
-                0x00000000000099d8        0xc C:/Program Files/SEGGER/SEGGER Embedded Studio for ARM 4.16/lib/libc_v7em_fpv4_sp_d16_hard_t_le_eabi.a(libc2.o)
+                0x0000000000008a24        0xc C:/Program Files/SEGGER/SEGGER Embedded Studio for ARM 4.16/lib/libc_v7em_fpv4_sp_d16_hard_t_le_eabi.a(libc2.o)
  .text.libc.__RAL_ascii_tolower
-                0x00000000000099e4        0xc C:/Program Files/SEGGER/SEGGER Embedded Studio for ARM 4.16/lib/libc_v7em_fpv4_sp_d16_hard_t_le_eabi.a(libc2.o)
+                0x0000000000008a30        0xc C:/Program Files/SEGGER/SEGGER Embedded Studio for ARM 4.16/lib/libc_v7em_fpv4_sp_d16_hard_t_le_eabi.a(libc2.o)
  .text.libc.__RAL_ascii_iswctype
-                0x00000000000099f0       0x1c C:/Program Files/SEGGER/SEGGER Embedded Studio for ARM 4.16/lib/libc_v7em_fpv4_sp_d16_hard_t_le_eabi.a(libc2.o)
+                0x0000000000008a3c       0x1c C:/Program Files/SEGGER/SEGGER Embedded Studio for ARM 4.16/lib/libc_v7em_fpv4_sp_d16_hard_t_le_eabi.a(libc2.o)
  .text.libc.__RAL_ascii_towupper
-                0x0000000000009a0c        0xc C:/Program Files/SEGGER/SEGGER Embedded Studio for ARM 4.16/lib/libc_v7em_fpv4_sp_d16_hard_t_le_eabi.a(libc2.o)
+                0x0000000000008a58        0xc C:/Program Files/SEGGER/SEGGER Embedded Studio for ARM 4.16/lib/libc_v7em_fpv4_sp_d16_hard_t_le_eabi.a(libc2.o)
  .text.libc.__RAL_ascii_towlower
-                0x0000000000009a18        0xc C:/Program Files/SEGGER/SEGGER Embedded Studio for ARM 4.16/lib/libc_v7em_fpv4_sp_d16_hard_t_le_eabi.a(libc2.o)
+                0x0000000000008a64        0xc C:/Program Files/SEGGER/SEGGER Embedded Studio for ARM 4.16/lib/libc_v7em_fpv4_sp_d16_hard_t_le_eabi.a(libc2.o)
  .text.libc.__RAL_ascii_wctomb
-                0x0000000000009a24        0xe C:/Program Files/SEGGER/SEGGER Embedded Studio for ARM 4.16/lib/libc_v7em_fpv4_sp_d16_hard_t_le_eabi.a(libc2.o)
-                0x0000000000009a24                __RAL_ascii_wctomb
+                0x0000000000008a70        0xe C:/Program Files/SEGGER/SEGGER Embedded Studio for ARM 4.16/lib/libc_v7em_fpv4_sp_d16_hard_t_le_eabi.a(libc2.o)
+                0x0000000000008a70                __RAL_ascii_wctomb
  .text.libc.__RAL_ascii_mbtowc
-                0x0000000000009a32       0x24 C:/Program Files/SEGGER/SEGGER Embedded Studio for ARM 4.16/lib/libc_v7em_fpv4_sp_d16_hard_t_le_eabi.a(libc2.o)
-                0x0000000000009a32                __RAL_ascii_mbtowc
- *fill*         0x0000000000009a56        0x2 
+                0x0000000000008a7e       0x24 C:/Program Files/SEGGER/SEGGER Embedded Studio for ARM 4.16/lib/libc_v7em_fpv4_sp_d16_hard_t_le_eabi.a(libc2.o)
+                0x0000000000008a7e                __RAL_ascii_mbtowc
+ *fill*         0x0000000000008aa2        0x2 
  .text.libc.__RAL_isctype
-                0x0000000000009a58       0x14 C:/Program Files/SEGGER/SEGGER Embedded Studio for ARM 4.16/lib/libc_v7em_fpv4_sp_d16_hard_t_le_eabi.a(libc2.o)
-                0x0000000000009a58                __RAL_isctype
+                0x0000000000008aa4       0x14 C:/Program Files/SEGGER/SEGGER Embedded Studio for ARM 4.16/lib/libc_v7em_fpv4_sp_d16_hard_t_le_eabi.a(libc2.o)
+                0x0000000000008aa4                __RAL_isctype
  .text.libc.isprint
-                0x0000000000009a6c        0xa C:/Program Files/SEGGER/SEGGER Embedded Studio for ARM 4.16/lib/libc_v7em_fpv4_sp_d16_hard_t_le_eabi.a(libc2.o)
-                0x0000000000009a6c                isprint
+                0x0000000000008ab8        0xa C:/Program Files/SEGGER/SEGGER Embedded Studio for ARM 4.16/lib/libc_v7em_fpv4_sp_d16_hard_t_le_eabi.a(libc2.o)
+                0x0000000000008ab8                isprint
  .text.libc.memcpy
-                0x0000000000009a76       0x52 C:/Program Files/SEGGER/SEGGER Embedded Studio for ARM 4.16/lib/libc_v7em_fpv4_sp_d16_hard_t_le_eabi.a(libc2_asm.o)
-                0x0000000000009a76                __aeabi_memcpy
-                0x0000000000009a76                memcpy
-                0x0000000000009a82                __aeabi_memcpy8
-                0x0000000000009a82                __aeabi_memcpy4
+                0x0000000000008ac2       0x52 C:/Program Files/SEGGER/SEGGER Embedded Studio for ARM 4.16/lib/libc_v7em_fpv4_sp_d16_hard_t_le_eabi.a(libc2_asm.o)
+                0x0000000000008ac2                __aeabi_memcpy
+                0x0000000000008ac2                memcpy
+                0x0000000000008ace                __aeabi_memcpy8
+                0x0000000000008ace                __aeabi_memcpy4
  .text.libc.memset
-                0x0000000000009ac8       0x66 C:/Program Files/SEGGER/SEGGER Embedded Studio for ARM 4.16/lib/libc_v7em_fpv4_sp_d16_hard_t_le_eabi.a(libc2_asm.o)
-                0x0000000000009ac8                memset
+                0x0000000000008b14       0x66 C:/Program Files/SEGGER/SEGGER Embedded Studio for ARM 4.16/lib/libc_v7em_fpv4_sp_d16_hard_t_le_eabi.a(libc2_asm.o)
+                0x0000000000008b14                memset
  .text.libc.strlen
-                0x0000000000009b2e       0x60 C:/Program Files/SEGGER/SEGGER Embedded Studio for ARM 4.16/lib/libc_v7em_fpv4_sp_d16_hard_t_le_eabi.a(libc2_asm.o)
-                0x0000000000009b2e                strlen
-                0x0000000000009b8e                __text_end__ = (__text_start__ + SIZEOF (.text))
-                0x00000000000097be                __text_size__ = SIZEOF (.text)
-                0x0000000000009b8e                __text_load_end__ = __text_end__
+                0x0000000000008b7a       0x60 C:/Program Files/SEGGER/SEGGER Embedded Studio for ARM 4.16/lib/libc_v7em_fpv4_sp_d16_hard_t_le_eabi.a(libc2_asm.o)
+                0x0000000000008b7a                strlen
+                0x0000000000008bda                __text_end__ = (__text_start__ + SIZEOF (.text))
+                0x000000000000880a                __text_size__ = SIZEOF (.text)
+                0x0000000000008bda                __text_load_end__ = __text_end__
 
 .vfp11_veneer   0x0000000100000000        0x0
  .vfp11_veneer  0x0000000100000000        0x0 linker stubs
@@ -7935,89 +7990,89 @@ Linker script and memory map
 .iplt           0x0000000100000000        0x0
  .iplt          0x0000000100000000        0x0 Output/uart_pca10040 Debug/Obj/thumb_crt0.o
                 0x0000000000000001                . = ASSERT (((__text_start__ == __text_end__) || ((__text_end__ - __FLASH_segment_start__) <= __FLASH_segment_size__)), error: .text is too large to fit in FLASH memory segment)
-                0x0000000000009b90                __log_const_data_load_start__ = ALIGN (__text_end__, 0x4)
+                0x0000000000008bdc                __log_const_data_load_start__ = ALIGN (__text_end__, 0x4)
 
 .log_const_data
-                0x0000000000009b90       0x48
-                0x0000000000009b90                __log_const_data_start__ = .
-                0x0000000000009b90                __start_log_const_data = __log_const_data_start__
+                0x0000000000008bdc       0x48
+                0x0000000000008bdc                __log_const_data_start__ = .
+                0x0000000000008bdc                __start_log_const_data = __log_const_data_start__
  *(SORT_BY_NAME(.log_const_data*))
  .log_const_data_GPIOTE
-                0x0000000000009b90        0x8 Output/uart_pca10040 Debug/Obj/nrfx_gpiote.o
-                0x0000000000009b90                m_nrf_log_GPIOTE_logs_data_const
+                0x0000000000008bdc        0x8 Output/uart_pca10040 Debug/Obj/nrfx_gpiote.o
+                0x0000000000008bdc                m_nrf_log_GPIOTE_logs_data_const
  .log_const_data_PPI
-                0x0000000000009b98        0x8 Output/uart_pca10040 Debug/Obj/nrfx_ppi.o
-                0x0000000000009b98                m_nrf_log_PPI_logs_data_const
+                0x0000000000008be4        0x8 Output/uart_pca10040 Debug/Obj/nrfx_ppi.o
+                0x0000000000008be4                m_nrf_log_PPI_logs_data_const
  .log_const_data_PRS
-                0x0000000000009ba0        0x8 Output/uart_pca10040 Debug/Obj/nrfx_prs.o
-                0x0000000000009ba0                m_nrf_log_PRS_logs_data_const
+                0x0000000000008bec        0x8 Output/uart_pca10040 Debug/Obj/nrfx_prs.o
+                0x0000000000008bec                m_nrf_log_PRS_logs_data_const
  .log_const_data_SAADC
-                0x0000000000009ba8        0x8 Output/uart_pca10040 Debug/Obj/nrfx_saadc.o
-                0x0000000000009ba8                m_nrf_log_SAADC_logs_data_const
+                0x0000000000008bf4        0x8 Output/uart_pca10040 Debug/Obj/nrfx_saadc.o
+                0x0000000000008bf4                m_nrf_log_SAADC_logs_data_const
  .log_const_data_TIMER
-                0x0000000000009bb0        0x8 Output/uart_pca10040 Debug/Obj/nrfx_timer.o
-                0x0000000000009bb0                m_nrf_log_TIMER_logs_data_const
+                0x0000000000008bfc        0x8 Output/uart_pca10040 Debug/Obj/nrfx_timer.o
+                0x0000000000008bfc                m_nrf_log_TIMER_logs_data_const
  .log_const_data_TWIM
-                0x0000000000009bb8        0x8 Output/uart_pca10040 Debug/Obj/nrfx_twim.o
-                0x0000000000009bb8                m_nrf_log_TWIM_logs_data_const
+                0x0000000000008c04        0x8 Output/uart_pca10040 Debug/Obj/nrfx_twim.o
+                0x0000000000008c04                m_nrf_log_TWIM_logs_data_const
  .log_const_data_UART
-                0x0000000000009bc0        0x8 Output/uart_pca10040 Debug/Obj/nrfx_uart.o
-                0x0000000000009bc0                m_nrf_log_UART_logs_data_const
+                0x0000000000008c0c        0x8 Output/uart_pca10040 Debug/Obj/nrfx_uart.o
+                0x0000000000008c0c                m_nrf_log_UART_logs_data_const
  .log_const_data_UARTE
-                0x0000000000009bc8        0x8 Output/uart_pca10040 Debug/Obj/nrfx_uarte.o
-                0x0000000000009bc8                m_nrf_log_UARTE_logs_data_const
+                0x0000000000008c14        0x8 Output/uart_pca10040 Debug/Obj/nrfx_uarte.o
+                0x0000000000008c14                m_nrf_log_UARTE_logs_data_const
  .log_const_data_app
-                0x0000000000009bd0        0x8 Output/uart_pca10040 Debug/Obj/nrf_log_frontend.o
-                0x0000000000009bd0                m_nrf_log_app_logs_data_const
-                0x0000000000009bd8                __log_const_data_end__ = (__log_const_data_start__ + SIZEOF (.log_const_data))
+                0x0000000000008c1c        0x8 Output/uart_pca10040 Debug/Obj/nrf_log_frontend.o
+                0x0000000000008c1c                m_nrf_log_app_logs_data_const
+                0x0000000000008c24                __log_const_data_end__ = (__log_const_data_start__ + SIZEOF (.log_const_data))
                 0x0000000000000048                __log_const_data_size__ = SIZEOF (.log_const_data)
-                0x0000000000009bd8                __stop_log_const_data = __log_const_data_end__
-                0x0000000000009bd8                __log_const_data_load_end__ = __log_const_data_end__
+                0x0000000000008c24                __stop_log_const_data = __log_const_data_end__
+                0x0000000000008c24                __log_const_data_load_end__ = __log_const_data_end__
                 0x0000000000000001                . = ASSERT (((__log_const_data_start__ == __log_const_data_end__) || ((__log_const_data_end__ - __FLASH_segment_start__) <= __FLASH_segment_size__)), error: .log_const_data is too large to fit in FLASH memory segment)
-                0x0000000000009bd8                __log_backends_load_start__ = ALIGN (__log_const_data_end__, 0x4)
+                0x0000000000008c24                __log_backends_load_start__ = ALIGN (__log_const_data_end__, 0x4)
 
-.log_backends   0x0000000000009bd8       0x20
-                0x0000000000009bd8                __log_backends_start__ = .
-                0x0000000000009bd8                __start_log_backends = __log_backends_start__
+.log_backends   0x0000000000008c24       0x20
+                0x0000000000008c24                __log_backends_start__ = .
+                0x0000000000008c24                __start_log_backends = __log_backends_start__
  *(SORT_BY_NAME(.log_backends*))
- .log_backends  0x0000000000009bd8       0x20 Output/uart_pca10040 Debug/Obj/nrf_log_default_backends.o
-                0x0000000000009bf8                __log_backends_end__ = (__log_backends_start__ + SIZEOF (.log_backends))
+ .log_backends  0x0000000000008c24       0x20 Output/uart_pca10040 Debug/Obj/nrf_log_default_backends.o
+                0x0000000000008c44                __log_backends_end__ = (__log_backends_start__ + SIZEOF (.log_backends))
                 0x0000000000000020                __log_backends_size__ = SIZEOF (.log_backends)
-                0x0000000000009bf8                __stop_log_backends = __log_backends_end__
-                0x0000000000009bf8                __log_backends_load_end__ = __log_backends_end__
+                0x0000000000008c44                __stop_log_backends = __log_backends_end__
+                0x0000000000008c44                __log_backends_load_end__ = __log_backends_end__
                 0x0000000000000001                . = ASSERT (((__log_backends_start__ == __log_backends_end__) || ((__log_backends_end__ - __FLASH_segment_start__) <= __FLASH_segment_size__)), error: .log_backends is too large to fit in FLASH memory segment)
-                0x0000000000009bf8                __nrf_balloc_load_start__ = ALIGN (__log_backends_end__, 0x4)
+                0x0000000000008c44                __nrf_balloc_load_start__ = ALIGN (__log_backends_end__, 0x4)
 
-.nrf_balloc     0x0000000000009bf8       0x14
-                0x0000000000009bf8                __nrf_balloc_start__ = .
-                0x0000000000009bf8                __start_nrf_balloc = __nrf_balloc_start__
+.nrf_balloc     0x0000000000008c44       0x14
+                0x0000000000008c44                __nrf_balloc_start__ = .
+                0x0000000000008c44                __start_nrf_balloc = __nrf_balloc_start__
  *(.nrf_balloc*)
- .nrf_balloc    0x0000000000009bf8       0x14 Output/uart_pca10040 Debug/Obj/nrf_log_frontend.o
-                0x0000000000009bf8                log_mempool
-                0x0000000000009c0c                __nrf_balloc_end__ = (__nrf_balloc_start__ + SIZEOF (.nrf_balloc))
+ .nrf_balloc    0x0000000000008c44       0x14 Output/uart_pca10040 Debug/Obj/nrf_log_frontend.o
+                0x0000000000008c44                log_mempool
+                0x0000000000008c58                __nrf_balloc_end__ = (__nrf_balloc_start__ + SIZEOF (.nrf_balloc))
                 0x0000000000000014                __nrf_balloc_size__ = SIZEOF (.nrf_balloc)
-                0x0000000000009c0c                __stop_nrf_balloc = __nrf_balloc_end__
-                0x0000000000009c0c                __nrf_balloc_load_end__ = __nrf_balloc_end__
+                0x0000000000008c58                __stop_nrf_balloc = __nrf_balloc_end__
+                0x0000000000008c58                __nrf_balloc_load_end__ = __nrf_balloc_end__
                 0x0000000000000001                . = ASSERT (((__nrf_balloc_start__ == __nrf_balloc_end__) || ((__nrf_balloc_end__ - __FLASH_segment_start__) <= __FLASH_segment_size__)), error: .nrf_balloc is too large to fit in FLASH memory segment)
-                0x0000000000009c0c                __nrf_sections_load_start__ = ALIGN (__nrf_balloc_end__, 0x4)
+                0x0000000000008c58                __nrf_sections_load_start__ = ALIGN (__nrf_balloc_end__, 0x4)
 
-.nrf_sections   0x0000000000009c0c        0x0
-                0x0000000000009c0c                __nrf_sections_start__ = .
-                0x0000000000009c0c                __start_nrf_sections = __nrf_sections_start__
+.nrf_sections   0x0000000000008c58        0x0
+                0x0000000000008c58                __nrf_sections_start__ = .
+                0x0000000000008c58                __start_nrf_sections = __nrf_sections_start__
  *(.nrf_sections .nrf_sections.*)
-                0x0000000000009c0c                __nrf_sections_end__ = (__nrf_sections_start__ + SIZEOF (.nrf_sections))
+                0x0000000000008c58                __nrf_sections_end__ = (__nrf_sections_start__ + SIZEOF (.nrf_sections))
                 0x0000000000000000                __nrf_sections_size__ = SIZEOF (.nrf_sections)
-                0x0000000000009c0c                __nrf_sections_load_end__ = __nrf_sections_end__
+                0x0000000000008c58                __nrf_sections_load_end__ = __nrf_sections_end__
                 0x0000000000000001                . = ASSERT (((__nrf_sections_start__ == __nrf_sections_end__) || ((__nrf_sections_end__ - __FLASH_segment_start__) <= __FLASH_segment_size__)), error: .nrf_sections is too large to fit in FLASH memory segment)
-                0x0000000000009c0c                __log_dynamic_data_load_start__ = ALIGN (__nrf_sections_end__, 0x4)
+                0x0000000000008c58                __log_dynamic_data_load_start__ = ALIGN (__nrf_sections_end__, 0x4)
 
 .log_dynamic_data
-                0x0000000020000000        0x0 load address 0x0000000000009c0c
+                0x0000000020000000        0x0 load address 0x0000000000008c58
                 0x0000000020000000                __log_dynamic_data_start__ = .
  *(SORT_BY_NAME(.log_dynamic_data*))
                 0x0000000020000000                __log_dynamic_data_end__ = (__log_dynamic_data_start__ + SIZEOF (.log_dynamic_data))
                 0x0000000000000000                __log_dynamic_data_size__ = SIZEOF (.log_dynamic_data)
-                0x0000000000009c0c                __log_dynamic_data_load_end__ = (__log_dynamic_data_load_start__ + SIZEOF (.log_dynamic_data))
+                0x0000000000008c58                __log_dynamic_data_load_end__ = (__log_dynamic_data_load_start__ + SIZEOF (.log_dynamic_data))
                 0x0000000000000001                . = ASSERT (((__log_dynamic_data_load_start__ == __log_dynamic_data_load_end__) || ((__log_dynamic_data_load_end__ - __FLASH_segment_start__) <= __FLASH_segment_size__)), error: .log_dynamic_data is too large to fit in FLASH memory segment)
 
 .log_dynamic_data_run
@@ -8030,15 +8085,15 @@ Linker script and memory map
                 0x0000000020000000                __stop_log_dynamic_data = __log_dynamic_data_run_end__
                 0x0000000020000000                __log_dynamic_data_run_load_end__ = __log_dynamic_data_run_end__
                 0x0000000000000001                . = ASSERT (((__log_dynamic_data_run_start__ == __log_dynamic_data_run_end__) || ((__log_dynamic_data_run_end__ - __RAM1_segment_start__) <= __RAM1_segment_size__)), error: .log_dynamic_data_run is too large to fit in RAM1 memory segment)
-                0x0000000000009c0c                __log_filter_data_load_start__ = ALIGN ((__log_dynamic_data_load_start__ + SIZEOF (.log_dynamic_data)), 0x4)
+                0x0000000000008c58                __log_filter_data_load_start__ = ALIGN ((__log_dynamic_data_load_start__ + SIZEOF (.log_dynamic_data)), 0x4)
 
 .log_filter_data
-                0x0000000020000000        0x0 load address 0x0000000000009c0c
+                0x0000000020000000        0x0 load address 0x0000000000008c58
                 0x0000000020000000                __log_filter_data_start__ = .
  *(SORT_BY_NAME(.log_filter_data*))
                 0x0000000020000000                __log_filter_data_end__ = (__log_filter_data_start__ + SIZEOF (.log_filter_data))
                 0x0000000000000000                __log_filter_data_size__ = SIZEOF (.log_filter_data)
-                0x0000000000009c0c                __log_filter_data_load_end__ = (__log_filter_data_load_start__ + SIZEOF (.log_filter_data))
+                0x0000000000008c58                __log_filter_data_load_end__ = (__log_filter_data_load_start__ + SIZEOF (.log_filter_data))
                 0x0000000000000001                . = ASSERT (((__log_filter_data_load_start__ == __log_filter_data_load_end__) || ((__log_filter_data_load_end__ - __FLASH_segment_start__) <= __FLASH_segment_size__)), error: .log_filter_data is too large to fit in FLASH memory segment)
 
 .log_filter_data_run
@@ -8062,196 +8117,181 @@ Linker script and memory map
                 0x0000000000000000                __nrf_sections_run_end_size__ = SIZEOF (.nrf_sections_run_end)
                 0x0000000020000000                __nrf_sections_run_end_load_end__ = __nrf_sections_run_end_end__
                 0x0000000000000001                . = ASSERT (((__nrf_sections_run_end_start__ == __nrf_sections_run_end_end__) || ((__nrf_sections_run_end_end__ - __RAM1_segment_start__) <= __RAM1_segment_size__)), error: .nrf_sections_run_end is too large to fit in RAM1 memory segment)
-                0x0000000000009c0c                __dtors_load_start__ = ALIGN ((__log_filter_data_load_start__ + SIZEOF (.log_filter_data)), 0x4)
+                0x0000000000008c58                __dtors_load_start__ = ALIGN ((__log_filter_data_load_start__ + SIZEOF (.log_filter_data)), 0x4)
 
-.dtors          0x0000000000009c0c        0x0
-                0x0000000000009c0c                __dtors_start__ = .
+.dtors          0x0000000000008c58        0x0
+                0x0000000000008c58                __dtors_start__ = .
  *(SORT_BY_NAME(.dtors.*))
  *(.dtors)
  *(.fini_array)
  *(SORT_BY_NAME(.fini_array.*))
-                0x0000000000009c0c                __dtors_end__ = (__dtors_start__ + SIZEOF (.dtors))
+                0x0000000000008c58                __dtors_end__ = (__dtors_start__ + SIZEOF (.dtors))
                 0x0000000000000000                __dtors_size__ = SIZEOF (.dtors)
-                0x0000000000009c0c                __dtors_load_end__ = __dtors_end__
+                0x0000000000008c58                __dtors_load_end__ = __dtors_end__
                 0x0000000000000001                . = ASSERT (((__dtors_start__ == __dtors_end__) || ((__dtors_end__ - __FLASH_segment_start__) <= __FLASH_segment_size__)), error: .dtors is too large to fit in FLASH memory segment)
-                0x0000000000009c0c                __ctors_load_start__ = ALIGN (__dtors_end__, 0x4)
+                0x0000000000008c58                __ctors_load_start__ = ALIGN (__dtors_end__, 0x4)
 
-.ctors          0x0000000000009c0c        0x0
-                0x0000000000009c0c                __ctors_start__ = .
+.ctors          0x0000000000008c58        0x0
+                0x0000000000008c58                __ctors_start__ = .
  *(SORT_BY_NAME(.ctors.*))
  *(.ctors)
  *(.init_array)
  *(SORT_BY_NAME(.init_array.*))
-                0x0000000000009c0c                __ctors_end__ = (__ctors_start__ + SIZEOF (.ctors))
+                0x0000000000008c58                __ctors_end__ = (__ctors_start__ + SIZEOF (.ctors))
                 0x0000000000000000                __ctors_size__ = SIZEOF (.ctors)
-                0x0000000000009c0c                __ctors_load_end__ = __ctors_end__
+                0x0000000000008c58                __ctors_load_end__ = __ctors_end__
                 0x0000000000000001                . = ASSERT (((__ctors_start__ == __ctors_end__) || ((__ctors_end__ - __FLASH_segment_start__) <= __FLASH_segment_size__)), error: .ctors is too large to fit in FLASH memory segment)
-                0x0000000000009c0c                __rodata_load_start__ = ALIGN (__ctors_end__, 0x4)
+                0x0000000000008c58                __rodata_load_start__ = ALIGN (__ctors_end__, 0x4)
 
-.rodata         0x0000000000009c0c     0x120c
-                0x0000000000009c0c                __rodata_start__ = .
+.rodata         0x0000000000008c58     0x1140
+                0x0000000000008c58                __rodata_start__ = .
  *(.rodata .rodata.* .gnu.linkonce.r.*)
- .rodata        0x0000000000009c0c       0x6d Output/uart_pca10040 Debug/Obj/nrf_log_frontend.o
- *fill*         0x0000000000009c79        0x3 
- .rodata        0x0000000000009c7c       0xaa Output/uart_pca10040 Debug/Obj/nrf_log_str_formatter.o
- *fill*         0x0000000000009d26        0x2 
+ .rodata        0x0000000000008c58       0x6d Output/uart_pca10040 Debug/Obj/nrf_log_frontend.o
+ *fill*         0x0000000000008cc5        0x3 
+ .rodata        0x0000000000008cc8       0xaa Output/uart_pca10040 Debug/Obj/nrf_log_str_formatter.o
+ *fill*         0x0000000000008d72        0x2 
  .rodata.nrf_log_backend_rtt_api
-                0x0000000000009d28        0xc Output/uart_pca10040 Debug/Obj/nrf_log_backend_rtt.o
-                0x0000000000009d28                nrf_log_backend_rtt_api
- *fill*         0x0000000000009d34        0xc 
+                0x0000000000008d74        0xc Output/uart_pca10040 Debug/Obj/nrf_log_backend_rtt.o
+                0x0000000000008d74                nrf_log_backend_rtt_api
  .rodata.delay_machine_code.8275
-                0x0000000000009d40        0x6 Output/uart_pca10040 Debug/Obj/nrf_log_backend_rtt.o
- *fill*         0x0000000000009d46        0x2 
- .rodata        0x0000000000009d48       0x82 Output/uart_pca10040 Debug/Obj/nrf_log_default_backends.o
- *fill*         0x0000000000009dca        0x2 
- .rodata        0x0000000000009dcc       0x7c Output/uart_pca10040 Debug/Obj/nrf_log_backend_uart.o
+                0x0000000000008d80        0x6 Output/uart_pca10040 Debug/Obj/nrf_log_backend_rtt.o
+ *fill*         0x0000000000008d86        0x2 
+ .rodata        0x0000000000008d88       0x82 Output/uart_pca10040 Debug/Obj/nrf_log_default_backends.o
+ *fill*         0x0000000000008e0a        0x2 
+ .rodata        0x0000000000008e0c       0x7c Output/uart_pca10040 Debug/Obj/nrf_log_backend_uart.o
  .rodata.nrf_log_backend_uart_api
-                0x0000000000009e48        0xc Output/uart_pca10040 Debug/Obj/nrf_log_backend_uart.o
-                0x0000000000009e48                nrf_log_backend_uart_api
- .rodata        0x0000000000009e54       0x70 Output/uart_pca10040 Debug/Obj/app_error_weak.o
- .rodata        0x0000000000009ec4       0x70 Output/uart_pca10040 Debug/Obj/app_uart_fifo.o
- .rodata        0x0000000000009f34       0x54 Output/uart_pca10040 Debug/Obj/app_util_platform.o
- .rodata        0x0000000000009f88       0x4f Output/uart_pca10040 Debug/Obj/nrf_balloc.o
- *fill*         0x0000000000009fd7        0x1 
- .rodata        0x0000000000009fd8       0x45 Output/uart_pca10040 Debug/Obj/nrf_fprintf.o
- *fill*         0x000000000000a01d        0x3 
- .rodata        0x000000000000a020       0x4c Output/uart_pca10040 Debug/Obj/nrf_fprintf_format.o
+                0x0000000000008e88        0xc Output/uart_pca10040 Debug/Obj/nrf_log_backend_uart.o
+                0x0000000000008e88                nrf_log_backend_uart_api
+ .rodata        0x0000000000008e94       0x70 Output/uart_pca10040 Debug/Obj/app_error_weak.o
+ .rodata        0x0000000000008f04       0x70 Output/uart_pca10040 Debug/Obj/app_uart_fifo.o
+ .rodata        0x0000000000008f74       0x54 Output/uart_pca10040 Debug/Obj/app_util_platform.o
+ .rodata        0x0000000000008fc8       0x4f Output/uart_pca10040 Debug/Obj/nrf_balloc.o
+ *fill*         0x0000000000009017        0x1 
+ .rodata        0x0000000000009018       0x45 Output/uart_pca10040 Debug/Obj/nrf_fprintf.o
+ *fill*         0x000000000000905d        0x3 
+ .rodata        0x0000000000009060       0x4c Output/uart_pca10040 Debug/Obj/nrf_fprintf_format.o
  .rodata._aV2C.7595
-                0x000000000000a06c       0x10 Output/uart_pca10040 Debug/Obj/nrf_fprintf_format.o
- .rodata        0x000000000000a07c       0x4f Output/uart_pca10040 Debug/Obj/nrf_memobj.o
- *fill*         0x000000000000a0cb        0x1 
+                0x00000000000090ac       0x10 Output/uart_pca10040 Debug/Obj/nrf_fprintf_format.o
+ .rodata        0x00000000000090bc       0x4f Output/uart_pca10040 Debug/Obj/nrf_memobj.o
+ *fill*         0x000000000000910b        0x1 
  .rodata.m_unknown_str
-                0x000000000000a0cc       0x13 Output/uart_pca10040 Debug/Obj/nrf_strerror.o
- *fill*         0x000000000000a0df        0x1 
- .rodata        0x000000000000a0e0      0x3bd Output/uart_pca10040 Debug/Obj/nrf_strerror.o
- *fill*         0x000000000000a49d        0x3 
+                0x000000000000910c       0x13 Output/uart_pca10040 Debug/Obj/nrf_strerror.o
+ *fill*         0x000000000000911f        0x1 
+ .rodata        0x0000000000009120      0x3bd Output/uart_pca10040 Debug/Obj/nrf_strerror.o
+ *fill*         0x00000000000094dd        0x3 
  .rodata.nrf_strerror_array
-                0x000000000000a4a0      0x118 Output/uart_pca10040 Debug/Obj/nrf_strerror.o
- *fill*         0x000000000000a5b8        0x8 
+                0x00000000000094e0      0x118 Output/uart_pca10040 Debug/Obj/nrf_strerror.o
+ *fill*         0x00000000000095f8        0x8 
  .rodata.delay_machine_code.8001
-                0x000000000000a5c0        0x6 Output/uart_pca10040 Debug/Obj/app_timer.o
- *fill*         0x000000000000a5c6        0x2 
- .rodata        0x000000000000a5c8       0x52 Output/uart_pca10040 Debug/Obj/nrfx_prs.o
- *fill*         0x000000000000a61a        0x2 
- .rodata        0x000000000000a61c       0xb3 Output/uart_pca10040 Debug/Obj/nrfx_uart.o
- *fill*         0x000000000000a6cf        0x1 
+                0x0000000000009600        0x6 Output/uart_pca10040 Debug/Obj/app_timer.o
+ *fill*         0x0000000000009606        0x2 
+ .rodata        0x0000000000009608       0x52 Output/uart_pca10040 Debug/Obj/nrfx_prs.o
+ *fill*         0x000000000000965a        0x2 
+ .rodata        0x000000000000965c       0xb3 Output/uart_pca10040 Debug/Obj/nrfx_uart.o
+ *fill*         0x000000000000970f        0x1 
  .rodata.irq_handlers.8635
-                0x000000000000a6d0        0x4 Output/uart_pca10040 Debug/Obj/nrfx_uart.o
- .rodata        0x000000000000a6d4       0xb4 Output/uart_pca10040 Debug/Obj/nrfx_uarte.o
+                0x0000000000009710        0x4 Output/uart_pca10040 Debug/Obj/nrfx_uart.o
+ .rodata        0x0000000000009714       0xb4 Output/uart_pca10040 Debug/Obj/nrfx_uarte.o
  .rodata.irq_handlers.8677
-                0x000000000000a788        0x4 Output/uart_pca10040 Debug/Obj/nrfx_uarte.o
- .rodata        0x000000000000a78c       0xb5 Output/uart_pca10040 Debug/Obj/nrfx_gpiote.o
- *fill*         0x000000000000a841        0x3 
- .rodata        0x000000000000a844       0xb4 Output/uart_pca10040 Debug/Obj/nrfx_saadc.o
- .rodata        0x000000000000a8f8       0x84 Output/uart_pca10040 Debug/Obj/nrfx_timer.o
- .rodata        0x000000000000a97c        0x4 Output/uart_pca10040 Debug/Obj/nrfx_ppi.o
- .rodata        0x000000000000a980       0x2e Output/uart_pca10040 Debug/Obj/nrf_drv_twi.o
- *fill*         0x000000000000a9ae        0x2 
- .rodata.delay_machine_code.7667
-                0x000000000000a9b0        0x6 Output/uart_pca10040 Debug/Obj/nrf_drv_twi.o
- *fill*         0x000000000000a9b6        0x2 
- .rodata        0x000000000000a9b8       0xb3 Output/uart_pca10040 Debug/Obj/nrfx_twim.o
- *fill*         0x000000000000aa6b        0x1 
- .rodata.irq_handlers.8650
-                0x000000000000aa6c        0x4 Output/uart_pca10040 Debug/Obj/nrfx_twim.o
- .rodata.m_twi  0x000000000000aa70       0x10 Output/uart_pca10040 Debug/Obj/main.o
- .rodata        0x000000000000aa80       0x9c Output/uart_pca10040 Debug/Obj/main.o
+                0x00000000000097c8        0x4 Output/uart_pca10040 Debug/Obj/nrfx_uarte.o
+ .rodata        0x00000000000097cc       0xb5 Output/uart_pca10040 Debug/Obj/nrfx_gpiote.o
+ *fill*         0x0000000000009881        0x3 
+ .rodata        0x0000000000009884       0xb4 Output/uart_pca10040 Debug/Obj/nrfx_saadc.o
+ .rodata        0x0000000000009938       0x84 Output/uart_pca10040 Debug/Obj/nrfx_timer.o
+ .rodata        0x00000000000099bc        0x4 Output/uart_pca10040 Debug/Obj/nrfx_ppi.o
+ .rodata        0x00000000000099c0       0xb3 Output/uart_pca10040 Debug/Obj/nrfx_twim.o
+ *fill*         0x0000000000009a73        0x1 
+ .rodata        0x0000000000009a74       0xd4 Output/uart_pca10040 Debug/Obj/main.o
  .rodata.default_config.9338
-                0x000000000000ab1c        0x4 Output/uart_pca10040 Debug/Obj/main.o
+                0x0000000000009b48        0x4 Output/uart_pca10040 Debug/Obj/main.o
+ *fill*         0x0000000000009b4c        0x4 
  .rodata.delay_machine_code.7716
-                0x000000000000ab20        0x6 Output/uart_pca10040 Debug/Obj/main.o
- *fill*         0x000000000000ab26        0x2 
- .rodata.twi_config.11470
-                0x000000000000ab28       0x10 Output/uart_pca10040 Debug/Obj/main.o
- .rodata        0x000000000000ab38       0x8e Output/uart_pca10040 Debug/Obj/drv_PCAL6408.o
- *fill*         0x000000000000abc6        0xa 
- .rodata.delay_machine_code.7667
-                0x000000000000abd0        0x6 Output/uart_pca10040 Debug/Obj/drv_PCAL6408.o
- *fill*         0x000000000000abd6        0x2 
+                0x0000000000009b50        0x6 Output/uart_pca10040 Debug/Obj/main.o
+ *fill*         0x0000000000009b56        0x2 
  .rodata.libc.__RAL_ascii_ctype_map
-                0x000000000000abd8       0x80 C:/Program Files/SEGGER/SEGGER Embedded Studio for ARM 4.16/lib/libc_v7em_fpv4_sp_d16_hard_t_le_eabi.a(libc2.o)
-                0x000000000000abd8                __RAL_ascii_ctype_map
+                0x0000000000009b58       0x80 C:/Program Files/SEGGER/SEGGER Embedded Studio for ARM 4.16/lib/libc_v7em_fpv4_sp_d16_hard_t_le_eabi.a(libc2.o)
+                0x0000000000009b58                __RAL_ascii_ctype_map
  .rodata.libc.__RAL_ascii_ctype_mask
-                0x000000000000ac58        0xd C:/Program Files/SEGGER/SEGGER Embedded Studio for ARM 4.16/lib/libc_v7em_fpv4_sp_d16_hard_t_le_eabi.a(libc2.o)
- *fill*         0x000000000000ac65        0x3 
+                0x0000000000009bd8        0xd C:/Program Files/SEGGER/SEGGER Embedded Studio for ARM 4.16/lib/libc_v7em_fpv4_sp_d16_hard_t_le_eabi.a(libc2.o)
+ *fill*         0x0000000000009be5        0x3 
  .rodata.libc.__RAL_c_locale
-                0x000000000000ac68        0xc C:/Program Files/SEGGER/SEGGER Embedded Studio for ARM 4.16/lib/libc_v7em_fpv4_sp_d16_hard_t_le_eabi.a(libc2.o)
-                0x000000000000ac68                __RAL_c_locale
+                0x0000000000009be8        0xc C:/Program Files/SEGGER/SEGGER Embedded Studio for ARM 4.16/lib/libc_v7em_fpv4_sp_d16_hard_t_le_eabi.a(libc2.o)
+                0x0000000000009be8                __RAL_c_locale
  .rodata.libc.__RAL_c_locale_abbrev_day_names
-                0x000000000000ac74       0x1d C:/Program Files/SEGGER/SEGGER Embedded Studio for ARM 4.16/lib/libc_v7em_fpv4_sp_d16_hard_t_le_eabi.a(libc2.o)
-                0x000000000000ac74                __RAL_c_locale_abbrev_day_names
- *fill*         0x000000000000ac91        0x3 
+                0x0000000000009bf4       0x1d C:/Program Files/SEGGER/SEGGER Embedded Studio for ARM 4.16/lib/libc_v7em_fpv4_sp_d16_hard_t_le_eabi.a(libc2.o)
+                0x0000000000009bf4                __RAL_c_locale_abbrev_day_names
+ *fill*         0x0000000000009c11        0x3 
  .rodata.libc.__RAL_c_locale_abbrev_month_names
-                0x000000000000ac94       0x31 C:/Program Files/SEGGER/SEGGER Embedded Studio for ARM 4.16/lib/libc_v7em_fpv4_sp_d16_hard_t_le_eabi.a(libc2.o)
-                0x000000000000ac94                __RAL_c_locale_abbrev_month_names
- *fill*         0x000000000000acc5        0x3 
+                0x0000000000009c14       0x31 C:/Program Files/SEGGER/SEGGER Embedded Studio for ARM 4.16/lib/libc_v7em_fpv4_sp_d16_hard_t_le_eabi.a(libc2.o)
+                0x0000000000009c14                __RAL_c_locale_abbrev_month_names
+ *fill*         0x0000000000009c45        0x3 
  .rodata.libc.__RAL_c_locale_am_pm_indicator
-                0x000000000000acc8        0x7 C:/Program Files/SEGGER/SEGGER Embedded Studio for ARM 4.16/lib/libc_v7em_fpv4_sp_d16_hard_t_le_eabi.a(libc2.o)
-                0x000000000000acc8                __RAL_c_locale_am_pm_indicator
- *fill*         0x000000000000accf        0x1 
+                0x0000000000009c48        0x7 C:/Program Files/SEGGER/SEGGER Embedded Studio for ARM 4.16/lib/libc_v7em_fpv4_sp_d16_hard_t_le_eabi.a(libc2.o)
+                0x0000000000009c48                __RAL_c_locale_am_pm_indicator
+ *fill*         0x0000000000009c4f        0x1 
  .rodata.libc.__RAL_c_locale_data
-                0x000000000000acd0       0x58 C:/Program Files/SEGGER/SEGGER Embedded Studio for ARM 4.16/lib/libc_v7em_fpv4_sp_d16_hard_t_le_eabi.a(libc2.o)
-                0x000000000000acd0                __RAL_c_locale_data
+                0x0000000000009c50       0x58 C:/Program Files/SEGGER/SEGGER Embedded Studio for ARM 4.16/lib/libc_v7em_fpv4_sp_d16_hard_t_le_eabi.a(libc2.o)
+                0x0000000000009c50                __RAL_c_locale_data
  .rodata.libc.__RAL_c_locale_date_format
-                0x000000000000ad28        0x9 C:/Program Files/SEGGER/SEGGER Embedded Studio for ARM 4.16/lib/libc_v7em_fpv4_sp_d16_hard_t_le_eabi.a(libc2.o)
-                0x000000000000ad28                __RAL_c_locale_date_format
- *fill*         0x000000000000ad31        0x3 
+                0x0000000000009ca8        0x9 C:/Program Files/SEGGER/SEGGER Embedded Studio for ARM 4.16/lib/libc_v7em_fpv4_sp_d16_hard_t_le_eabi.a(libc2.o)
+                0x0000000000009ca8                __RAL_c_locale_date_format
+ *fill*         0x0000000000009cb1        0x3 
  .rodata.libc.__RAL_c_locale_date_time_format
-                0x000000000000ad34        0xf C:/Program Files/SEGGER/SEGGER Embedded Studio for ARM 4.16/lib/libc_v7em_fpv4_sp_d16_hard_t_le_eabi.a(libc2.o)
-                0x000000000000ad34                __RAL_c_locale_date_time_format
- *fill*         0x000000000000ad43        0x1 
+                0x0000000000009cb4        0xf C:/Program Files/SEGGER/SEGGER Embedded Studio for ARM 4.16/lib/libc_v7em_fpv4_sp_d16_hard_t_le_eabi.a(libc2.o)
+                0x0000000000009cb4                __RAL_c_locale_date_time_format
+ *fill*         0x0000000000009cc3        0x1 
  .rodata.libc.__RAL_c_locale_day_names
-                0x000000000000ad44       0x3a C:/Program Files/SEGGER/SEGGER Embedded Studio for ARM 4.16/lib/libc_v7em_fpv4_sp_d16_hard_t_le_eabi.a(libc2.o)
-                0x000000000000ad44                __RAL_c_locale_day_names
- *fill*         0x000000000000ad7e        0x2 
+                0x0000000000009cc4       0x3a C:/Program Files/SEGGER/SEGGER Embedded Studio for ARM 4.16/lib/libc_v7em_fpv4_sp_d16_hard_t_le_eabi.a(libc2.o)
+                0x0000000000009cc4                __RAL_c_locale_day_names
+ *fill*         0x0000000000009cfe        0x2 
  .rodata.libc.__RAL_c_locale_month_names
-                0x000000000000ad80       0x57 C:/Program Files/SEGGER/SEGGER Embedded Studio for ARM 4.16/lib/libc_v7em_fpv4_sp_d16_hard_t_le_eabi.a(libc2.o)
-                0x000000000000ad80                __RAL_c_locale_month_names
- *fill*         0x000000000000add7        0x1 
+                0x0000000000009d00       0x57 C:/Program Files/SEGGER/SEGGER Embedded Studio for ARM 4.16/lib/libc_v7em_fpv4_sp_d16_hard_t_le_eabi.a(libc2.o)
+                0x0000000000009d00                __RAL_c_locale_month_names
+ *fill*         0x0000000000009d57        0x1 
  .rodata.libc.__RAL_c_locale_time_format
-                0x000000000000add8        0x9 C:/Program Files/SEGGER/SEGGER Embedded Studio for ARM 4.16/lib/libc_v7em_fpv4_sp_d16_hard_t_le_eabi.a(libc2.o)
-                0x000000000000add8                __RAL_c_locale_time_format
- *fill*         0x000000000000ade1        0x3 
+                0x0000000000009d58        0x9 C:/Program Files/SEGGER/SEGGER Embedded Studio for ARM 4.16/lib/libc_v7em_fpv4_sp_d16_hard_t_le_eabi.a(libc2.o)
+                0x0000000000009d58                __RAL_c_locale_time_format
+ *fill*         0x0000000000009d61        0x3 
  .rodata.libc.__RAL_codeset_ascii
-                0x000000000000ade4       0x20 C:/Program Files/SEGGER/SEGGER Embedded Studio for ARM 4.16/lib/libc_v7em_fpv4_sp_d16_hard_t_le_eabi.a(libc2.o)
-                0x000000000000ade4                __RAL_codeset_ascii
+                0x0000000000009d64       0x20 C:/Program Files/SEGGER/SEGGER Embedded Studio for ARM 4.16/lib/libc_v7em_fpv4_sp_d16_hard_t_le_eabi.a(libc2.o)
+                0x0000000000009d64                __RAL_codeset_ascii
  .rodata.libc.__RAL_data_empty_string
-                0x000000000000ae04        0x1 C:/Program Files/SEGGER/SEGGER Embedded Studio for ARM 4.16/lib/libc_v7em_fpv4_sp_d16_hard_t_le_eabi.a(libc2.o)
-                0x000000000000ae04                __RAL_data_empty_string
- *fill*         0x000000000000ae05        0x3 
+                0x0000000000009d84        0x1 C:/Program Files/SEGGER/SEGGER Embedded Studio for ARM 4.16/lib/libc_v7em_fpv4_sp_d16_hard_t_le_eabi.a(libc2.o)
+                0x0000000000009d84                __RAL_data_empty_string
+ *fill*         0x0000000000009d85        0x3 
  .rodata.libc.__RAL_data_utf8_period
-                0x000000000000ae08        0x2 C:/Program Files/SEGGER/SEGGER Embedded Studio for ARM 4.16/lib/libc_v7em_fpv4_sp_d16_hard_t_le_eabi.a(libc2.o)
-                0x000000000000ae08                __RAL_data_utf8_period
- *fill*         0x000000000000ae0a        0x2 
+                0x0000000000009d88        0x2 C:/Program Files/SEGGER/SEGGER Embedded Studio for ARM 4.16/lib/libc_v7em_fpv4_sp_d16_hard_t_le_eabi.a(libc2.o)
+                0x0000000000009d88                __RAL_data_utf8_period
+ *fill*         0x0000000000009d8a        0x2 
  .rodata.libc.__RAL_find_locale.str1.4
-                0x000000000000ae0c        0xc C:/Program Files/SEGGER/SEGGER Embedded Studio for ARM 4.16/lib/libc_v7em_fpv4_sp_d16_hard_t_le_eabi.a(libc2.o)
+                0x0000000000009d8c        0xc C:/Program Files/SEGGER/SEGGER Embedded Studio for ARM 4.16/lib/libc_v7em_fpv4_sp_d16_hard_t_le_eabi.a(libc2.o)
                                           0xa (size before relaxing)
-                0x000000000000ae18                __rodata_end__ = (__rodata_start__ + SIZEOF (.rodata))
-                0x000000000000120c                __rodata_size__ = SIZEOF (.rodata)
-                0x000000000000ae18                __rodata_load_end__ = __rodata_end__
+                0x0000000000009d98                __rodata_end__ = (__rodata_start__ + SIZEOF (.rodata))
+                0x0000000000001140                __rodata_size__ = SIZEOF (.rodata)
+                0x0000000000009d98                __rodata_load_end__ = __rodata_end__
 
-.rel.dyn        0x000000000000ae18        0x0
- .rel.iplt      0x000000000000ae18        0x0 Output/uart_pca10040 Debug/Obj/thumb_crt0.o
+.rel.dyn        0x0000000000009d98        0x0
+ .rel.iplt      0x0000000000009d98        0x0 Output/uart_pca10040 Debug/Obj/thumb_crt0.o
                 0x0000000000000001                . = ASSERT (((__rodata_start__ == __rodata_end__) || ((__rodata_end__ - __FLASH_segment_start__) <= __FLASH_segment_size__)), error: .rodata is too large to fit in FLASH memory segment)
-                0x000000000000ae18                __ARM.exidx_load_start__ = ALIGN (__rodata_end__, 0x4)
+                0x0000000000009d98                __ARM.exidx_load_start__ = ALIGN (__rodata_end__, 0x4)
 
-.ARM.exidx      0x000000000000ae18        0x0
-                0x000000000000ae18                __ARM.exidx_start__ = .
-                0x000000000000ae18                __exidx_start = __ARM.exidx_start__
+.ARM.exidx      0x0000000000009d98        0x0
+                0x0000000000009d98                __ARM.exidx_start__ = .
+                0x0000000000009d98                __exidx_start = __ARM.exidx_start__
  *(.ARM.exidx .ARM.exidx.*)
-                0x000000000000ae18                __ARM.exidx_end__ = (__ARM.exidx_start__ + SIZEOF (.ARM.exidx))
+                0x0000000000009d98                __ARM.exidx_end__ = (__ARM.exidx_start__ + SIZEOF (.ARM.exidx))
                 0x0000000000000000                __ARM.exidx_size__ = SIZEOF (.ARM.exidx)
-                0x000000000000ae18                __exidx_end = __ARM.exidx_end__
-                0x000000000000ae18                __ARM.exidx_load_end__ = __ARM.exidx_end__
+                0x0000000000009d98                __exidx_end = __ARM.exidx_end__
+                0x0000000000009d98                __ARM.exidx_load_end__ = __ARM.exidx_end__
                 0x0000000000000001                . = ASSERT (((__ARM.exidx_start__ == __ARM.exidx_end__) || ((__ARM.exidx_end__ - __FLASH_segment_start__) <= __FLASH_segment_size__)), error: .ARM.exidx is too large to fit in FLASH memory segment)
-                0x000000000000ae18                __fast_load_start__ = ALIGN (__ARM.exidx_end__, 0x4)
+                0x0000000000009d98                __fast_load_start__ = ALIGN (__ARM.exidx_end__, 0x4)
 
-.fast           0x0000000020000000        0x0 load address 0x000000000000ae18
+.fast           0x0000000020000000        0x0 load address 0x0000000000009d98
                 0x0000000020000000                __fast_start__ = .
  *(.fast .fast.*)
                 0x0000000020000000                __fast_end__ = (__fast_start__ + SIZEOF (.fast))
                 0x0000000000000000                __fast_size__ = SIZEOF (.fast)
-                0x000000000000ae18                __fast_load_end__ = (__fast_load_start__ + SIZEOF (.fast))
+                0x0000000000009d98                __fast_load_end__ = (__fast_load_start__ + SIZEOF (.fast))
                 0x0000000000000001                . = ASSERT (((__fast_load_start__ == __fast_load_end__) || ((__fast_load_end__ - __FLASH_segment_start__) <= __FLASH_segment_size__)), error: .fast is too large to fit in FLASH memory segment)
 
 .fast_run       0x0000000020000000        0x0
@@ -8261,9 +8301,9 @@ Linker script and memory map
                 0x0000000000000000                __fast_run_size__ = SIZEOF (.fast_run)
                 0x0000000020000000                __fast_run_load_end__ = __fast_run_end__
                 0x0000000000000001                . = ASSERT (((__fast_run_start__ == __fast_run_end__) || ((__fast_run_end__ - __RAM1_segment_start__) <= __RAM1_segment_size__)), error: .fast_run is too large to fit in RAM1 memory segment)
-                0x000000000000ae18                __data_load_start__ = ALIGN ((__fast_load_start__ + SIZEOF (.fast)), 0x4)
+                0x0000000000009d98                __data_load_start__ = ALIGN ((__fast_load_start__ + SIZEOF (.fast)), 0x4)
 
-.data           0x0000000020000000       0x8c load address 0x000000000000ae18
+.data           0x0000000020000000       0x8c load address 0x0000000000009d98
                 0x0000000020000000                __data_start__ = .
  *(.data .data.* .gnu.linkonce.d.*)
  .data.m_buffer_mask
@@ -8288,13 +8328,13 @@ Linker script and memory map
                 0x0000000020000078                __RAL_global_locale
                 0x000000002000008c                __data_end__ = (__data_start__ + SIZEOF (.data))
                 0x000000000000008c                __data_size__ = SIZEOF (.data)
-                0x000000000000aea4                __data_load_end__ = (__data_load_start__ + SIZEOF (.data))
+                0x0000000000009e24                __data_load_end__ = (__data_load_start__ + SIZEOF (.data))
 
 .igot.plt       0x0000000100000000        0x0
  .igot.plt      0x0000000100000000        0x0 Output/uart_pca10040 Debug/Obj/thumb_crt0.o
                 0x0000000000000001                . = ASSERT (((__data_load_start__ == __data_load_end__) || ((__data_load_end__ - __FLASH_segment_start__) <= __FLASH_segment_size__)), error: .data is too large to fit in FLASH memory segment)
 
-.data_run       0x0000000020000000       0x8c load address 0x000000000000ae18
+.data_run       0x0000000020000000       0x8c load address 0x0000000000009d98
                 0x0000000020000000                __data_run_start__ = .
                 0x000000002000008c                . = MAX ((__data_run_start__ + SIZEOF (.data)), .)
  *fill*         0x0000000020000000       0x8c 
@@ -8302,16 +8342,16 @@ Linker script and memory map
                 0x000000000000008c                __data_run_size__ = SIZEOF (.data_run)
                 0x000000002000008c                __data_run_load_end__ = __data_run_end__
                 0x0000000000000001                . = ASSERT (((__data_run_start__ == __data_run_end__) || ((__data_run_end__ - __RAM1_segment_start__) <= __RAM1_segment_size__)), error: .data_run is too large to fit in RAM1 memory segment)
-                0x000000000000aea4                __tdata_load_start__ = ALIGN ((__data_load_start__ + SIZEOF (.data)), 0x4)
+                0x0000000000009e24                __tdata_load_start__ = ALIGN ((__data_load_start__ + SIZEOF (.data)), 0x4)
 
-.tdata          0x000000002000008c        0x0 load address 0x000000000000aea4
+.tdata          0x000000002000008c        0x0 load address 0x0000000000009e24
                 0x000000002000008c                __tdata_start__ = .
  *(.tdata .tdata.*)
                 0x000000002000008c                __tdata_end__ = (__tdata_start__ + SIZEOF (.tdata))
                 0x0000000000000000                __tdata_size__ = SIZEOF (.tdata)
-                0x000000000000aea4                __tdata_load_end__ = (__tdata_load_start__ + SIZEOF (.tdata))
-                0x000000000000aea4                __FLASH_segment_used_end__ = (ALIGN ((__data_load_start__ + SIZEOF (.data)), 0x4) + SIZEOF (.tdata))
-                0x000000000000aea4                __FLASH_segment_used_size__ = (__FLASH_segment_used_end__ - __FLASH_segment_start__)
+                0x0000000000009e24                __tdata_load_end__ = (__tdata_load_start__ + SIZEOF (.tdata))
+                0x0000000000009e24                __FLASH_segment_used_end__ = (ALIGN ((__data_load_start__ + SIZEOF (.data)), 0x4) + SIZEOF (.tdata))
+                0x0000000000009e24                __FLASH_segment_used_size__ = (__FLASH_segment_used_end__ - __FLASH_segment_start__)
                 0x0000000000000001                . = ASSERT (((__tdata_load_start__ == __tdata_load_end__) || ((__tdata_load_end__ - __FLASH_segment_start__) <= __FLASH_segment_size__)), error: .tdata is too large to fit in FLASH memory segment)
 
 .tdata_run      0x000000002000008c        0x0
@@ -8323,7 +8363,7 @@ Linker script and memory map
                 0x0000000000000001                . = ASSERT (((__tdata_run_start__ == __tdata_run_end__) || ((__tdata_run_end__ - __RAM1_segment_start__) <= __RAM1_segment_size__)), error: .tdata_run is too large to fit in RAM1 memory segment)
                 0x000000002000008c                __bss_load_start__ = ALIGN (__tdata_run_end__, 0x4)
 
-.bss            0x000000002000008c     0x2ec8
+.bss            0x000000002000008c     0x2eb8
                 0x000000002000008c                __bss_start__ = .
  *(.bss .bss.* .gnu.linkonce.b.*)
  .bss.log_mempool_nrf_balloc_pool_stack
@@ -8393,71 +8433,65 @@ Linker script and memory map
  .bss.m_cb      0x00000000200007b4       0x24 Output/uart_pca10040 Debug/Obj/nrfx_uarte.o
  .bss.m_cb      0x00000000200007d8       0x5c Output/uart_pca10040 Debug/Obj/nrfx_gpiote.o
  .bss.m_cb      0x0000000020000834       0x30 Output/uart_pca10040 Debug/Obj/nrfx_saadc.o
- .bss.m_cb      0x0000000020000864        0xc Output/uart_pca10040 Debug/Obj/nrfx_timer.o
- .bss.m_handlers
-                0x0000000020000870        0x8 Output/uart_pca10040 Debug/Obj/nrf_drv_twi.o
- .bss.m_contexts
-                0x0000000020000878        0x8 Output/uart_pca10040 Debug/Obj/nrf_drv_twi.o
- .bss.m_cb      0x0000000020000880       0x34 Output/uart_pca10040 Debug/Obj/nrfx_twim.o
+ .bss.m_cb      0x0000000020000864       0x18 Output/uart_pca10040 Debug/Obj/nrfx_timer.o
+ .bss.m_cb      0x000000002000087c       0x34 Output/uart_pca10040 Debug/Obj/nrfx_twim.o
  .bss.uart_tx_in_progress
-                0x00000000200008b4        0x1 Output/uart_pca10040 Debug/Obj/main.o
+                0x00000000200008b0        0x1 Output/uart_pca10040 Debug/Obj/main.o
  .bss.saadc_in_progress
-                0x00000000200008b5        0x1 Output/uart_pca10040 Debug/Obj/main.o
- *fill*         0x00000000200008b6        0x2 
+                0x00000000200008b1        0x1 Output/uart_pca10040 Debug/Obj/main.o
+ *fill*         0x00000000200008b2        0x2 
  .bss.m_buffer_pool
-                0x00000000200008b8       0x10 Output/uart_pca10040 Debug/Obj/main.o
+                0x00000000200008b4       0x10 Output/uart_pca10040 Debug/Obj/main.o
  .bss.m_adc_evt_counter
-                0x00000000200008c8        0x4 Output/uart_pca10040 Debug/Obj/main.o
+                0x00000000200008c4        0x4 Output/uart_pca10040 Debug/Obj/main.o
  .bss.m_bufferData
-                0x00000000200008cc        0x4 Output/uart_pca10040 Debug/Obj/main.o
+                0x00000000200008c8        0x4 Output/uart_pca10040 Debug/Obj/main.o
  .bss.m_bufferDataMean
-                0x00000000200008d0     0x1800 Output/uart_pca10040 Debug/Obj/main.o
+                0x00000000200008cc     0x1800 Output/uart_pca10040 Debug/Obj/main.o
  .bss.m_bufferDataMeanByte
-                0x00000000200020d0      0x600 Output/uart_pca10040 Debug/Obj/main.o
+                0x00000000200020cc      0x600 Output/uart_pca10040 Debug/Obj/main.o
  .bss.m_buffer_data_byte
-                0x00000000200026d0      0x600 Output/uart_pca10040 Debug/Obj/main.o
- .bss.rx_buf.11478
-                0x0000000020002cd0      0x100 Output/uart_pca10040 Debug/Obj/main.o
- .bss.tx_buf.11479
-                0x0000000020002dd0      0x100 Output/uart_pca10040 Debug/Obj/main.o
- .bss.m_PCAL6408
-                0x0000000020002ed0        0xc Output/uart_pca10040 Debug/Obj/drv_PCAL6408.o
+                0x00000000200026cc      0x600 Output/uart_pca10040 Debug/Obj/main.o
+ .bss.rx_buf.11464
+                0x0000000020002ccc      0x100 Output/uart_pca10040 Debug/Obj/main.o
+ .bss.tx_buf.11465
+                0x0000000020002dcc      0x100 Output/uart_pca10040 Debug/Obj/main.o
  .bss._SEGGER_RTT
-                0x0000000020002edc       0x78 Output/uart_pca10040 Debug/Obj/SEGGER_RTT.o
-                0x0000000020002edc                _SEGGER_RTT
+                0x0000000020002ecc       0x78 Output/uart_pca10040 Debug/Obj/SEGGER_RTT.o
+                0x0000000020002ecc                _SEGGER_RTT
  *(COMMON)
-                0x0000000020002f54                __bss_end__ = (__bss_start__ + SIZEOF (.bss))
-                0x0000000000002ec8                __bss_size__ = SIZEOF (.bss)
-                0x0000000020002f54                __bss_load_end__ = __bss_end__
+                0x0000000020002f44                __bss_end__ = (__bss_start__ + SIZEOF (.bss))
+                0x0000000000002eb8                __bss_size__ = SIZEOF (.bss)
+                0x0000000020002f44                __bss_load_end__ = __bss_end__
                 0x0000000000000001                . = ASSERT (((__bss_start__ == __bss_end__) || ((__bss_end__ - __RAM1_segment_start__) <= __RAM1_segment_size__)), error: .bss is too large to fit in RAM1 memory segment)
-                0x0000000020002f54                __tbss_load_start__ = ALIGN (__bss_end__, 0x4)
+                0x0000000020002f44                __tbss_load_start__ = ALIGN (__bss_end__, 0x4)
 
-.tbss           0x0000000020002f54        0x0
-                0x0000000020002f54                __tbss_start__ = .
+.tbss           0x0000000020002f44        0x0
+                0x0000000020002f44                __tbss_start__ = .
  *(.tbss .tbss.*)
-                0x0000000020002f54                __tbss_end__ = (__tbss_start__ + SIZEOF (.tbss))
+                0x0000000020002f44                __tbss_end__ = (__tbss_start__ + SIZEOF (.tbss))
                 0x0000000000000000                __tbss_size__ = SIZEOF (.tbss)
-                0x0000000020002f54                __tbss_load_end__ = __tbss_end__
+                0x0000000020002f44                __tbss_load_end__ = __tbss_end__
                 0x0000000000000001                . = ASSERT (((__tbss_start__ == __tbss_end__) || ((__tbss_end__ - __RAM1_segment_start__) <= __RAM1_segment_size__)), error: .tbss is too large to fit in RAM1 memory segment)
-                0x0000000020002f54                __non_init_load_start__ = ALIGN (__tbss_end__, 0x4)
+                0x0000000020002f44                __non_init_load_start__ = ALIGN (__tbss_end__, 0x4)
 
-.non_init       0x0000000020002f54        0x0
-                0x0000000020002f54                __non_init_start__ = .
+.non_init       0x0000000020002f44        0x0
+                0x0000000020002f44                __non_init_start__ = .
  *(.non_init .non_init.*)
-                0x0000000020002f54                __non_init_end__ = (__non_init_start__ + SIZEOF (.non_init))
+                0x0000000020002f44                __non_init_end__ = (__non_init_start__ + SIZEOF (.non_init))
                 0x0000000000000000                __non_init_size__ = SIZEOF (.non_init)
-                0x0000000020002f54                __non_init_load_end__ = __non_init_end__
+                0x0000000020002f44                __non_init_load_end__ = __non_init_end__
                 0x0000000000000001                . = ASSERT (((__non_init_start__ == __non_init_end__) || ((__non_init_end__ - __RAM1_segment_start__) <= __RAM1_segment_size__)), error: .non_init is too large to fit in RAM1 memory segment)
-                0x0000000020002f54                __heap_load_start__ = ALIGN (__non_init_end__, 0x4)
+                0x0000000020002f44                __heap_load_start__ = ALIGN (__non_init_end__, 0x4)
 
-.heap           0x0000000020002f54     0x2000
-                0x0000000020002f54                __heap_start__ = .
+.heap           0x0000000020002f44     0x2000
+                0x0000000020002f44                __heap_start__ = .
  *(.heap .heap.*)
-                0x0000000020004f54                . = ALIGN (MAX ((__heap_start__ + __HEAPSIZE__), .), 0x4)
- *fill*         0x0000000020002f54     0x2000 
-                0x0000000020004f54                __heap_end__ = (__heap_start__ + SIZEOF (.heap))
+                0x0000000020004f44                . = ALIGN (MAX ((__heap_start__ + __HEAPSIZE__), .), 0x4)
+ *fill*         0x0000000020002f44     0x2000 
+                0x0000000020004f44                __heap_end__ = (__heap_start__ + SIZEOF (.heap))
                 0x0000000000002000                __heap_size__ = SIZEOF (.heap)
-                0x0000000020004f54                __heap_load_end__ = __heap_end__
+                0x0000000020004f44                __heap_load_end__ = __heap_end__
                 0x0000000000000001                . = ASSERT (((__heap_start__ == __heap_end__) || ((__heap_end__ - __RAM1_segment_start__) <= __RAM1_segment_size__)), error: .heap is too large to fit in RAM1 memory segment)
                 0x000000002000e000                __stack_load_start__ = (__RAM1_segment_start__ + (__RAM1_segment_size__ - 0x2000))
 
@@ -8604,25 +8638,21 @@ OUTPUT(Output/Debug/Exe/uart_pca10040.elf elf32-littlearm)
  .ARM.attributes
                 0x0000000000000661       0x39 Output/uart_pca10040 Debug/Obj/nrfx_ppi.o
  .ARM.attributes
-                0x000000000000069a       0x39 Output/uart_pca10040 Debug/Obj/nrf_drv_twi.o
+                0x000000000000069a       0x39 Output/uart_pca10040 Debug/Obj/nrfx_twim.o
  .ARM.attributes
-                0x00000000000006d3       0x39 Output/uart_pca10040 Debug/Obj/nrfx_twim.o
+                0x00000000000006d3       0x39 Output/uart_pca10040 Debug/Obj/main.o
  .ARM.attributes
-                0x000000000000070c       0x39 Output/uart_pca10040 Debug/Obj/main.o
+                0x000000000000070c       0x25 Output/uart_pca10040 Debug/Obj/ses_startup_nrf52.o
  .ARM.attributes
-                0x0000000000000745       0x39 Output/uart_pca10040 Debug/Obj/drv_PCAL6408.o
+                0x0000000000000731       0x25 Output/uart_pca10040 Debug/Obj/ses_startup_nrf_common.o
  .ARM.attributes
-                0x000000000000077e       0x25 Output/uart_pca10040 Debug/Obj/ses_startup_nrf52.o
+                0x0000000000000756       0x39 Output/uart_pca10040 Debug/Obj/system_nrf52.o
  .ARM.attributes
-                0x00000000000007a3       0x25 Output/uart_pca10040 Debug/Obj/ses_startup_nrf_common.o
+                0x000000000000078f       0x39 Output/uart_pca10040 Debug/Obj/SEGGER_RTT.o
  .ARM.attributes
-                0x00000000000007c8       0x39 Output/uart_pca10040 Debug/Obj/system_nrf52.o
+                0x00000000000007c8       0x34 C:/Program Files/SEGGER/SEGGER Embedded Studio for ARM 4.16/lib/libc_v7em_fpv4_sp_d16_hard_t_le_eabi.a(libc2.o)
  .ARM.attributes
-                0x0000000000000801       0x39 Output/uart_pca10040 Debug/Obj/SEGGER_RTT.o
- .ARM.attributes
-                0x000000000000083a       0x34 C:/Program Files/SEGGER/SEGGER Embedded Studio for ARM 4.16/lib/libc_v7em_fpv4_sp_d16_hard_t_le_eabi.a(libc2.o)
- .ARM.attributes
-                0x000000000000086e       0x20 C:/Program Files/SEGGER/SEGGER Embedded Studio for ARM 4.16/lib/libc_v7em_fpv4_sp_d16_hard_t_le_eabi.a(libc2_asm.o)
+                0x00000000000007fc       0x20 C:/Program Files/SEGGER/SEGGER Embedded Studio for ARM 4.16/lib/libc_v7em_fpv4_sp_d16_hard_t_le_eabi.a(libc2_asm.o)
 
 .comment        0x0000000000000000       0x43
  .comment       0x0000000000000000       0x43 Output/uart_pca10040 Debug/Obj/nrf_log_frontend.o
@@ -8655,15 +8685,13 @@ OUTPUT(Output/Debug/Exe/uart_pca10040.elf elf32-littlearm)
  .comment       0x0000000000000043       0x44 Output/uart_pca10040 Debug/Obj/nrfx_saadc.o
  .comment       0x0000000000000043       0x44 Output/uart_pca10040 Debug/Obj/nrfx_timer.o
  .comment       0x0000000000000043       0x44 Output/uart_pca10040 Debug/Obj/nrfx_ppi.o
- .comment       0x0000000000000043       0x44 Output/uart_pca10040 Debug/Obj/nrf_drv_twi.o
  .comment       0x0000000000000043       0x44 Output/uart_pca10040 Debug/Obj/nrfx_twim.o
  .comment       0x0000000000000043       0x44 Output/uart_pca10040 Debug/Obj/main.o
- .comment       0x0000000000000043       0x44 Output/uart_pca10040 Debug/Obj/drv_PCAL6408.o
  .comment       0x0000000000000043       0x44 Output/uart_pca10040 Debug/Obj/system_nrf52.o
  .comment       0x0000000000000043       0x44 Output/uart_pca10040 Debug/Obj/SEGGER_RTT.o
  .comment       0x0000000000000043       0x44 C:/Program Files/SEGGER/SEGGER Embedded Studio for ARM 4.16/lib/libc_v7em_fpv4_sp_d16_hard_t_le_eabi.a(libc2.o)
 
-.debug_line     0x0000000000000000    0x18284
+.debug_line     0x0000000000000000    0x171c3
  .debug_line    0x0000000000000000      0x1ed Output/uart_pca10040 Debug/Obj/thumb_crt0.o
  .debug_line    0x00000000000001ed     0x102e Output/uart_pca10040 Debug/Obj/nrf_log_frontend.o
  .debug_line    0x000000000000121b      0x75a Output/uart_pca10040 Debug/Obj/nrf_log_str_formatter.o
@@ -8692,18 +8720,16 @@ OUTPUT(Output/Debug/Exe/uart_pca10040.elf elf32-littlearm)
  .debug_line    0x000000000000aab1     0x1171 Output/uart_pca10040 Debug/Obj/nrfx_uarte.o
  .debug_line    0x000000000000bc22     0x17ed Output/uart_pca10040 Debug/Obj/nrfx_gpiote.o
  .debug_line    0x000000000000d40f     0x10c6 Output/uart_pca10040 Debug/Obj/nrfx_saadc.o
- .debug_line    0x000000000000e4d5      0xd77 Output/uart_pca10040 Debug/Obj/nrfx_timer.o
- .debug_line    0x000000000000f24c      0xd48 Output/uart_pca10040 Debug/Obj/nrfx_ppi.o
- .debug_line    0x000000000000ff94      0x883 Output/uart_pca10040 Debug/Obj/nrf_drv_twi.o
- .debug_line    0x0000000000010817     0x12ff Output/uart_pca10040 Debug/Obj/nrfx_twim.o
- .debug_line    0x0000000000011b16     0x14d2 Output/uart_pca10040 Debug/Obj/main.o
- .debug_line    0x0000000000012fe8      0x90d Output/uart_pca10040 Debug/Obj/drv_PCAL6408.o
- .debug_line    0x00000000000138f5       0x88 Output/uart_pca10040 Debug/Obj/ses_startup_nrf52.o
- .debug_line    0x000000000001397d       0xaa Output/uart_pca10040 Debug/Obj/ses_startup_nrf_common.o
- .debug_line    0x0000000000013a27     0x3d4a Output/uart_pca10040 Debug/Obj/system_nrf52.o
- .debug_line    0x0000000000017771      0xb13 Output/uart_pca10040 Debug/Obj/SEGGER_RTT.o
+ .debug_line    0x000000000000e4d5      0xd91 Output/uart_pca10040 Debug/Obj/nrfx_timer.o
+ .debug_line    0x000000000000f266      0xd48 Output/uart_pca10040 Debug/Obj/nrfx_ppi.o
+ .debug_line    0x000000000000ffae     0x12ff Output/uart_pca10040 Debug/Obj/nrfx_twim.o
+ .debug_line    0x00000000000112ad     0x1587 Output/uart_pca10040 Debug/Obj/main.o
+ .debug_line    0x0000000000012834       0x88 Output/uart_pca10040 Debug/Obj/ses_startup_nrf52.o
+ .debug_line    0x00000000000128bc       0xaa Output/uart_pca10040 Debug/Obj/ses_startup_nrf_common.o
+ .debug_line    0x0000000000012966     0x3d4a Output/uart_pca10040 Debug/Obj/system_nrf52.o
+ .debug_line    0x00000000000166b0      0xb13 Output/uart_pca10040 Debug/Obj/SEGGER_RTT.o
 
-.debug_info     0x0000000000000000    0x2cf32
+.debug_info     0x0000000000000000    0x2a4f9
  .debug_info    0x0000000000000000       0x22 Output/uart_pca10040 Debug/Obj/thumb_crt0.o
  .debug_info    0x0000000000000022     0x1e65 Output/uart_pca10040 Debug/Obj/nrf_log_frontend.o
  .debug_info    0x0000000000001e87      0xcdd Output/uart_pca10040 Debug/Obj/nrf_log_str_formatter.o
@@ -8732,18 +8758,16 @@ OUTPUT(Output/Debug/Exe/uart_pca10040.elf elf32-littlearm)
  .debug_info    0x0000000000015e52     0x2618 Output/uart_pca10040 Debug/Obj/nrfx_uarte.o
  .debug_info    0x000000000001846a     0x286a Output/uart_pca10040 Debug/Obj/nrfx_gpiote.o
  .debug_info    0x000000000001acd4     0x20c3 Output/uart_pca10040 Debug/Obj/nrfx_saadc.o
- .debug_info    0x000000000001cd97     0x1afa Output/uart_pca10040 Debug/Obj/nrfx_timer.o
- .debug_info    0x000000000001e891     0x1411 Output/uart_pca10040 Debug/Obj/nrfx_ppi.o
- .debug_info    0x000000000001fca2     0x18c6 Output/uart_pca10040 Debug/Obj/nrf_drv_twi.o
- .debug_info    0x0000000000021568     0x24ff Output/uart_pca10040 Debug/Obj/nrfx_twim.o
- .debug_info    0x0000000000023a67     0x2aae Output/uart_pca10040 Debug/Obj/main.o
- .debug_info    0x0000000000026515     0x1564 Output/uart_pca10040 Debug/Obj/drv_PCAL6408.o
- .debug_info    0x0000000000027a79       0x26 Output/uart_pca10040 Debug/Obj/ses_startup_nrf52.o
- .debug_info    0x0000000000027a9f       0x26 Output/uart_pca10040 Debug/Obj/ses_startup_nrf_common.o
- .debug_info    0x0000000000027ac5     0x40e9 Output/uart_pca10040 Debug/Obj/system_nrf52.o
- .debug_info    0x000000000002bbae     0x1384 Output/uart_pca10040 Debug/Obj/SEGGER_RTT.o
+ .debug_info    0x000000000001cd97     0x1b13 Output/uart_pca10040 Debug/Obj/nrfx_timer.o
+ .debug_info    0x000000000001e8aa     0x1411 Output/uart_pca10040 Debug/Obj/nrfx_ppi.o
+ .debug_info    0x000000000001fcbb     0x24ff Output/uart_pca10040 Debug/Obj/nrfx_twim.o
+ .debug_info    0x00000000000221ba     0x2e86 Output/uart_pca10040 Debug/Obj/main.o
+ .debug_info    0x0000000000025040       0x26 Output/uart_pca10040 Debug/Obj/ses_startup_nrf52.o
+ .debug_info    0x0000000000025066       0x26 Output/uart_pca10040 Debug/Obj/ses_startup_nrf_common.o
+ .debug_info    0x000000000002508c     0x40e9 Output/uart_pca10040 Debug/Obj/system_nrf52.o
+ .debug_info    0x0000000000029175     0x1384 Output/uart_pca10040 Debug/Obj/SEGGER_RTT.o
 
-.debug_abbrev   0x0000000000000000     0x5a81
+.debug_abbrev   0x0000000000000000     0x5527
  .debug_abbrev  0x0000000000000000       0x12 Output/uart_pca10040 Debug/Obj/thumb_crt0.o
  .debug_abbrev  0x0000000000000012      0x495 Output/uart_pca10040 Debug/Obj/nrf_log_frontend.o
  .debug_abbrev  0x00000000000004a7      0x21b Output/uart_pca10040 Debug/Obj/nrf_log_str_formatter.o
@@ -8774,16 +8798,14 @@ OUTPUT(Output/Debug/Exe/uart_pca10040.elf elf32-littlearm)
  .debug_abbrev  0x0000000000003dc8      0x44c Output/uart_pca10040 Debug/Obj/nrfx_saadc.o
  .debug_abbrev  0x0000000000004214      0x33b Output/uart_pca10040 Debug/Obj/nrfx_timer.o
  .debug_abbrev  0x000000000000454f      0x306 Output/uart_pca10040 Debug/Obj/nrfx_ppi.o
- .debug_abbrev  0x0000000000004855      0x30b Output/uart_pca10040 Debug/Obj/nrf_drv_twi.o
- .debug_abbrev  0x0000000000004b60      0x3d8 Output/uart_pca10040 Debug/Obj/nrfx_twim.o
- .debug_abbrev  0x0000000000004f38      0x395 Output/uart_pca10040 Debug/Obj/main.o
- .debug_abbrev  0x00000000000052cd      0x2bd Output/uart_pca10040 Debug/Obj/drv_PCAL6408.o
- .debug_abbrev  0x000000000000558a       0x14 Output/uart_pca10040 Debug/Obj/ses_startup_nrf52.o
- .debug_abbrev  0x000000000000559e       0x14 Output/uart_pca10040 Debug/Obj/ses_startup_nrf_common.o
- .debug_abbrev  0x00000000000055b2      0x271 Output/uart_pca10040 Debug/Obj/system_nrf52.o
- .debug_abbrev  0x0000000000005823      0x25e Output/uart_pca10040 Debug/Obj/SEGGER_RTT.o
+ .debug_abbrev  0x0000000000004855      0x3d8 Output/uart_pca10040 Debug/Obj/nrfx_twim.o
+ .debug_abbrev  0x0000000000004c2d      0x403 Output/uart_pca10040 Debug/Obj/main.o
+ .debug_abbrev  0x0000000000005030       0x14 Output/uart_pca10040 Debug/Obj/ses_startup_nrf52.o
+ .debug_abbrev  0x0000000000005044       0x14 Output/uart_pca10040 Debug/Obj/ses_startup_nrf_common.o
+ .debug_abbrev  0x0000000000005058      0x271 Output/uart_pca10040 Debug/Obj/system_nrf52.o
+ .debug_abbrev  0x00000000000052c9      0x25e Output/uart_pca10040 Debug/Obj/SEGGER_RTT.o
 
-.debug_aranges  0x0000000000000000     0x2340
+.debug_aranges  0x0000000000000000     0x22a0
  .debug_aranges
                 0x0000000000000000       0x80 Output/uart_pca10040 Debug/Obj/thumb_crt0.o
  .debug_aranges
@@ -8841,104 +8863,96 @@ OUTPUT(Output/Debug/Exe/uart_pca10040.elf elf32-littlearm)
  .debug_aranges
                 0x0000000000000f30      0x138 Output/uart_pca10040 Debug/Obj/nrfx_saadc.o
  .debug_aranges
-                0x0000000000001068      0x158 Output/uart_pca10040 Debug/Obj/nrfx_timer.o
+                0x0000000000001068      0x160 Output/uart_pca10040 Debug/Obj/nrfx_timer.o
  .debug_aranges
-                0x00000000000011c0      0x140 Output/uart_pca10040 Debug/Obj/nrfx_ppi.o
+                0x00000000000011c8      0x140 Output/uart_pca10040 Debug/Obj/nrfx_ppi.o
  .debug_aranges
-                0x0000000000001300       0x80 Output/uart_pca10040 Debug/Obj/nrf_drv_twi.o
+                0x0000000000001308      0x1c8 Output/uart_pca10040 Debug/Obj/nrfx_twim.o
  .debug_aranges
-                0x0000000000001380      0x1c8 Output/uart_pca10040 Debug/Obj/nrfx_twim.o
+                0x00000000000014d0       0xe0 Output/uart_pca10040 Debug/Obj/main.o
  .debug_aranges
-                0x0000000000001548       0xa8 Output/uart_pca10040 Debug/Obj/main.o
+                0x00000000000015b0       0x20 Output/uart_pca10040 Debug/Obj/ses_startup_nrf52.o
  .debug_aranges
-                0x00000000000015f0       0x60 Output/uart_pca10040 Debug/Obj/drv_PCAL6408.o
+                0x00000000000015d0       0x20 Output/uart_pca10040 Debug/Obj/ses_startup_nrf_common.o
  .debug_aranges
-                0x0000000000001650       0x20 Output/uart_pca10040 Debug/Obj/ses_startup_nrf52.o
+                0x00000000000015f0      0xba8 Output/uart_pca10040 Debug/Obj/system_nrf52.o
  .debug_aranges
-                0x0000000000001670       0x20 Output/uart_pca10040 Debug/Obj/ses_startup_nrf_common.o
- .debug_aranges
-                0x0000000000001690      0xba8 Output/uart_pca10040 Debug/Obj/system_nrf52.o
- .debug_aranges
-                0x0000000000002238      0x108 Output/uart_pca10040 Debug/Obj/SEGGER_RTT.o
+                0x0000000000002198      0x108 Output/uart_pca10040 Debug/Obj/SEGGER_RTT.o
 
-.debug_str      0x0000000000000000    0x83d8b
+.debug_str      0x0000000000000000    0x837a7
  .debug_str     0x0000000000000000       0xbb Output/uart_pca10040 Debug/Obj/thumb_crt0.o
- .debug_str     0x00000000000000bb    0x6d833 Output/uart_pca10040 Debug/Obj/nrf_log_frontend.o
-                                      0x6e781 (size before relaxing)
- .debug_str     0x000000000006d8ee      0x39c Output/uart_pca10040 Debug/Obj/nrf_log_str_formatter.o
-                                      0x6d708 (size before relaxing)
- .debug_str     0x000000000006dc8a     0x467e Output/uart_pca10040 Debug/Obj/nrf_log_backend_rtt.o
-                                      0x719e4 (size before relaxing)
- .debug_str     0x0000000000072308      0x1a5 Output/uart_pca10040 Debug/Obj/nrf_log_default_backends.o
-                                      0x6d455 (size before relaxing)
- .debug_str     0x00000000000724ad       0x9c Output/uart_pca10040 Debug/Obj/nrf_log_backend_serial.o
-                                      0x6d5aa (size before relaxing)
- .debug_str     0x0000000000072549     0x10f6 Output/uart_pca10040 Debug/Obj/nrf_log_backend_uart.o
-                                      0x71ed5 (size before relaxing)
- .debug_str     0x000000000007363f      0x134 Output/uart_pca10040 Debug/Obj/app_error.o
+ .debug_str     0x00000000000000bb    0x6d935 Output/uart_pca10040 Debug/Obj/nrf_log_frontend.o
+                                      0x6e917 (size before relaxing)
+ .debug_str     0x000000000006d9f0      0x39c Output/uart_pca10040 Debug/Obj/nrf_log_str_formatter.o
+                                      0x6d89e (size before relaxing)
+ .debug_str     0x000000000006dd8c     0x467e Output/uart_pca10040 Debug/Obj/nrf_log_backend_rtt.o
+                                      0x71b7a (size before relaxing)
+ .debug_str     0x000000000007240a      0x1a5 Output/uart_pca10040 Debug/Obj/nrf_log_default_backends.o
+                                      0x6d5eb (size before relaxing)
+ .debug_str     0x00000000000725af       0x9c Output/uart_pca10040 Debug/Obj/nrf_log_backend_serial.o
+                                      0x6d740 (size before relaxing)
+ .debug_str     0x000000000007264b     0x10f6 Output/uart_pca10040 Debug/Obj/nrf_log_backend_uart.o
+                                      0x7206b (size before relaxing)
+ .debug_str     0x0000000000073741      0x134 Output/uart_pca10040 Debug/Obj/app_error.o
                                       0x5efd0 (size before relaxing)
- .debug_str     0x0000000000073773       0x6a Output/uart_pca10040 Debug/Obj/app_error_handler_gcc.o
-                                      0x69897 (size before relaxing)
- .debug_str     0x00000000000737dd       0x97 Output/uart_pca10040 Debug/Obj/app_error_weak.o
-                                      0x6da28 (size before relaxing)
- .debug_str     0x0000000000073874      0x17b Output/uart_pca10040 Debug/Obj/app_fifo.o
-                                      0x69544 (size before relaxing)
- .debug_str     0x00000000000739ef      0x60e Output/uart_pca10040 Debug/Obj/app_uart_fifo.o
-                                      0x6ef66 (size before relaxing)
- .debug_str     0x0000000000073ffd      0x3ab Output/uart_pca10040 Debug/Obj/app_util_platform.o
+ .debug_str     0x0000000000073875       0x6a Output/uart_pca10040 Debug/Obj/app_error_handler_gcc.o
+                                      0x69a2d (size before relaxing)
+ .debug_str     0x00000000000738df       0x97 Output/uart_pca10040 Debug/Obj/app_error_weak.o
+                                      0x6dbbe (size before relaxing)
+ .debug_str     0x0000000000073976      0x17b Output/uart_pca10040 Debug/Obj/app_fifo.o
+                                      0x696da (size before relaxing)
+ .debug_str     0x0000000000073af1      0x60e Output/uart_pca10040 Debug/Obj/app_uart_fifo.o
+                                      0x6f0fc (size before relaxing)
+ .debug_str     0x00000000000740ff      0x3ab Output/uart_pca10040 Debug/Obj/app_util_platform.o
                                       0x5f7f5 (size before relaxing)
- .debug_str     0x00000000000743a8       0x61 Output/uart_pca10040 Debug/Obj/nrf_assert.o
+ .debug_str     0x00000000000744aa       0x61 Output/uart_pca10040 Debug/Obj/nrf_assert.o
                                       0x5efe4 (size before relaxing)
- .debug_str     0x0000000000074409      0x72b Output/uart_pca10040 Debug/Obj/nrf_atomic.o
-                                      0x69a92 (size before relaxing)
- .debug_str     0x0000000000074b34      0x178 Output/uart_pca10040 Debug/Obj/nrf_balloc.o
-                                      0x6d3ac (size before relaxing)
- .debug_str     0x0000000000074cac      0x12b Output/uart_pca10040 Debug/Obj/nrf_fprintf.o
-                                      0x6961c (size before relaxing)
- .debug_str     0x0000000000074dd7      0x535 Output/uart_pca10040 Debug/Obj/nrf_fprintf_format.o
-                                      0x69af5 (size before relaxing)
- .debug_str     0x000000000007530c      0x225 Output/uart_pca10040 Debug/Obj/nrf_memobj.o
-                                      0x6b71b (size before relaxing)
- .debug_str     0x0000000000075531      0x10f Output/uart_pca10040 Debug/Obj/nrf_strerror.o
-                                      0x69452 (size before relaxing)
- .debug_str     0x0000000000075640       0x84 Output/uart_pca10040 Debug/Obj/retarget.o
-                                      0x69e0b (size before relaxing)
- .debug_str     0x00000000000756c4      0xb3e Output/uart_pca10040 Debug/Obj/app_timer.o
-                                      0x6e86a (size before relaxing)
- .debug_str     0x0000000000076202      0x477 Output/uart_pca10040 Debug/Obj/nrf_drv_uart.o
-                                      0x6e747 (size before relaxing)
- .debug_str     0x0000000000076679      0x651 Output/uart_pca10040 Debug/Obj/nrfx_prs.o
-                                      0x70990 (size before relaxing)
- .debug_str     0x0000000000076cca      0xb1d Output/uart_pca10040 Debug/Obj/nrfx_uart.o
-                                      0x71b7d (size before relaxing)
- .debug_str     0x00000000000777e7      0x9ae Output/uart_pca10040 Debug/Obj/nrfx_uarte.o
-                                      0x72005 (size before relaxing)
- .debug_str     0x0000000000078195     0x16fd Output/uart_pca10040 Debug/Obj/nrfx_gpiote.o
-                                      0x725cf (size before relaxing)
- .debug_str     0x0000000000079892     0x171f Output/uart_pca10040 Debug/Obj/nrfx_saadc.o
-                                      0x722cd (size before relaxing)
- .debug_str     0x000000000007afb1     0x1014 Output/uart_pca10040 Debug/Obj/nrfx_timer.o
-                                      0x71ad6 (size before relaxing)
- .debug_str     0x000000000007bfc5      0x770 Output/uart_pca10040 Debug/Obj/nrfx_ppi.o
-                                      0x70d07 (size before relaxing)
- .debug_str     0x000000000007c735     0x1b62 Output/uart_pca10040 Debug/Obj/nrf_drv_twi.o
-                                      0x6f28f (size before relaxing)
- .debug_str     0x000000000007e297      0xedb Output/uart_pca10040 Debug/Obj/nrfx_twim.o
-                                      0x725f4 (size before relaxing)
- .debug_str     0x000000000007f172     0x29ab Output/uart_pca10040 Debug/Obj/main.o
-                                      0x77efb (size before relaxing)
- .debug_str     0x0000000000081b1d      0x117 Output/uart_pca10040 Debug/Obj/drv_PCAL6408.o
-                                      0x718b2 (size before relaxing)
- .debug_str     0x0000000000081c34       0x4b Output/uart_pca10040 Debug/Obj/ses_startup_nrf52.o
+ .debug_str     0x000000000007450b      0x72b Output/uart_pca10040 Debug/Obj/nrf_atomic.o
+                                      0x69c28 (size before relaxing)
+ .debug_str     0x0000000000074c36      0x178 Output/uart_pca10040 Debug/Obj/nrf_balloc.o
+                                      0x6d542 (size before relaxing)
+ .debug_str     0x0000000000074dae      0x12b Output/uart_pca10040 Debug/Obj/nrf_fprintf.o
+                                      0x697b2 (size before relaxing)
+ .debug_str     0x0000000000074ed9      0x535 Output/uart_pca10040 Debug/Obj/nrf_fprintf_format.o
+                                      0x69c8b (size before relaxing)
+ .debug_str     0x000000000007540e      0x225 Output/uart_pca10040 Debug/Obj/nrf_memobj.o
+                                      0x6b8b1 (size before relaxing)
+ .debug_str     0x0000000000075633      0x10f Output/uart_pca10040 Debug/Obj/nrf_strerror.o
+                                      0x695e8 (size before relaxing)
+ .debug_str     0x0000000000075742       0x84 Output/uart_pca10040 Debug/Obj/retarget.o
+                                      0x69fa1 (size before relaxing)
+ .debug_str     0x00000000000757c6      0xb3e Output/uart_pca10040 Debug/Obj/app_timer.o
+                                      0x6ea00 (size before relaxing)
+ .debug_str     0x0000000000076304      0x477 Output/uart_pca10040 Debug/Obj/nrf_drv_uart.o
+                                      0x6e8dd (size before relaxing)
+ .debug_str     0x000000000007677b      0x651 Output/uart_pca10040 Debug/Obj/nrfx_prs.o
+                                      0x70b26 (size before relaxing)
+ .debug_str     0x0000000000076dcc      0xb1d Output/uart_pca10040 Debug/Obj/nrfx_uart.o
+                                      0x71d13 (size before relaxing)
+ .debug_str     0x00000000000778e9      0x9ae Output/uart_pca10040 Debug/Obj/nrfx_uarte.o
+                                      0x7219b (size before relaxing)
+ .debug_str     0x0000000000078297     0x16fd Output/uart_pca10040 Debug/Obj/nrfx_gpiote.o
+                                      0x72765 (size before relaxing)
+ .debug_str     0x0000000000079994     0x171f Output/uart_pca10040 Debug/Obj/nrfx_saadc.o
+                                      0x72463 (size before relaxing)
+ .debug_str     0x000000000007b0b3     0x1029 Output/uart_pca10040 Debug/Obj/nrfx_timer.o
+                                      0x71c93 (size before relaxing)
+ .debug_str     0x000000000007c0dc      0x770 Output/uart_pca10040 Debug/Obj/nrfx_ppi.o
+                                      0x70e9d (size before relaxing)
+ .debug_str     0x000000000007c84c     0x172b Output/uart_pca10040 Debug/Obj/nrfx_twim.o
+                                      0x7278a (size before relaxing)
+ .debug_str     0x000000000007df77     0x36d9 Output/uart_pca10040 Debug/Obj/main.o
+                                      0x7845d (size before relaxing)
+ .debug_str     0x0000000000081650       0x4b Output/uart_pca10040 Debug/Obj/ses_startup_nrf52.o
                                          0xb6 (size before relaxing)
- .debug_str     0x0000000000081c7f       0x50 Output/uart_pca10040 Debug/Obj/ses_startup_nrf_common.o
+ .debug_str     0x000000000008169b       0x50 Output/uart_pca10040 Debug/Obj/ses_startup_nrf_common.o
                                          0xbb (size before relaxing)
- .debug_str     0x0000000000081ccf     0x1b67 Output/uart_pca10040 Debug/Obj/system_nrf52.o
+ .debug_str     0x00000000000816eb     0x1b67 Output/uart_pca10040 Debug/Obj/system_nrf52.o
                                       0x5f037 (size before relaxing)
- .debug_str     0x0000000000083836      0x555 Output/uart_pca10040 Debug/Obj/SEGGER_RTT.o
-                                      0x62992 (size before relaxing)
+ .debug_str     0x0000000000083252      0x555 Output/uart_pca10040 Debug/Obj/SEGGER_RTT.o
+                                      0x62b28 (size before relaxing)
 
-.debug_ranges   0x0000000000000000     0x20e0
+.debug_ranges   0x0000000000000000     0x2060
  .debug_ranges  0x0000000000000000       0x78 Output/uart_pca10040 Debug/Obj/thumb_crt0.o
  .debug_ranges  0x0000000000000078      0x130 Output/uart_pca10040 Debug/Obj/nrf_log_frontend.o
  .debug_ranges  0x00000000000001a8       0x38 Output/uart_pca10040 Debug/Obj/nrf_log_str_formatter.o
@@ -8967,16 +8981,14 @@ OUTPUT(Output/Debug/Exe/uart_pca10040.elf elf32-littlearm)
  .debug_ranges  0x00000000000008f0      0x1d0 Output/uart_pca10040 Debug/Obj/nrfx_uarte.o
  .debug_ranges  0x0000000000000ac0      0x2e0 Output/uart_pca10040 Debug/Obj/nrfx_gpiote.o
  .debug_ranges  0x0000000000000da0      0x128 Output/uart_pca10040 Debug/Obj/nrfx_saadc.o
- .debug_ranges  0x0000000000000ec8      0x148 Output/uart_pca10040 Debug/Obj/nrfx_timer.o
- .debug_ranges  0x0000000000001010      0x130 Output/uart_pca10040 Debug/Obj/nrfx_ppi.o
- .debug_ranges  0x0000000000001140       0x70 Output/uart_pca10040 Debug/Obj/nrf_drv_twi.o
- .debug_ranges  0x00000000000011b0      0x1b8 Output/uart_pca10040 Debug/Obj/nrfx_twim.o
- .debug_ranges  0x0000000000001368       0x98 Output/uart_pca10040 Debug/Obj/main.o
- .debug_ranges  0x0000000000001400       0x50 Output/uart_pca10040 Debug/Obj/drv_PCAL6408.o
- .debug_ranges  0x0000000000001450      0xb98 Output/uart_pca10040 Debug/Obj/system_nrf52.o
- .debug_ranges  0x0000000000001fe8       0xf8 Output/uart_pca10040 Debug/Obj/SEGGER_RTT.o
+ .debug_ranges  0x0000000000000ec8      0x150 Output/uart_pca10040 Debug/Obj/nrfx_timer.o
+ .debug_ranges  0x0000000000001018      0x130 Output/uart_pca10040 Debug/Obj/nrfx_ppi.o
+ .debug_ranges  0x0000000000001148      0x1b8 Output/uart_pca10040 Debug/Obj/nrfx_twim.o
+ .debug_ranges  0x0000000000001300       0xd0 Output/uart_pca10040 Debug/Obj/main.o
+ .debug_ranges  0x00000000000013d0      0xb98 Output/uart_pca10040 Debug/Obj/system_nrf52.o
+ .debug_ranges  0x0000000000001f68       0xf8 Output/uart_pca10040 Debug/Obj/SEGGER_RTT.o
 
-.debug_frame    0x0000000000000000     0x79c8
+.debug_frame    0x0000000000000000     0x7778
  .debug_frame   0x0000000000000000      0x558 Output/uart_pca10040 Debug/Obj/nrf_log_frontend.o
  .debug_frame   0x0000000000000558       0xf8 Output/uart_pca10040 Debug/Obj/nrf_log_str_formatter.o
  .debug_frame   0x0000000000000650      0x10c Output/uart_pca10040 Debug/Obj/nrf_log_backend_rtt.o
@@ -9004,17 +9016,15 @@ OUTPUT(Output/Debug/Exe/uart_pca10040.elf elf32-littlearm)
  .debug_frame   0x00000000000024f4      0x7fc Output/uart_pca10040 Debug/Obj/nrfx_uarte.o
  .debug_frame   0x0000000000002cf0      0xcf0 Output/uart_pca10040 Debug/Obj/nrfx_gpiote.o
  .debug_frame   0x00000000000039e0      0x4d4 Output/uart_pca10040 Debug/Obj/nrfx_saadc.o
- .debug_frame   0x0000000000003eb4      0x5b0 Output/uart_pca10040 Debug/Obj/nrfx_timer.o
- .debug_frame   0x0000000000004464      0x544 Output/uart_pca10040 Debug/Obj/nrfx_ppi.o
- .debug_frame   0x00000000000049a8      0x1f8 Output/uart_pca10040 Debug/Obj/nrf_drv_twi.o
- .debug_frame   0x0000000000004ba0      0x774 Output/uart_pca10040 Debug/Obj/nrfx_twim.o
- .debug_frame   0x0000000000005314      0x2b4 Output/uart_pca10040 Debug/Obj/main.o
- .debug_frame   0x00000000000055c8      0x178 Output/uart_pca10040 Debug/Obj/drv_PCAL6408.o
- .debug_frame   0x0000000000005740     0x1dec Output/uart_pca10040 Debug/Obj/system_nrf52.o
- .debug_frame   0x000000000000752c      0x49c Output/uart_pca10040 Debug/Obj/SEGGER_RTT.o
+ .debug_frame   0x0000000000003eb4      0x5cc Output/uart_pca10040 Debug/Obj/nrfx_timer.o
+ .debug_frame   0x0000000000004480      0x544 Output/uart_pca10040 Debug/Obj/nrfx_ppi.o
+ .debug_frame   0x00000000000049c4      0x774 Output/uart_pca10040 Debug/Obj/nrfx_twim.o
+ .debug_frame   0x0000000000005138      0x3b8 Output/uart_pca10040 Debug/Obj/main.o
+ .debug_frame   0x00000000000054f0     0x1dec Output/uart_pca10040 Debug/Obj/system_nrf52.o
+ .debug_frame   0x00000000000072dc      0x49c Output/uart_pca10040 Debug/Obj/SEGGER_RTT.o
 
 .debug_pubnames
-                0x0000000000000000     0xad1d
+                0x0000000000000000     0xadb5
  .debug_pubnames
                 0x0000000000000000      0x5fb Output/uart_pca10040 Debug/Obj/nrf_log_frontend.o
  .debug_pubnames
@@ -9070,24 +9080,20 @@ OUTPUT(Output/Debug/Exe/uart_pca10040.elf elf32-littlearm)
  .debug_pubnames
                 0x0000000000004dce     0x1152 Output/uart_pca10040 Debug/Obj/nrfx_saadc.o
  .debug_pubnames
-                0x0000000000005f20      0x82d Output/uart_pca10040 Debug/Obj/nrfx_timer.o
+                0x0000000000005f20      0x85c Output/uart_pca10040 Debug/Obj/nrfx_timer.o
  .debug_pubnames
-                0x000000000000674d      0x894 Output/uart_pca10040 Debug/Obj/nrfx_ppi.o
+                0x000000000000677c      0x894 Output/uart_pca10040 Debug/Obj/nrfx_ppi.o
  .debug_pubnames
-                0x0000000000006fe1      0x1c8 Output/uart_pca10040 Debug/Obj/nrf_drv_twi.o
+                0x0000000000007010      0xce0 Output/uart_pca10040 Debug/Obj/nrfx_twim.o
  .debug_pubnames
-                0x00000000000071a9      0xce0 Output/uart_pca10040 Debug/Obj/nrfx_twim.o
+                0x0000000000007cf0      0xf8b Output/uart_pca10040 Debug/Obj/main.o
  .debug_pubnames
-                0x0000000000007e89      0xb9b Output/uart_pca10040 Debug/Obj/main.o
+                0x0000000000008c7b     0x1d77 Output/uart_pca10040 Debug/Obj/system_nrf52.o
  .debug_pubnames
-                0x0000000000008a24      0x1bf Output/uart_pca10040 Debug/Obj/drv_PCAL6408.o
- .debug_pubnames
-                0x0000000000008be3     0x1d77 Output/uart_pca10040 Debug/Obj/system_nrf52.o
- .debug_pubnames
-                0x000000000000a95a      0x3c3 Output/uart_pca10040 Debug/Obj/SEGGER_RTT.o
+                0x000000000000a9f2      0x3c3 Output/uart_pca10040 Debug/Obj/SEGGER_RTT.o
 
 .debug_pubtypes
-                0x0000000000000000     0x6c05
+                0x0000000000000000     0x6554
  .debug_pubtypes
                 0x0000000000000000      0x3ed Output/uart_pca10040 Debug/Obj/nrf_log_frontend.o
  .debug_pubtypes
@@ -9147,149 +9153,138 @@ OUTPUT(Output/Debug/Exe/uart_pca10040.elf elf32-littlearm)
  .debug_pubtypes
                 0x00000000000052e7      0x2c4 Output/uart_pca10040 Debug/Obj/nrfx_ppi.o
  .debug_pubtypes
-                0x00000000000055ab      0x43f Output/uart_pca10040 Debug/Obj/nrf_drv_twi.o
+                0x00000000000055ab      0x47c Output/uart_pca10040 Debug/Obj/nrfx_twim.o
  .debug_pubtypes
-                0x00000000000059ea      0x47c Output/uart_pca10040 Debug/Obj/nrfx_twim.o
+                0x0000000000005a27      0x7b3 Output/uart_pca10040 Debug/Obj/main.o
  .debug_pubtypes
-                0x0000000000005e66      0x714 Output/uart_pca10040 Debug/Obj/main.o
+                0x00000000000061da      0x1a7 Output/uart_pca10040 Debug/Obj/system_nrf52.o
  .debug_pubtypes
-                0x000000000000657a      0x311 Output/uart_pca10040 Debug/Obj/drv_PCAL6408.o
- .debug_pubtypes
-                0x000000000000688b      0x1a7 Output/uart_pca10040 Debug/Obj/system_nrf52.o
- .debug_pubtypes
-                0x0000000000006a32      0x1d3 Output/uart_pca10040 Debug/Obj/SEGGER_RTT.o
+                0x0000000000006381      0x1d3 Output/uart_pca10040 Debug/Obj/SEGGER_RTT.o
 
-.debug_macro    0x0000000000000000    0x18b13
+.debug_macro    0x0000000000000000    0x184ad
  .debug_macro   0x0000000000000000      0x297 Output/uart_pca10040 Debug/Obj/nrf_log_frontend.o
  .debug_macro   0x0000000000000297      0xade Output/uart_pca10040 Debug/Obj/nrf_log_frontend.o
  .debug_macro   0x0000000000000d75      0x1a3 Output/uart_pca10040 Debug/Obj/nrf_log_frontend.o
  .debug_macro   0x0000000000000f18       0x22 Output/uart_pca10040 Debug/Obj/nrf_log_frontend.o
  .debug_macro   0x0000000000000f3a       0x89 Output/uart_pca10040 Debug/Obj/nrf_log_frontend.o
  .debug_macro   0x0000000000000fc3       0x10 Output/uart_pca10040 Debug/Obj/nrf_log_frontend.o
- .debug_macro   0x0000000000000fd3      0x9d4 Output/uart_pca10040 Debug/Obj/nrf_log_frontend.o
- .debug_macro   0x00000000000019a7      0x16d Output/uart_pca10040 Debug/Obj/nrf_log_frontend.o
- .debug_macro   0x0000000000001b14       0x5c Output/uart_pca10040 Debug/Obj/nrf_log_frontend.o
- .debug_macro   0x0000000000001b70       0x22 Output/uart_pca10040 Debug/Obj/nrf_log_frontend.o
- .debug_macro   0x0000000000001b92       0x8e Output/uart_pca10040 Debug/Obj/nrf_log_frontend.o
- .debug_macro   0x0000000000001c20       0xad Output/uart_pca10040 Debug/Obj/nrf_log_frontend.o
- .debug_macro   0x0000000000001ccd       0x16 Output/uart_pca10040 Debug/Obj/nrf_log_frontend.o
- .debug_macro   0x0000000000001ce3       0x22 Output/uart_pca10040 Debug/Obj/nrf_log_frontend.o
- .debug_macro   0x0000000000001d05       0x3b Output/uart_pca10040 Debug/Obj/nrf_log_frontend.o
- .debug_macro   0x0000000000001d40       0x1c Output/uart_pca10040 Debug/Obj/nrf_log_frontend.o
- .debug_macro   0x0000000000001d5c       0x22 Output/uart_pca10040 Debug/Obj/nrf_log_frontend.o
- .debug_macro   0x0000000000001d7e       0xe9 Output/uart_pca10040 Debug/Obj/nrf_log_frontend.o
- .debug_macro   0x0000000000001e67     0x1011 Output/uart_pca10040 Debug/Obj/nrf_log_frontend.o
- .debug_macro   0x0000000000002e78      0x11f Output/uart_pca10040 Debug/Obj/nrf_log_frontend.o
- .debug_macro   0x0000000000002f97      0x392 Output/uart_pca10040 Debug/Obj/nrf_log_frontend.o
- .debug_macro   0x0000000000003329     0xccbe Output/uart_pca10040 Debug/Obj/nrf_log_frontend.o
- .debug_macro   0x000000000000ffe7     0x1325 Output/uart_pca10040 Debug/Obj/nrf_log_frontend.o
- .debug_macro   0x000000000001130c       0x82 Output/uart_pca10040 Debug/Obj/nrf_log_frontend.o
- .debug_macro   0x000000000001138e      0x7ca Output/uart_pca10040 Debug/Obj/nrf_log_frontend.o
- .debug_macro   0x0000000000011b58       0x16 Output/uart_pca10040 Debug/Obj/nrf_log_frontend.o
- .debug_macro   0x0000000000011b6e       0x55 Output/uart_pca10040 Debug/Obj/nrf_log_frontend.o
- .debug_macro   0x0000000000011bc3       0x72 Output/uart_pca10040 Debug/Obj/nrf_log_frontend.o
- .debug_macro   0x0000000000011c35       0x49 Output/uart_pca10040 Debug/Obj/nrf_log_frontend.o
- .debug_macro   0x0000000000011c7e       0x8c Output/uart_pca10040 Debug/Obj/nrf_log_frontend.o
- .debug_macro   0x0000000000011d0a       0x31 Output/uart_pca10040 Debug/Obj/nrf_log_frontend.o
- .debug_macro   0x0000000000011d3b       0x16 Output/uart_pca10040 Debug/Obj/nrf_log_frontend.o
- .debug_macro   0x0000000000011d51       0x55 Output/uart_pca10040 Debug/Obj/nrf_log_frontend.o
- .debug_macro   0x0000000000011da6      0x185 Output/uart_pca10040 Debug/Obj/nrf_log_frontend.o
- .debug_macro   0x0000000000011f2b       0x9a Output/uart_pca10040 Debug/Obj/nrf_log_frontend.o
- .debug_macro   0x0000000000011fc5       0x2e Output/uart_pca10040 Debug/Obj/nrf_log_frontend.o
- .debug_macro   0x0000000000011ff3       0x22 Output/uart_pca10040 Debug/Obj/nrf_log_frontend.o
- .debug_macro   0x0000000000012015       0x9e Output/uart_pca10040 Debug/Obj/nrf_log_frontend.o
- .debug_macro   0x00000000000120b3       0x10 Output/uart_pca10040 Debug/Obj/nrf_log_frontend.o
- .debug_macro   0x00000000000120c3       0x1d Output/uart_pca10040 Debug/Obj/nrf_log_frontend.o
- .debug_macro   0x00000000000120e0       0x1c Output/uart_pca10040 Debug/Obj/nrf_log_frontend.o
- .debug_macro   0x00000000000120fc       0x10 Output/uart_pca10040 Debug/Obj/nrf_log_frontend.o
- .debug_macro   0x000000000001210c      0x274 Output/uart_pca10040 Debug/Obj/nrf_log_str_formatter.o
- .debug_macro   0x0000000000012380       0x98 Output/uart_pca10040 Debug/Obj/nrf_log_str_formatter.o
- .debug_macro   0x0000000000012418      0x304 Output/uart_pca10040 Debug/Obj/nrf_log_backend_rtt.o
- .debug_macro   0x000000000001271c      0x3dc Output/uart_pca10040 Debug/Obj/nrf_log_backend_rtt.o
- .debug_macro   0x0000000000012af8       0x59 Output/uart_pca10040 Debug/Obj/nrf_log_backend_rtt.o
- .debug_macro   0x0000000000012b51      0x447 Output/uart_pca10040 Debug/Obj/nrf_log_backend_rtt.o
- .debug_macro   0x0000000000012f98      0x12b Output/uart_pca10040 Debug/Obj/nrf_log_backend_rtt.o
- .debug_macro   0x00000000000130c3       0x5a Output/uart_pca10040 Debug/Obj/nrf_log_backend_rtt.o
- .debug_macro   0x000000000001311d       0x1d Output/uart_pca10040 Debug/Obj/nrf_log_backend_rtt.o
- .debug_macro   0x000000000001313a       0xac Output/uart_pca10040 Debug/Obj/nrf_log_backend_rtt.o
- .debug_macro   0x00000000000131e6       0x64 Output/uart_pca10040 Debug/Obj/nrf_log_backend_rtt.o
- .debug_macro   0x000000000001324a       0x20 Output/uart_pca10040 Debug/Obj/nrf_log_backend_rtt.o
- .debug_macro   0x000000000001326a       0x4d Output/uart_pca10040 Debug/Obj/nrf_log_backend_rtt.o
- .debug_macro   0x00000000000132b7      0x115 Output/uart_pca10040 Debug/Obj/nrf_log_backend_rtt.o
- .debug_macro   0x00000000000133cc      0x22a Output/uart_pca10040 Debug/Obj/nrf_log_default_backends.o
- .debug_macro   0x00000000000135f6       0x10 Output/uart_pca10040 Debug/Obj/nrf_log_default_backends.o
- .debug_macro   0x0000000000013606       0x10 Output/uart_pca10040 Debug/Obj/nrf_log_default_backends.o
- .debug_macro   0x0000000000013616      0x225 Output/uart_pca10040 Debug/Obj/nrf_log_backend_serial.o
- .debug_macro   0x000000000001383b      0x304 Output/uart_pca10040 Debug/Obj/nrf_log_backend_uart.o
- .debug_macro   0x0000000000013b3f       0x10 Output/uart_pca10040 Debug/Obj/nrf_log_backend_uart.o
- .debug_macro   0x0000000000013b4f       0x10 Output/uart_pca10040 Debug/Obj/nrf_log_backend_uart.o
- .debug_macro   0x0000000000013b5f       0x10 Output/uart_pca10040 Debug/Obj/nrf_log_backend_uart.o
- .debug_macro   0x0000000000013b6f       0x10 Output/uart_pca10040 Debug/Obj/nrf_log_backend_uart.o
- .debug_macro   0x0000000000013b7f       0x10 Output/uart_pca10040 Debug/Obj/nrf_log_backend_uart.o
- .debug_macro   0x0000000000013b8f       0x3f Output/uart_pca10040 Debug/Obj/nrf_log_backend_uart.o
- .debug_macro   0x0000000000013bce      0x103 Output/uart_pca10040 Debug/Obj/app_error.o
- .debug_macro   0x0000000000013cd1       0x78 Output/uart_pca10040 Debug/Obj/app_error.o
- .debug_macro   0x0000000000013d49      0x15c Output/uart_pca10040 Debug/Obj/app_error_handler_gcc.o
- .debug_macro   0x0000000000013ea5      0x233 Output/uart_pca10040 Debug/Obj/app_error_weak.o
- .debug_macro   0x00000000000140d8      0x153 Output/uart_pca10040 Debug/Obj/app_fifo.o
- .debug_macro   0x000000000001422b      0x29e Output/uart_pca10040 Debug/Obj/app_uart_fifo.o
- .debug_macro   0x00000000000144c9       0x18 Output/uart_pca10040 Debug/Obj/app_uart_fifo.o
- .debug_macro   0x00000000000144e1      0x11f Output/uart_pca10040 Debug/Obj/app_util_platform.o
- .debug_macro   0x0000000000014600      0x112 Output/uart_pca10040 Debug/Obj/nrf_assert.o
- .debug_macro   0x0000000000014712       0x10 Output/uart_pca10040 Debug/Obj/nrf_assert.o
- .debug_macro   0x0000000000014722      0x159 Output/uart_pca10040 Debug/Obj/nrf_atomic.o
- .debug_macro   0x000000000001487b       0x42 Output/uart_pca10040 Debug/Obj/nrf_atomic.o
- .debug_macro   0x00000000000148bd      0x207 Output/uart_pca10040 Debug/Obj/nrf_balloc.o
- .debug_macro   0x0000000000014ac4       0x10 Output/uart_pca10040 Debug/Obj/nrf_balloc.o
- .debug_macro   0x0000000000014ad4      0x15a Output/uart_pca10040 Debug/Obj/nrf_fprintf.o
- .debug_macro   0x0000000000014c2e       0x22 Output/uart_pca10040 Debug/Obj/nrf_fprintf.o
- .debug_macro   0x0000000000014c50      0x1cc Output/uart_pca10040 Debug/Obj/nrf_fprintf_format.o
- .debug_macro   0x0000000000014e1c      0x1cf Output/uart_pca10040 Debug/Obj/nrf_memobj.o
- .debug_macro   0x0000000000014feb       0x2e Output/uart_pca10040 Debug/Obj/nrf_memobj.o
- .debug_macro   0x0000000000015019       0x10 Output/uart_pca10040 Debug/Obj/nrf_memobj.o
- .debug_macro   0x0000000000015029       0x5b Output/uart_pca10040 Debug/Obj/nrf_memobj.o
- .debug_macro   0x0000000000015084      0x14e Output/uart_pca10040 Debug/Obj/nrf_strerror.o
- .debug_macro   0x00000000000151d2      0x17e Output/uart_pca10040 Debug/Obj/retarget.o
- .debug_macro   0x0000000000015350      0x2a5 Output/uart_pca10040 Debug/Obj/app_timer.o
- .debug_macro   0x00000000000155f5       0x3c Output/uart_pca10040 Debug/Obj/app_timer.o
- .debug_macro   0x0000000000015631       0x5f Output/uart_pca10040 Debug/Obj/app_timer.o
- .debug_macro   0x0000000000015690       0x45 Output/uart_pca10040 Debug/Obj/app_timer.o
- .debug_macro   0x00000000000156d5      0x24e Output/uart_pca10040 Debug/Obj/nrf_drv_uart.o
- .debug_macro   0x0000000000015923      0x2ae Output/uart_pca10040 Debug/Obj/nrfx_prs.o
- .debug_macro   0x0000000000015bd1       0x28 Output/uart_pca10040 Debug/Obj/nrfx_prs.o
- .debug_macro   0x0000000000015bf9       0x1c Output/uart_pca10040 Debug/Obj/nrfx_prs.o
- .debug_macro   0x0000000000015c15       0x37 Output/uart_pca10040 Debug/Obj/nrfx_prs.o
- .debug_macro   0x0000000000015c4c      0x17f Output/uart_pca10040 Debug/Obj/nrfx_prs.o
- .debug_macro   0x0000000000015dcb       0x42 Output/uart_pca10040 Debug/Obj/nrfx_prs.o
- .debug_macro   0x0000000000015e0d      0x2c9 Output/uart_pca10040 Debug/Obj/nrfx_uart.o
- .debug_macro   0x00000000000160d6       0x22 Output/uart_pca10040 Debug/Obj/nrfx_uart.o
- .debug_macro   0x00000000000160f8      0x2e7 Output/uart_pca10040 Debug/Obj/nrfx_uarte.o
- .debug_macro   0x00000000000163df      0x2ff Output/uart_pca10040 Debug/Obj/nrfx_gpiote.o
- .debug_macro   0x00000000000166de       0x17 Output/uart_pca10040 Debug/Obj/nrfx_gpiote.o
- .debug_macro   0x00000000000166f5       0x45 Output/uart_pca10040 Debug/Obj/nrfx_gpiote.o
- .debug_macro   0x000000000001673a       0x16 Output/uart_pca10040 Debug/Obj/nrfx_gpiote.o
- .debug_macro   0x0000000000016750      0x2d5 Output/uart_pca10040 Debug/Obj/nrfx_saadc.o
- .debug_macro   0x0000000000016a25       0x10 Output/uart_pca10040 Debug/Obj/nrfx_saadc.o
- .debug_macro   0x0000000000016a35       0x22 Output/uart_pca10040 Debug/Obj/nrfx_saadc.o
- .debug_macro   0x0000000000016a57      0x2b9 Output/uart_pca10040 Debug/Obj/nrfx_timer.o
- .debug_macro   0x0000000000016d10       0x22 Output/uart_pca10040 Debug/Obj/nrfx_timer.o
- .debug_macro   0x0000000000016d32       0x10 Output/uart_pca10040 Debug/Obj/nrfx_timer.o
- .debug_macro   0x0000000000016d42      0x2ac Output/uart_pca10040 Debug/Obj/nrfx_ppi.o
- .debug_macro   0x0000000000016fee      0x285 Output/uart_pca10040 Debug/Obj/nrf_drv_twi.o
- .debug_macro   0x0000000000017273       0x56 Output/uart_pca10040 Debug/Obj/nrf_drv_twi.o
- .debug_macro   0x00000000000172c9       0x3e Output/uart_pca10040 Debug/Obj/nrf_drv_twi.o
- .debug_macro   0x0000000000017307       0x78 Output/uart_pca10040 Debug/Obj/nrf_drv_twi.o
- .debug_macro   0x000000000001737f       0x10 Output/uart_pca10040 Debug/Obj/nrf_drv_twi.o
- .debug_macro   0x000000000001738f      0x304 Output/uart_pca10040 Debug/Obj/nrfx_twim.o
- .debug_macro   0x0000000000017693      0x49d Output/uart_pca10040 Debug/Obj/main.o
- .debug_macro   0x0000000000017b30      0x7d0 Output/uart_pca10040 Debug/Obj/main.o
- .debug_macro   0x0000000000018300       0xcc Output/uart_pca10040 Debug/Obj/main.o
- .debug_macro   0x00000000000183cc       0x94 Output/uart_pca10040 Debug/Obj/main.o
- .debug_macro   0x0000000000018460       0x42 Output/uart_pca10040 Debug/Obj/main.o
- .debug_macro   0x00000000000184a2       0x94 Output/uart_pca10040 Debug/Obj/main.o
- .debug_macro   0x0000000000018536       0x10 Output/uart_pca10040 Debug/Obj/main.o
- .debug_macro   0x0000000000018546       0x1c Output/uart_pca10040 Debug/Obj/main.o
- .debug_macro   0x0000000000018562      0x2e2 Output/uart_pca10040 Debug/Obj/drv_PCAL6408.o
- .debug_macro   0x0000000000018844       0xe9 Output/uart_pca10040 Debug/Obj/system_nrf52.o
- .debug_macro   0x000000000001892d      0x19f Output/uart_pca10040 Debug/Obj/SEGGER_RTT.o
- .debug_macro   0x0000000000018acc       0x47 Output/uart_pca10040 Debug/Obj/SEGGER_RTT.o
+ .debug_macro   0x0000000000000fd3      0xa36 Output/uart_pca10040 Debug/Obj/nrf_log_frontend.o
+ .debug_macro   0x0000000000001a09      0x16d Output/uart_pca10040 Debug/Obj/nrf_log_frontend.o
+ .debug_macro   0x0000000000001b76       0x5c Output/uart_pca10040 Debug/Obj/nrf_log_frontend.o
+ .debug_macro   0x0000000000001bd2       0x22 Output/uart_pca10040 Debug/Obj/nrf_log_frontend.o
+ .debug_macro   0x0000000000001bf4       0x8e Output/uart_pca10040 Debug/Obj/nrf_log_frontend.o
+ .debug_macro   0x0000000000001c82       0xad Output/uart_pca10040 Debug/Obj/nrf_log_frontend.o
+ .debug_macro   0x0000000000001d2f       0x16 Output/uart_pca10040 Debug/Obj/nrf_log_frontend.o
+ .debug_macro   0x0000000000001d45       0x22 Output/uart_pca10040 Debug/Obj/nrf_log_frontend.o
+ .debug_macro   0x0000000000001d67       0x3b Output/uart_pca10040 Debug/Obj/nrf_log_frontend.o
+ .debug_macro   0x0000000000001da2       0x1c Output/uart_pca10040 Debug/Obj/nrf_log_frontend.o
+ .debug_macro   0x0000000000001dbe       0x22 Output/uart_pca10040 Debug/Obj/nrf_log_frontend.o
+ .debug_macro   0x0000000000001de0       0xe9 Output/uart_pca10040 Debug/Obj/nrf_log_frontend.o
+ .debug_macro   0x0000000000001ec9     0x1011 Output/uart_pca10040 Debug/Obj/nrf_log_frontend.o
+ .debug_macro   0x0000000000002eda      0x11f Output/uart_pca10040 Debug/Obj/nrf_log_frontend.o
+ .debug_macro   0x0000000000002ff9      0x392 Output/uart_pca10040 Debug/Obj/nrf_log_frontend.o
+ .debug_macro   0x000000000000338b     0xccbe Output/uart_pca10040 Debug/Obj/nrf_log_frontend.o
+ .debug_macro   0x0000000000010049     0x1325 Output/uart_pca10040 Debug/Obj/nrf_log_frontend.o
+ .debug_macro   0x000000000001136e       0x82 Output/uart_pca10040 Debug/Obj/nrf_log_frontend.o
+ .debug_macro   0x00000000000113f0      0x7ca Output/uart_pca10040 Debug/Obj/nrf_log_frontend.o
+ .debug_macro   0x0000000000011bba       0x16 Output/uart_pca10040 Debug/Obj/nrf_log_frontend.o
+ .debug_macro   0x0000000000011bd0       0x55 Output/uart_pca10040 Debug/Obj/nrf_log_frontend.o
+ .debug_macro   0x0000000000011c25       0x72 Output/uart_pca10040 Debug/Obj/nrf_log_frontend.o
+ .debug_macro   0x0000000000011c97       0x49 Output/uart_pca10040 Debug/Obj/nrf_log_frontend.o
+ .debug_macro   0x0000000000011ce0       0x8c Output/uart_pca10040 Debug/Obj/nrf_log_frontend.o
+ .debug_macro   0x0000000000011d6c       0x31 Output/uart_pca10040 Debug/Obj/nrf_log_frontend.o
+ .debug_macro   0x0000000000011d9d       0x16 Output/uart_pca10040 Debug/Obj/nrf_log_frontend.o
+ .debug_macro   0x0000000000011db3       0x55 Output/uart_pca10040 Debug/Obj/nrf_log_frontend.o
+ .debug_macro   0x0000000000011e08      0x185 Output/uart_pca10040 Debug/Obj/nrf_log_frontend.o
+ .debug_macro   0x0000000000011f8d       0x9a Output/uart_pca10040 Debug/Obj/nrf_log_frontend.o
+ .debug_macro   0x0000000000012027       0x2e Output/uart_pca10040 Debug/Obj/nrf_log_frontend.o
+ .debug_macro   0x0000000000012055       0x22 Output/uart_pca10040 Debug/Obj/nrf_log_frontend.o
+ .debug_macro   0x0000000000012077       0x9e Output/uart_pca10040 Debug/Obj/nrf_log_frontend.o
+ .debug_macro   0x0000000000012115       0x10 Output/uart_pca10040 Debug/Obj/nrf_log_frontend.o
+ .debug_macro   0x0000000000012125       0x1d Output/uart_pca10040 Debug/Obj/nrf_log_frontend.o
+ .debug_macro   0x0000000000012142       0x1c Output/uart_pca10040 Debug/Obj/nrf_log_frontend.o
+ .debug_macro   0x000000000001215e       0x10 Output/uart_pca10040 Debug/Obj/nrf_log_frontend.o
+ .debug_macro   0x000000000001216e      0x274 Output/uart_pca10040 Debug/Obj/nrf_log_str_formatter.o
+ .debug_macro   0x00000000000123e2       0x98 Output/uart_pca10040 Debug/Obj/nrf_log_str_formatter.o
+ .debug_macro   0x000000000001247a      0x304 Output/uart_pca10040 Debug/Obj/nrf_log_backend_rtt.o
+ .debug_macro   0x000000000001277e      0x3dc Output/uart_pca10040 Debug/Obj/nrf_log_backend_rtt.o
+ .debug_macro   0x0000000000012b5a       0x59 Output/uart_pca10040 Debug/Obj/nrf_log_backend_rtt.o
+ .debug_macro   0x0000000000012bb3      0x447 Output/uart_pca10040 Debug/Obj/nrf_log_backend_rtt.o
+ .debug_macro   0x0000000000012ffa      0x12b Output/uart_pca10040 Debug/Obj/nrf_log_backend_rtt.o
+ .debug_macro   0x0000000000013125       0x5a Output/uart_pca10040 Debug/Obj/nrf_log_backend_rtt.o
+ .debug_macro   0x000000000001317f       0x1d Output/uart_pca10040 Debug/Obj/nrf_log_backend_rtt.o
+ .debug_macro   0x000000000001319c       0xac Output/uart_pca10040 Debug/Obj/nrf_log_backend_rtt.o
+ .debug_macro   0x0000000000013248       0x64 Output/uart_pca10040 Debug/Obj/nrf_log_backend_rtt.o
+ .debug_macro   0x00000000000132ac       0x20 Output/uart_pca10040 Debug/Obj/nrf_log_backend_rtt.o
+ .debug_macro   0x00000000000132cc       0x4d Output/uart_pca10040 Debug/Obj/nrf_log_backend_rtt.o
+ .debug_macro   0x0000000000013319      0x115 Output/uart_pca10040 Debug/Obj/nrf_log_backend_rtt.o
+ .debug_macro   0x000000000001342e      0x22a Output/uart_pca10040 Debug/Obj/nrf_log_default_backends.o
+ .debug_macro   0x0000000000013658       0x10 Output/uart_pca10040 Debug/Obj/nrf_log_default_backends.o
+ .debug_macro   0x0000000000013668       0x10 Output/uart_pca10040 Debug/Obj/nrf_log_default_backends.o
+ .debug_macro   0x0000000000013678      0x225 Output/uart_pca10040 Debug/Obj/nrf_log_backend_serial.o
+ .debug_macro   0x000000000001389d      0x304 Output/uart_pca10040 Debug/Obj/nrf_log_backend_uart.o
+ .debug_macro   0x0000000000013ba1       0x10 Output/uart_pca10040 Debug/Obj/nrf_log_backend_uart.o
+ .debug_macro   0x0000000000013bb1       0x10 Output/uart_pca10040 Debug/Obj/nrf_log_backend_uart.o
+ .debug_macro   0x0000000000013bc1       0x10 Output/uart_pca10040 Debug/Obj/nrf_log_backend_uart.o
+ .debug_macro   0x0000000000013bd1       0x10 Output/uart_pca10040 Debug/Obj/nrf_log_backend_uart.o
+ .debug_macro   0x0000000000013be1       0x10 Output/uart_pca10040 Debug/Obj/nrf_log_backend_uart.o
+ .debug_macro   0x0000000000013bf1       0x3f Output/uart_pca10040 Debug/Obj/nrf_log_backend_uart.o
+ .debug_macro   0x0000000000013c30      0x103 Output/uart_pca10040 Debug/Obj/app_error.o
+ .debug_macro   0x0000000000013d33       0x78 Output/uart_pca10040 Debug/Obj/app_error.o
+ .debug_macro   0x0000000000013dab      0x15c Output/uart_pca10040 Debug/Obj/app_error_handler_gcc.o
+ .debug_macro   0x0000000000013f07      0x233 Output/uart_pca10040 Debug/Obj/app_error_weak.o
+ .debug_macro   0x000000000001413a      0x153 Output/uart_pca10040 Debug/Obj/app_fifo.o
+ .debug_macro   0x000000000001428d      0x29e Output/uart_pca10040 Debug/Obj/app_uart_fifo.o
+ .debug_macro   0x000000000001452b       0x18 Output/uart_pca10040 Debug/Obj/app_uart_fifo.o
+ .debug_macro   0x0000000000014543      0x11f Output/uart_pca10040 Debug/Obj/app_util_platform.o
+ .debug_macro   0x0000000000014662      0x112 Output/uart_pca10040 Debug/Obj/nrf_assert.o
+ .debug_macro   0x0000000000014774       0x10 Output/uart_pca10040 Debug/Obj/nrf_assert.o
+ .debug_macro   0x0000000000014784      0x159 Output/uart_pca10040 Debug/Obj/nrf_atomic.o
+ .debug_macro   0x00000000000148dd       0x42 Output/uart_pca10040 Debug/Obj/nrf_atomic.o
+ .debug_macro   0x000000000001491f      0x207 Output/uart_pca10040 Debug/Obj/nrf_balloc.o
+ .debug_macro   0x0000000000014b26       0x10 Output/uart_pca10040 Debug/Obj/nrf_balloc.o
+ .debug_macro   0x0000000000014b36      0x15a Output/uart_pca10040 Debug/Obj/nrf_fprintf.o
+ .debug_macro   0x0000000000014c90       0x22 Output/uart_pca10040 Debug/Obj/nrf_fprintf.o
+ .debug_macro   0x0000000000014cb2      0x1cc Output/uart_pca10040 Debug/Obj/nrf_fprintf_format.o
+ .debug_macro   0x0000000000014e7e      0x1cf Output/uart_pca10040 Debug/Obj/nrf_memobj.o
+ .debug_macro   0x000000000001504d       0x2e Output/uart_pca10040 Debug/Obj/nrf_memobj.o
+ .debug_macro   0x000000000001507b       0x10 Output/uart_pca10040 Debug/Obj/nrf_memobj.o
+ .debug_macro   0x000000000001508b       0x5b Output/uart_pca10040 Debug/Obj/nrf_memobj.o
+ .debug_macro   0x00000000000150e6      0x14e Output/uart_pca10040 Debug/Obj/nrf_strerror.o
+ .debug_macro   0x0000000000015234      0x17e Output/uart_pca10040 Debug/Obj/retarget.o
+ .debug_macro   0x00000000000153b2      0x2a5 Output/uart_pca10040 Debug/Obj/app_timer.o
+ .debug_macro   0x0000000000015657       0x3c Output/uart_pca10040 Debug/Obj/app_timer.o
+ .debug_macro   0x0000000000015693       0x5f Output/uart_pca10040 Debug/Obj/app_timer.o
+ .debug_macro   0x00000000000156f2       0x45 Output/uart_pca10040 Debug/Obj/app_timer.o
+ .debug_macro   0x0000000000015737      0x24e Output/uart_pca10040 Debug/Obj/nrf_drv_uart.o
+ .debug_macro   0x0000000000015985      0x2ae Output/uart_pca10040 Debug/Obj/nrfx_prs.o
+ .debug_macro   0x0000000000015c33       0x28 Output/uart_pca10040 Debug/Obj/nrfx_prs.o
+ .debug_macro   0x0000000000015c5b       0x1c Output/uart_pca10040 Debug/Obj/nrfx_prs.o
+ .debug_macro   0x0000000000015c77       0x37 Output/uart_pca10040 Debug/Obj/nrfx_prs.o
+ .debug_macro   0x0000000000015cae      0x17f Output/uart_pca10040 Debug/Obj/nrfx_prs.o
+ .debug_macro   0x0000000000015e2d       0x42 Output/uart_pca10040 Debug/Obj/nrfx_prs.o
+ .debug_macro   0x0000000000015e6f      0x2c9 Output/uart_pca10040 Debug/Obj/nrfx_uart.o
+ .debug_macro   0x0000000000016138       0x22 Output/uart_pca10040 Debug/Obj/nrfx_uart.o
+ .debug_macro   0x000000000001615a      0x2e7 Output/uart_pca10040 Debug/Obj/nrfx_uarte.o
+ .debug_macro   0x0000000000016441      0x2ff Output/uart_pca10040 Debug/Obj/nrfx_gpiote.o
+ .debug_macro   0x0000000000016740       0x17 Output/uart_pca10040 Debug/Obj/nrfx_gpiote.o
+ .debug_macro   0x0000000000016757       0x45 Output/uart_pca10040 Debug/Obj/nrfx_gpiote.o
+ .debug_macro   0x000000000001679c       0x16 Output/uart_pca10040 Debug/Obj/nrfx_gpiote.o
+ .debug_macro   0x00000000000167b2      0x2d5 Output/uart_pca10040 Debug/Obj/nrfx_saadc.o
+ .debug_macro   0x0000000000016a87       0x10 Output/uart_pca10040 Debug/Obj/nrfx_saadc.o
+ .debug_macro   0x0000000000016a97       0x22 Output/uart_pca10040 Debug/Obj/nrfx_saadc.o
+ .debug_macro   0x0000000000016ab9      0x2b9 Output/uart_pca10040 Debug/Obj/nrfx_timer.o
+ .debug_macro   0x0000000000016d72       0x22 Output/uart_pca10040 Debug/Obj/nrfx_timer.o
+ .debug_macro   0x0000000000016d94       0x10 Output/uart_pca10040 Debug/Obj/nrfx_timer.o
+ .debug_macro   0x0000000000016da4      0x2ac Output/uart_pca10040 Debug/Obj/nrfx_ppi.o
+ .debug_macro   0x0000000000017050      0x304 Output/uart_pca10040 Debug/Obj/nrfx_twim.o
+ .debug_macro   0x0000000000017354      0x49a Output/uart_pca10040 Debug/Obj/main.o
+ .debug_macro   0x00000000000177ee      0x7d0 Output/uart_pca10040 Debug/Obj/main.o
+ .debug_macro   0x0000000000017fbe       0xcc Output/uart_pca10040 Debug/Obj/main.o
+ .debug_macro   0x000000000001808a       0x94 Output/uart_pca10040 Debug/Obj/main.o
+ .debug_macro   0x000000000001811e       0x94 Output/uart_pca10040 Debug/Obj/main.o
+ .debug_macro   0x00000000000181b2       0x10 Output/uart_pca10040 Debug/Obj/main.o
+ .debug_macro   0x00000000000181c2       0x1c Output/uart_pca10040 Debug/Obj/main.o
+ .debug_macro   0x00000000000181de       0xe9 Output/uart_pca10040 Debug/Obj/system_nrf52.o
+ .debug_macro   0x00000000000182c7      0x19f Output/uart_pca10040 Debug/Obj/SEGGER_RTT.o
+ .debug_macro   0x0000000000018466       0x47 Output/uart_pca10040 Debug/Obj/SEGGER_RTT.o
