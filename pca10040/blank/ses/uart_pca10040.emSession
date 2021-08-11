@@ -24,6 +24,7 @@
   <ProjectSessionItem path="uart_pca10040"/>
   <ProjectSessionItem path="uart_pca10040;uart_pca10040"/>
   <ProjectSessionItem path="uart_pca10040;uart_pca10040;Application"/>
+  <ProjectSessionItem path="uart_pca10040;uart_pca10040;Board Definition"/>
   <ProjectSessionItem path="uart_pca10040;uart_pca10040;None"/>
   <ProjectSessionItem path="uart_pca10040;uart_pca10040;nRF_Drivers"/>
   <ProjectSessionItem path="uart_pca10040;uart_pca10040;nRF_Libraries"/>
@@ -49,8 +50,12 @@
  </TraceWindow>
  <Watch1>
   <Watches active="1" update="Never">
-   <Watchpoint expression="sample" name="sample" radix="16" linenumber="376" filename="../../../main.c"/>
-   <Watchpoint expression="data" name="data" radix="16" linenumber="384" filename="../../../main.c"/>
+   <Watchpoint expression="sample" name="sample" radix="16" linenumber="385" filename="../../../main.c"/>
+   <Watchpoint expression="data" name="data" radix="16" linenumber="393" filename="../../../main.c"/>
+   <Watchpoint expression="bit" name="bit" radix="10" linenumber="244" filename="../../../main.c"/>
+   <Watchpoint expression="row_number" name="row_number" radix="10" linenumber="244" filename="../../../main.c"/>
+   <Watchpoint expression="i" name="i" radix="10" linenumber="241" filename="../../../main.c"/>
+   <Watchpoint expression="channel" name="channel" radix="10" linenumber="244" filename="../../../main.c"/>
   </Watches>
  </Watch1>
  <Watch2>
@@ -63,7 +68,7 @@
   <Watches active="0" update="Never"/>
  </Watch4>
  <Files>
-  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="396" useTextEdit="1" useBinaryEdit="0" left="0" path="../../../main.c" selected="1" top="380" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="432" useTextEdit="1" useBinaryEdit="0" left="0" path="../../../main.c" selected="1" top="416" codecName="Default"/>
   <SessionOpenFile windowGroup="DockEditLeft" x="0" y="240" useTextEdit="1" useBinaryEdit="0" left="0" path="../../../../../../modules/nrfx/mdk/nrf52832_peripherals.h" selected="0" top="218" codecName="Default"/>
   <SessionOpenFile windowGroup="DockEditLeft" x="0" y="157" useTextEdit="1" useBinaryEdit="0" left="0" path="../../../../../../components/libraries/uart/app_uart.h" selected="0" top="132" codecName="Default"/>
   <SessionOpenFile windowGroup="DockEditLeft" x="0" y="199" useTextEdit="1" useBinaryEdit="0" left="0" path="../../../../../../components/libraries/uart/app_uart_fifo.c" selected="0" top="168" codecName="Default"/>
@@ -73,19 +78,20 @@
   <SessionOpenFile windowGroup="DockEditLeft" x="0" y="3667" useTextEdit="1" useBinaryEdit="0" left="0" path="../config/sdk_config.h" selected="0" top="3655" codecName="Default"/>
   <SessionOpenFile windowGroup="DockEditLeft" x="0" y="107" useTextEdit="1" useBinaryEdit="0" left="0" path="../../../../../../modules/nrfx/mdk/ses_startup_nrf_common.s" selected="0" top="0" codecName="Default"/>
   <SessionOpenFile windowGroup="DockEditLeft" x="0" y="36" useTextEdit="1" useBinaryEdit="0" left="0" path="../../../../../../components/libraries/log/src/nrf_log_backend_rtt.c" selected="0" top="39" codecName="Default"/>
-  <SessionOpenFile windowGroup="DockEditLeft" x="23" y="214" useTextEdit="1" useBinaryEdit="0" left="0" path="../../../../../../external/segger_rtt/SEGGER_RTT_Conf.h" selected="0" top="194" codecName="Default"/>
-  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="88" useTextEdit="1" useBinaryEdit="0" left="0" path="../../../../../../components/boards/boards.h" selected="0" top="63" codecName="Default"/>
-  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="0" useTextEdit="1" useBinaryEdit="0" left="0" path="../../../../../../components/boards/rnpd_V3_2_board.h" selected="0" top="120" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="214" useTextEdit="1" useBinaryEdit="0" left="0" path="../../../../../../external/segger_rtt/SEGGER_RTT_Conf.h" selected="0" top="194" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="18" y="90" useTextEdit="1" useBinaryEdit="0" left="0" path="../../../../../../components/boards/boards.h" selected="0" top="60" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="155" useTextEdit="1" useBinaryEdit="0" left="0" path="../../../../../../components/boards/rnpd_V3_2_board.h" selected="0" top="141" codecName="Default"/>
   <SessionOpenFile windowGroup="DockEditLeft" x="0" y="86" useTextEdit="1" useBinaryEdit="0" left="0" path="../../../../../../integration/nrfx/legacy/nrf_drv_gpiote.h" selected="0" top="72" codecName="Default"/>
   <SessionOpenFile windowGroup="DockEditLeft" x="0" y="42" useTextEdit="1" useBinaryEdit="0" left="0" path="../../../../../../modules/nrfx/drivers/src/nrfx_gpiote.c" selected="0" top="28" codecName="Default"/>
   <SessionOpenFile windowGroup="DockEditLeft" x="0" y="89" useTextEdit="1" useBinaryEdit="0" left="0" path="../../../../../../components/libraries/util/app_error_weak.c" selected="0" top="80" codecName="Default"/>
   <SessionOpenFile windowGroup="DockEditLeft" x="0" y="76" useTextEdit="1" useBinaryEdit="0" left="0" path="../../../../../../modules/nrfx/mdk/ses_startup_nrf52.s" selected="0" top="62" codecName="Default"/>
   <SessionOpenFile windowGroup="DockEditLeft" x="0" y="216" useTextEdit="1" useBinaryEdit="0" left="0" path="../../../../../../integration/nrfx/legacy/nrf_drv_uart.h" selected="0" top="195" codecName="Default"/>
   <SessionOpenFile windowGroup="DockEditLeft" x="0" y="395" useTextEdit="1" useBinaryEdit="0" left="0" path="../../../../../../modules/nrfx/drivers/src/nrfx_saadc.c" selected="0" top="366" codecName="Default"/>
-  <SessionOpenFile windowGroup="DockEditLeft" x="40" y="85" useTextEdit="1" useBinaryEdit="0" left="0" path="../../../../../../integration/nrfx/legacy/nrf_drv_saadc.h" selected="0" top="64" codecName="Default"/>
-  <SessionOpenFile windowGroup="DockEditLeft" x="8" y="80" useTextEdit="1" useBinaryEdit="0" left="0" path="../../../../../../modules/nrfx/drivers/include/nrfx_saadc.h" selected="0" top="96" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="35" y="85" useTextEdit="1" useBinaryEdit="0" left="0" path="../../../../../../integration/nrfx/legacy/nrf_drv_saadc.h" selected="0" top="64" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="8" y="80" useTextEdit="1" useBinaryEdit="0" left="0" path="../../../../../../modules/nrfx/drivers/include/nrfx_saadc.h" selected="0" top="70" codecName="Default"/>
   <SessionOpenFile windowGroup="DockEditLeft" x="0" y="567" useTextEdit="1" useBinaryEdit="0" left="0" path="../../../../../../components/libraries/log/src/nrf_log_frontend.c" selected="0" top="551" codecName="Default"/>
-  <SessionOpenFile windowGroup="DockEditLeft" x="16" y="227" useTextEdit="1" useBinaryEdit="0" left="0" path="../../../../../../modules/nrfx/hal/nrf_saadc.h" selected="0" top="212" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="54" y="138" useTextEdit="1" useBinaryEdit="0" left="0" path="../../../../../../modules/nrfx/hal/nrf_saadc.h" selected="0" top="117" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="39" useTextEdit="1" useBinaryEdit="0" left="0" path="../../../../../../components/boards/boards.c" selected="0" top="36" codecName="Default"/>
  </Files>
  <ARMCrossStudioWindow activeProject="uart_pca10040" fileDialogDefaultFilter="*.c" autoConnectTarget="J-Link" buildConfiguration="Debug" sessionSettings="" debugSearchFileMap="" fileDialogInitialDirectory="C:/Nordic/SDK/nRF5_SDK_17.0.2_d674dde/modules/nrfx/drivers/src" debugSearchPath="" autoConnectCapabilities="3711"/>
 </session>

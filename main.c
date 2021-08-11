@@ -166,6 +166,10 @@ void gpio_init()
     err_code = nrf_drv_gpiote_out_init(MUX_INIB2, &out_config);
     APP_ERROR_CHECK(err_code);
     nrf_drv_gpiote_out_set(MUX_INIB2);
+
+    err_code = nrf_drv_gpiote_out_init(TEST, &out_config);
+    APP_ERROR_CHECK(err_code);
+    nrf_drv_gpiote_out_clear(TEST);
 }
 
 /**********************************************************************************************************
@@ -177,6 +181,8 @@ void saadc_init(void)
     nrf_saadc_channel_config_t channel_config =
         NRF_DRV_SAADC_DEFAULT_CHANNEL_CONFIG_SE(NRF_SAADC_INPUT_AIN1);  //P0.03
         channel_config.acq_time = NRF_SAADC_ACQTIME_3US;
+        channel_config.gain = NRF_SAADC_GAIN4;
+        channel_config.reference = NRF_SAADC_REFERENCE_VDD4; //NRF_SAADC_REFERENCE_INTERNAL;
 
 
     err_code = nrf_drv_saadc_init(NULL, saadc_callback);
@@ -239,14 +245,17 @@ void setRow(int row_number)
     for(int i = 0; i < CHANNEL_PINS_PER_MUX; i ++)
     {
         int bit = (row_number >> i) & 0x01;
+        int channel = (PIN_MUX_CHANNEL_0 + i);
         if(bit)
         {
-            nrf_drv_gpiote_out_set(PIN_MUX_CHANNEL_0 + i);
+            nrf_drv_gpiote_out_set(channel);
         }else
         {
-            nrf_drv_gpiote_out_clear(PIN_MUX_CHANNEL_0 + i);
+            nrf_drv_gpiote_out_clear(channel);
         }
     }
+
+    //nrf_delay_ms(2);
 }
 
 /**********************************************************************************************************
@@ -360,21 +369,27 @@ static void uart_loopback_test()
 #define UART_HWFC APP_UART_FLOW_CONTROL_DISABLED
 #endif
 
-void process(void)
+void process_single_shot(void)
 {
     uint32_t err_code;
+
+    nrf_drv_gpiote_out_clear(MUX);
 
     send(PACKET_START_BYTE);
     
     for(int i = 0; i < ROW_COUNT; i ++)
     {
         setRow(i);
+        //nrf_delay_ms(1);
         shiftColumn(true);
         shiftColumn(false);  //with SR clks tied, latched outputs are one clock behind
+        nrf_delay_us(100);
         for(int j = 0; j < COLUMN_COUNT; j ++)
         {
+            nrf_drv_gpiote_out_set(TEST);
             err_code = nrfx_saadc_sample_convert(SAADC_CHANNEL, &sample);
             APP_ERROR_CHECK(err_code);
+            nrf_drv_gpiote_out_clear(TEST);
 
             if(sample < 0)
             {
@@ -384,6 +399,37 @@ void process(void)
             uint8_t data = sample & 0xFF;
 
             shiftColumn(false);
+            nrf_delay_us(100);
+
+            printSerial(data);
+        }
+    }
+
+    nrf_drv_gpiote_out_set(MUX);
+
+    for(int i = 0; i < ROW_COUNT; i ++)
+    {
+        setRow(i);
+        //nrf_delay_ms(1);
+        shiftColumn(true);
+        shiftColumn(false);  //with SR clks tied, latched outputs are one clock behind
+        nrf_delay_us(100);
+        for(int j = 0; j < COLUMN_COUNT; j ++)
+        {
+            nrf_drv_gpiote_out_set(TEST);
+            err_code = nrfx_saadc_sample_convert(SAADC_CHANNEL, &sample);
+            APP_ERROR_CHECK(err_code);
+            nrf_drv_gpiote_out_clear(TEST);
+
+            if(sample < 0)
+            {
+                sample = 0;
+            }
+             
+            uint8_t data = sample & 0xFF;
+
+            shiftColumn(false);
+            nrf_delay_us(100);
 
             printSerial(data);
         }
@@ -399,9 +445,7 @@ int main(void)
 
     gpio_init();
     saadc_init();
-    
-    nrf_drv_gpiote_out_set(MUX);
-
+   
     const app_uart_comm_params_t comm_params =
       {
           RX_PIN_NUMBER,
@@ -437,20 +481,21 @@ int main(void)
 
         if(app_uart_get(&cr))
         {
-            if(cr == 'R')
+            if(cr == 'S')
             {
-              printf(" \r\nRUN ADC\r\n");
-              state_FSM = RUN;
+              //printf(" \r\nRUN ADC\r\n");
+              //state_FSM = RUN;
+              process_single_shot();
             }
-            else if(cr == 'S')
+            else if(cr == 'M')
             {
-              printf(" \r\nSTOP ADC\r\n");
-              state_FSM = STOP;
+              //printf(" \r\nSTOP ADC\r\n");
+              //state_FSM = STOP;
             }
             cr = "";
         }
 
-        switch(state_FSM)
+        /*switch(state_FSM)
         {
           case RUN:
               process();
@@ -466,7 +511,7 @@ int main(void)
 
           default:
             break;
-        }
+        }*/
     }
 #else
 
