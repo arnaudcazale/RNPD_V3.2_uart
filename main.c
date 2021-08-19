@@ -167,6 +167,10 @@ void gpio_init()
     APP_ERROR_CHECK(err_code);
     nrf_drv_gpiote_out_set(MUX_INIB2);
 
+    err_code = nrf_drv_gpiote_out_init(NRST, &out_config);
+    APP_ERROR_CHECK(err_code);
+    nrf_drv_gpiote_out_set(NRST);
+
     err_code = nrf_drv_gpiote_out_init(TEST, &out_config);
     APP_ERROR_CHECK(err_code);
     nrf_drv_gpiote_out_clear(TEST);
