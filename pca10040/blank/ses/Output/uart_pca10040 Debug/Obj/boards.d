@@ -44,4 +44,4 @@ Output/uart_pca10040\ Debug/Obj/boards.o: \
  ../../../../../../components/libraries/util/sdk_errors.h \
  ../../../../../../components/libraries/util/sdk_resources.h \
  ../../../../../../modules/nrfx/drivers/nrfx_errors.h \
- C:\Nordic\SDK\nRF5_SDK_17.0.2_d674dde\components\boards\rnpd_V3_2_board.h
+ C:\Nordic\SDK\nRF5_SDK_17.0.2_d674dde\components\boards\rnpd_V3_1_board.h

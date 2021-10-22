@@ -1,5 +1,5 @@
-Output/uart_pca10040\ Debug/Obj/nrf_log_default_backends.o: \
- C:\Nordic\SDK\nRF5_SDK_17.0.2_d674dde\components\libraries\log\src\nrf_log_default_backends.c \
+Output/uart_pca10040\ Debug/Obj/app_timer.o: \
+ C:\Nordic\SDK\nRF5_SDK_17.0.2_d674dde\components\libraries\timer\app_timer.c \
  ../../../../../../components/libraries/util/sdk_common.h \
  C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 4.16/include/stdint.h \
  C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 4.16/include/stdbool.h \
@@ -27,25 +27,29 @@ Output/uart_pca10040\ Debug/Obj/nrf_log_default_backends.o: \
  ../../../../../../modules/nrfx/mdk/compiler_abstraction.h \
  ../../../../../../components/libraries/util/sdk_macros.h \
  ../../../../../../components/libraries/util/nrf_assert.h \
- ../../../../../../components/libraries/log/nrf_log_default_backends.h \
- ../../../../../../components/libraries/util/sdk_errors.h \
- ../../../../../../components/libraries/log/nrf_log_ctrl.h \
- ../../../../../../components/libraries/log/nrf_log_types.h \
- ../../../../../../components/libraries/log/src/nrf_log_ctrl_internal.h \
- ../../../../../../components/libraries/log/nrf_log_backend_interface.h \
- ../../../../../../components/libraries/memobj/nrf_memobj.h \
- C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 4.16/include/stdlib.h \
- ../../../../../../components/libraries/balloc/nrf_balloc.h \
- ../../../../../../components/libraries/util/app_util_platform.h \
+ C:\Nordic\SDK\nRF5_SDK_17.0.2_d674dde\components\libraries\timer\app_timer.h \
  ../../../../../../components/libraries/util/app_error.h \
  C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 4.16/include/stdio.h \
  ../../../../../../components/libraries/util/app_error_weak.h \
  ../../../../../../components/libraries/util/app_util.h \
- ../../../../../../components/libraries/log/nrf_log_instance.h \
- ../../../../../../components/libraries/experimental_section_vars/nrf_section.h \
  ../../../../../../components/libraries/util/nordic_common.h \
- C:\Nordic\SDK\nRF5_SDK_17.0.2_d674dde\components\libraries\log\src\nrf_log_internal.h \
- ../../../../../../components/libraries/log/nrf_log_types.h \
+ C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 4.16/include/stdlib.h \
+ ../../../../../../modules/nrfx/mdk/nrf_peripherals.h \
+ ../../../../../../modules/nrfx/mdk/nrf52832_peripherals.h \
+ ../../../../../../components/drivers_nrf/nrf_soc_nosd/nrf_soc.h \
+ ../../../../../../components/libraries/delay/nrf_delay.h \
+ ../../../../../../modules/nrfx/nrfx.h \
+ ../../../../../../integration/nrfx/nrfx_config.h \
+ ../../../../../../modules/nrfx/drivers/nrfx_common.h \
+ ../../../../../../integration/nrfx/nrfx_glue.h \
+ ../../../../../../integration/nrfx/legacy/apply_old_config.h \
+ ../../../../../../modules/nrfx/soc/nrfx_irqs.h \
+ ../../../../../../modules/nrfx/soc/nrfx_irqs_nrf52832.h \
  ../../../../../../components/libraries/util/nrf_assert.h \
- ../../../../../../components/libraries/log/nrf_log_backend_rtt.h \
- ../../../../../../components/libraries/log/nrf_log_backend_uart.h
+ ../../../../../../components/libraries/util/app_util_platform.h \
+ ../../../../../../components/libraries/util/app_error.h \
+ ../../../../../../modules/nrfx/soc/nrfx_coredep.h \
+ ../../../../../../modules/nrfx/soc/nrfx_atomic.h \
+ ../../../../../../components/libraries/util/sdk_errors.h \
+ ../../../../../../components/libraries/util/sdk_resources.h \
+ ../../../../../../modules/nrfx/drivers/nrfx_errors.h
