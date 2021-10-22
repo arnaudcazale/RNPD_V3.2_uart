@@ -531,7 +531,7 @@ int main(void)
     gpio_init();
     saadc_init();
     twi_init();
-    //timer_init();
+    timer_init();
    
     const app_uart_comm_params_t comm_params =
       {
