@@ -532,6 +532,8 @@ int main(void)
     saadc_init();
     twi_init();
     timer_init();
+
+    //chenillard_start();
    
     const app_uart_comm_params_t comm_params =
       {
