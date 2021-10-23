@@ -452,12 +452,15 @@ void process_single_shot(void)
 
 void chenillard_start(void)
 {
-    nrf_drv_timer_enable(&TIMER_LED);
+    if (!nrf_drv_timer_is_enabled(&TIMER_LED)) {
+        nrf_drv_timer_enable(&TIMER_LED);
+    }
 }
 
 void chenillard_stop(void)
 {
     nrf_drv_timer_disable(&TIMER_LED);
+    clear_leds();
 }
 
 /**
@@ -532,8 +535,6 @@ int main(void)
     saadc_init();
     twi_init();
     timer_init();
-
-    //chenillard_start();
    
     const app_uart_comm_params_t comm_params =
       {

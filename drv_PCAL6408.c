@@ -70,6 +70,18 @@ uint32_t set_led(uint32_t led_number)
     return err_code;
 }
 
+uint32_t clear_leds(void)
+{
+    uint32_t err_code;
+
+    //Set all to 0
+    uint8_t data = 0x00;
+    err_code = drv_PCAL6408_write(PCAL6408_ADDR, PCAL6408_OUTPUT_PORT, &data);
+    APP_ERROR_CHECK(err_code);
+
+    return err_code;
+}
+
 uint32_t drv_PCAL6408_write(unsigned char slave_addr, unsigned char command, unsigned char const * p_data)
 {
     uint32_t err_code;

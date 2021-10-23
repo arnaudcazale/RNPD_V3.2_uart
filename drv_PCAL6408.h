@@ -44,21 +44,11 @@ typedef struct
  * @retval NRF_SUCCESS.
  */
 uint32_t drv_PCAL6408_init(drv_PCAL6408_init_t * p_params);
+uint32_t drv_PCAL6408_write(unsigned char slave_addr, unsigned char instruction_byte, unsigned char const * p_data);
+uint32_t drv_PCAL6408_read(unsigned char slave_addr, unsigned char * p_data);
 
 uint32_t set_led(uint32_t led_number);
-
-uint32_t drv_PCAL6408_write(unsigned char slave_addr, unsigned char instruction_byte, unsigned char const * p_data);
-
-/**@brief Function for reading a MPU-9250 register.
- *
- * @param[in]  slave_addr   Slave address on the TWI bus.
- * @param[in]  reg_addr     Register address to read.
- * @param[in]  length       Length of the data to read.
- * @param[out] p_data       Pointer to where the data should be stored.
- *
- * @retval 0 if success. Else -1.
- */
-uint32_t drv_PCAL6408_read(unsigned char slave_addr, unsigned char * p_data);
+uint32_t clear_leds(void);
 
 
 #endif // DRV_PCAL6408_H__
