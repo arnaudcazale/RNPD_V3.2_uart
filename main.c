@@ -93,6 +93,8 @@ static int current_enabled_mux = MUX_COUNT - 1;  //init to number of last mux so
 static volatile bool uart_tx_in_progress = false;
 static volatile bool saadc_convert_in_progress = false;
 
+static uint32_t cpt = 0;
+
 typedef enum
 {
    RUN,
@@ -452,6 +454,8 @@ void process_single_shot(void)
 
 void chenillard_start(void)
 {
+    //restart chenillard from top led
+    cpt = 0;
     if (!nrf_drv_timer_is_enabled(&TIMER_LED)) {
         nrf_drv_timer_enable(&TIMER_LED);
     }
@@ -468,8 +472,7 @@ void chenillard_stop(void)
  */
 void timer_led_event_handler(nrf_timer_event_t event_type, void* p_context)
 {
-    static uint32_t i = 0;
-    uint32_t led_to_invert = ((i++) % CHENILLARD_LEDS_NUMBER);
+    uint32_t led_to_invert = ((cpt++) % CHENILLARD_LEDS_NUMBER);
 
     switch (event_type)
     {
