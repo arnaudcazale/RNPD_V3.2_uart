@@ -6637,7 +6637,7 @@ Linker script and memory map
                 0x0000000000000001                . = ASSERT (((__init_rodata_start__ == __init_rodata_end__) || ((__init_rodata_end__ - __FLASH_segment_start__) <= __FLASH_segment_size__)), error: .init_rodata is too large to fit in FLASH memory segment)
                 0x00000000000003d0                __text_load_start__ = ALIGN (__init_rodata_end__, 0x4)
 
-.text           0x00000000000003d0     0x742c
+.text           0x00000000000003d0     0x7430
                 0x00000000000003d0                __text_start__ = .
  *(.text .text.* .glue_7t .glue_7 .gnu.linkonce.t.* .gcc_except_table .ARM.extab* .gnu.linkonce.armextab.*)
  .glue_7        0x00000000000003d0        0x0 linker stubs
@@ -7379,71 +7379,71 @@ Linker script and memory map
                 0x0000000000006b38       0x14 Output/uart_pca10040 Debug/Obj/main.o
                 0x0000000000006b38                chenillard_stop
  .text.timer_led_event_handler
-                0x0000000000006b4c       0x4c Output/uart_pca10040 Debug/Obj/main.o
+                0x0000000000006b4c       0x50 Output/uart_pca10040 Debug/Obj/main.o
                 0x0000000000006b4c                timer_led_event_handler
  .text.timer_init
-                0x0000000000006b98       0x6c Output/uart_pca10040 Debug/Obj/main.o
+                0x0000000000006b9c       0x6c Output/uart_pca10040 Debug/Obj/main.o
  .text.twi_init
-                0x0000000000006c04       0x40 Output/uart_pca10040 Debug/Obj/main.o
- .text.main     0x0000000000006c44       0xc0 Output/uart_pca10040 Debug/Obj/main.o
-                0x0000000000006c44                main
+                0x0000000000006c08       0x40 Output/uart_pca10040 Debug/Obj/main.o
+ .text.main     0x0000000000006c48       0xc0 Output/uart_pca10040 Debug/Obj/main.o
+                0x0000000000006c48                main
  .text.nrf_drv_twi_enable
-                0x0000000000006d04       0x18 Output/uart_pca10040 Debug/Obj/drv_PCAL6408.o
+                0x0000000000006d08       0x18 Output/uart_pca10040 Debug/Obj/drv_PCAL6408.o
  .text.nrf_drv_twi_tx
-                0x0000000000006d1c       0x40 Output/uart_pca10040 Debug/Obj/drv_PCAL6408.o
+                0x0000000000006d20       0x40 Output/uart_pca10040 Debug/Obj/drv_PCAL6408.o
  .text.drv_PCAL6408_init
-                0x0000000000006d5c       0xe4 Output/uart_pca10040 Debug/Obj/drv_PCAL6408.o
-                0x0000000000006d5c                drv_PCAL6408_init
- .text.set_led  0x0000000000006e40       0x70 Output/uart_pca10040 Debug/Obj/drv_PCAL6408.o
-                0x0000000000006e40                set_led
+                0x0000000000006d60       0xe4 Output/uart_pca10040 Debug/Obj/drv_PCAL6408.o
+                0x0000000000006d60                drv_PCAL6408_init
+ .text.set_led  0x0000000000006e44       0x70 Output/uart_pca10040 Debug/Obj/drv_PCAL6408.o
+                0x0000000000006e44                set_led
  .text.clear_leds
-                0x0000000000006eb0       0x3c Output/uart_pca10040 Debug/Obj/drv_PCAL6408.o
-                0x0000000000006eb0                clear_leds
+                0x0000000000006eb4       0x3c Output/uart_pca10040 Debug/Obj/drv_PCAL6408.o
+                0x0000000000006eb4                clear_leds
  .text.drv_PCAL6408_write
-                0x0000000000006eec       0x74 Output/uart_pca10040 Debug/Obj/drv_PCAL6408.o
-                0x0000000000006eec                drv_PCAL6408_write
+                0x0000000000006ef0       0x74 Output/uart_pca10040 Debug/Obj/drv_PCAL6408.o
+                0x0000000000006ef0                drv_PCAL6408_write
  .text.__NVIC_SystemReset
-                0x0000000000006f60       0x24 Output/uart_pca10040 Debug/Obj/system_nrf52.o
+                0x0000000000006f64       0x24 Output/uart_pca10040 Debug/Obj/system_nrf52.o
  .text.nrf52_errata_12
-                0x0000000000006f84       0x80 Output/uart_pca10040 Debug/Obj/system_nrf52.o
+                0x0000000000006f88       0x80 Output/uart_pca10040 Debug/Obj/system_nrf52.o
  .text.nrf52_errata_16
-                0x0000000000007004       0x60 Output/uart_pca10040 Debug/Obj/system_nrf52.o
+                0x0000000000007008       0x60 Output/uart_pca10040 Debug/Obj/system_nrf52.o
  .text.nrf52_errata_31
-                0x0000000000007064       0x80 Output/uart_pca10040 Debug/Obj/system_nrf52.o
+                0x0000000000007068       0x80 Output/uart_pca10040 Debug/Obj/system_nrf52.o
  .text.nrf52_errata_32
-                0x00000000000070e4       0x60 Output/uart_pca10040 Debug/Obj/system_nrf52.o
+                0x00000000000070e8       0x60 Output/uart_pca10040 Debug/Obj/system_nrf52.o
  .text.nrf52_errata_36
-                0x0000000000007144       0x80 Output/uart_pca10040 Debug/Obj/system_nrf52.o
+                0x0000000000007148       0x80 Output/uart_pca10040 Debug/Obj/system_nrf52.o
  .text.nrf52_errata_37
-                0x00000000000071c4       0x60 Output/uart_pca10040 Debug/Obj/system_nrf52.o
+                0x00000000000071c8       0x60 Output/uart_pca10040 Debug/Obj/system_nrf52.o
  .text.nrf52_errata_57
-                0x0000000000007224       0x60 Output/uart_pca10040 Debug/Obj/system_nrf52.o
+                0x0000000000007228       0x60 Output/uart_pca10040 Debug/Obj/system_nrf52.o
  .text.nrf52_errata_66
-                0x0000000000007284       0x80 Output/uart_pca10040 Debug/Obj/system_nrf52.o
+                0x0000000000007288       0x80 Output/uart_pca10040 Debug/Obj/system_nrf52.o
  .text.nrf52_errata_108
-                0x0000000000007304       0x80 Output/uart_pca10040 Debug/Obj/system_nrf52.o
+                0x0000000000007308       0x80 Output/uart_pca10040 Debug/Obj/system_nrf52.o
  .text.nrf52_errata_136
-                0x0000000000007384       0x80 Output/uart_pca10040 Debug/Obj/system_nrf52.o
+                0x0000000000007388       0x80 Output/uart_pca10040 Debug/Obj/system_nrf52.o
  .text.nrf52_errata_182
-                0x0000000000007404       0x58 Output/uart_pca10040 Debug/Obj/system_nrf52.o
+                0x0000000000007408       0x58 Output/uart_pca10040 Debug/Obj/system_nrf52.o
  .text.SystemCoreClockUpdate
-                0x000000000000745c       0x14 Output/uart_pca10040 Debug/Obj/system_nrf52.o
-                0x000000000000745c                SystemCoreClockUpdate
+                0x0000000000007460       0x14 Output/uart_pca10040 Debug/Obj/system_nrf52.o
+                0x0000000000007460                SystemCoreClockUpdate
  .text.SystemInit
-                0x0000000000007470      0x2d4 Output/uart_pca10040 Debug/Obj/system_nrf52.o
-                0x0000000000007470                SystemInit
+                0x0000000000007474      0x2d4 Output/uart_pca10040 Debug/Obj/system_nrf52.o
+                0x0000000000007474                SystemInit
  .text.libc.memcpy
-                0x0000000000007744       0x52 C:/Program Files/SEGGER/SEGGER Embedded Studio for ARM 4.16/lib/libc_v7em_fpv4_sp_d16_hard_t_le_eabi.a(libc2_asm.o)
-                0x0000000000007744                __aeabi_memcpy
-                0x0000000000007744                memcpy
-                0x0000000000007750                __aeabi_memcpy8
-                0x0000000000007750                __aeabi_memcpy4
+                0x0000000000007748       0x52 C:/Program Files/SEGGER/SEGGER Embedded Studio for ARM 4.16/lib/libc_v7em_fpv4_sp_d16_hard_t_le_eabi.a(libc2_asm.o)
+                0x0000000000007748                __aeabi_memcpy
+                0x0000000000007748                memcpy
+                0x0000000000007754                __aeabi_memcpy8
+                0x0000000000007754                __aeabi_memcpy4
  .text.libc.memset
-                0x0000000000007796       0x66 C:/Program Files/SEGGER/SEGGER Embedded Studio for ARM 4.16/lib/libc_v7em_fpv4_sp_d16_hard_t_le_eabi.a(libc2_asm.o)
-                0x0000000000007796                memset
-                0x00000000000077fc                __text_end__ = (__text_start__ + SIZEOF (.text))
-                0x000000000000742c                __text_size__ = SIZEOF (.text)
-                0x00000000000077fc                __text_load_end__ = __text_end__
+                0x000000000000779a       0x66 C:/Program Files/SEGGER/SEGGER Embedded Studio for ARM 4.16/lib/libc_v7em_fpv4_sp_d16_hard_t_le_eabi.a(libc2_asm.o)
+                0x000000000000779a                memset
+                0x0000000000007800                __text_end__ = (__text_start__ + SIZEOF (.text))
+                0x0000000000007430                __text_size__ = SIZEOF (.text)
+                0x0000000000007800                __text_load_end__ = __text_end__
 
 .vfp11_veneer   0x0000000100000000        0x0
  .vfp11_veneer  0x0000000100000000        0x0 linker stubs
@@ -7454,88 +7454,88 @@ Linker script and memory map
 .iplt           0x0000000100000000        0x0
  .iplt          0x0000000100000000        0x0 Output/uart_pca10040 Debug/Obj/thumb_crt0.o
                 0x0000000000000001                . = ASSERT (((__text_start__ == __text_end__) || ((__text_end__ - __FLASH_segment_start__) <= __FLASH_segment_size__)), error: .text is too large to fit in FLASH memory segment)
-                0x00000000000077fc                __log_const_data_load_start__ = ALIGN (__text_end__, 0x4)
+                0x0000000000007800                __log_const_data_load_start__ = ALIGN (__text_end__, 0x4)
 
 .log_const_data
-                0x00000000000077fc       0x48
-                0x00000000000077fc                __log_const_data_start__ = .
-                0x00000000000077fc                __start_log_const_data = __log_const_data_start__
+                0x0000000000007800       0x48
+                0x0000000000007800                __log_const_data_start__ = .
+                0x0000000000007800                __start_log_const_data = __log_const_data_start__
  *(SORT_BY_NAME(.log_const_data*))
  .log_const_data_GPIOTE
-                0x00000000000077fc        0x8 Output/uart_pca10040 Debug/Obj/nrfx_gpiote.o
-                0x00000000000077fc                m_nrf_log_GPIOTE_logs_data_const
+                0x0000000000007800        0x8 Output/uart_pca10040 Debug/Obj/nrfx_gpiote.o
+                0x0000000000007800                m_nrf_log_GPIOTE_logs_data_const
  .log_const_data_PPI
-                0x0000000000007804        0x8 Output/uart_pca10040 Debug/Obj/nrfx_ppi.o
-                0x0000000000007804                m_nrf_log_PPI_logs_data_const
+                0x0000000000007808        0x8 Output/uart_pca10040 Debug/Obj/nrfx_ppi.o
+                0x0000000000007808                m_nrf_log_PPI_logs_data_const
  .log_const_data_PRS
-                0x000000000000780c        0x8 Output/uart_pca10040 Debug/Obj/nrfx_prs.o
-                0x000000000000780c                m_nrf_log_PRS_logs_data_const
+                0x0000000000007810        0x8 Output/uart_pca10040 Debug/Obj/nrfx_prs.o
+                0x0000000000007810                m_nrf_log_PRS_logs_data_const
  .log_const_data_SAADC
-                0x0000000000007814        0x8 Output/uart_pca10040 Debug/Obj/nrfx_saadc.o
-                0x0000000000007814                m_nrf_log_SAADC_logs_data_const
+                0x0000000000007818        0x8 Output/uart_pca10040 Debug/Obj/nrfx_saadc.o
+                0x0000000000007818                m_nrf_log_SAADC_logs_data_const
  .log_const_data_TIMER
-                0x000000000000781c        0x8 Output/uart_pca10040 Debug/Obj/nrfx_timer.o
-                0x000000000000781c                m_nrf_log_TIMER_logs_data_const
+                0x0000000000007820        0x8 Output/uart_pca10040 Debug/Obj/nrfx_timer.o
+                0x0000000000007820                m_nrf_log_TIMER_logs_data_const
  .log_const_data_TWIM
-                0x0000000000007824        0x8 Output/uart_pca10040 Debug/Obj/nrfx_twim.o
-                0x0000000000007824                m_nrf_log_TWIM_logs_data_const
+                0x0000000000007828        0x8 Output/uart_pca10040 Debug/Obj/nrfx_twim.o
+                0x0000000000007828                m_nrf_log_TWIM_logs_data_const
  .log_const_data_UART
-                0x000000000000782c        0x8 Output/uart_pca10040 Debug/Obj/nrfx_uart.o
-                0x000000000000782c                m_nrf_log_UART_logs_data_const
+                0x0000000000007830        0x8 Output/uart_pca10040 Debug/Obj/nrfx_uart.o
+                0x0000000000007830                m_nrf_log_UART_logs_data_const
  .log_const_data_UARTE
-                0x0000000000007834        0x8 Output/uart_pca10040 Debug/Obj/nrfx_uarte.o
-                0x0000000000007834                m_nrf_log_UARTE_logs_data_const
+                0x0000000000007838        0x8 Output/uart_pca10040 Debug/Obj/nrfx_uarte.o
+                0x0000000000007838                m_nrf_log_UARTE_logs_data_const
  .log_const_data_app
-                0x000000000000783c        0x8 Output/uart_pca10040 Debug/Obj/nrf_log_frontend.o
-                0x000000000000783c                m_nrf_log_app_logs_data_const
-                0x0000000000007844                __log_const_data_end__ = (__log_const_data_start__ + SIZEOF (.log_const_data))
+                0x0000000000007840        0x8 Output/uart_pca10040 Debug/Obj/nrf_log_frontend.o
+                0x0000000000007840                m_nrf_log_app_logs_data_const
+                0x0000000000007848                __log_const_data_end__ = (__log_const_data_start__ + SIZEOF (.log_const_data))
                 0x0000000000000048                __log_const_data_size__ = SIZEOF (.log_const_data)
-                0x0000000000007844                __stop_log_const_data = __log_const_data_end__
-                0x0000000000007844                __log_const_data_load_end__ = __log_const_data_end__
+                0x0000000000007848                __stop_log_const_data = __log_const_data_end__
+                0x0000000000007848                __log_const_data_load_end__ = __log_const_data_end__
                 0x0000000000000001                . = ASSERT (((__log_const_data_start__ == __log_const_data_end__) || ((__log_const_data_end__ - __FLASH_segment_start__) <= __FLASH_segment_size__)), error: .log_const_data is too large to fit in FLASH memory segment)
-                0x0000000000007844                __log_backends_load_start__ = ALIGN (__log_const_data_end__, 0x4)
+                0x0000000000007848                __log_backends_load_start__ = ALIGN (__log_const_data_end__, 0x4)
 
-.log_backends   0x0000000000007844        0x0
-                0x0000000000007844                __log_backends_start__ = .
-                0x0000000000007844                __start_log_backends = __log_backends_start__
+.log_backends   0x0000000000007848        0x0
+                0x0000000000007848                __log_backends_start__ = .
+                0x0000000000007848                __start_log_backends = __log_backends_start__
  *(SORT_BY_NAME(.log_backends*))
-                0x0000000000007844                __log_backends_end__ = (__log_backends_start__ + SIZEOF (.log_backends))
+                0x0000000000007848                __log_backends_end__ = (__log_backends_start__ + SIZEOF (.log_backends))
                 0x0000000000000000                __log_backends_size__ = SIZEOF (.log_backends)
-                0x0000000000007844                __stop_log_backends = __log_backends_end__
-                0x0000000000007844                __log_backends_load_end__ = __log_backends_end__
+                0x0000000000007848                __stop_log_backends = __log_backends_end__
+                0x0000000000007848                __log_backends_load_end__ = __log_backends_end__
                 0x0000000000000001                . = ASSERT (((__log_backends_start__ == __log_backends_end__) || ((__log_backends_end__ - __FLASH_segment_start__) <= __FLASH_segment_size__)), error: .log_backends is too large to fit in FLASH memory segment)
-                0x0000000000007844                __nrf_balloc_load_start__ = ALIGN (__log_backends_end__, 0x4)
+                0x0000000000007848                __nrf_balloc_load_start__ = ALIGN (__log_backends_end__, 0x4)
 
-.nrf_balloc     0x0000000000007844       0x14
-                0x0000000000007844                __nrf_balloc_start__ = .
-                0x0000000000007844                __start_nrf_balloc = __nrf_balloc_start__
+.nrf_balloc     0x0000000000007848       0x14
+                0x0000000000007848                __nrf_balloc_start__ = .
+                0x0000000000007848                __start_nrf_balloc = __nrf_balloc_start__
  *(.nrf_balloc*)
- .nrf_balloc    0x0000000000007844       0x14 Output/uart_pca10040 Debug/Obj/nrf_log_frontend.o
-                0x0000000000007844                log_mempool
-                0x0000000000007858                __nrf_balloc_end__ = (__nrf_balloc_start__ + SIZEOF (.nrf_balloc))
+ .nrf_balloc    0x0000000000007848       0x14 Output/uart_pca10040 Debug/Obj/nrf_log_frontend.o
+                0x0000000000007848                log_mempool
+                0x000000000000785c                __nrf_balloc_end__ = (__nrf_balloc_start__ + SIZEOF (.nrf_balloc))
                 0x0000000000000014                __nrf_balloc_size__ = SIZEOF (.nrf_balloc)
-                0x0000000000007858                __stop_nrf_balloc = __nrf_balloc_end__
-                0x0000000000007858                __nrf_balloc_load_end__ = __nrf_balloc_end__
+                0x000000000000785c                __stop_nrf_balloc = __nrf_balloc_end__
+                0x000000000000785c                __nrf_balloc_load_end__ = __nrf_balloc_end__
                 0x0000000000000001                . = ASSERT (((__nrf_balloc_start__ == __nrf_balloc_end__) || ((__nrf_balloc_end__ - __FLASH_segment_start__) <= __FLASH_segment_size__)), error: .nrf_balloc is too large to fit in FLASH memory segment)
-                0x0000000000007858                __nrf_sections_load_start__ = ALIGN (__nrf_balloc_end__, 0x4)
+                0x000000000000785c                __nrf_sections_load_start__ = ALIGN (__nrf_balloc_end__, 0x4)
 
-.nrf_sections   0x0000000000007858        0x0
-                0x0000000000007858                __nrf_sections_start__ = .
-                0x0000000000007858                __start_nrf_sections = __nrf_sections_start__
+.nrf_sections   0x000000000000785c        0x0
+                0x000000000000785c                __nrf_sections_start__ = .
+                0x000000000000785c                __start_nrf_sections = __nrf_sections_start__
  *(.nrf_sections .nrf_sections.*)
-                0x0000000000007858                __nrf_sections_end__ = (__nrf_sections_start__ + SIZEOF (.nrf_sections))
+                0x000000000000785c                __nrf_sections_end__ = (__nrf_sections_start__ + SIZEOF (.nrf_sections))
                 0x0000000000000000                __nrf_sections_size__ = SIZEOF (.nrf_sections)
-                0x0000000000007858                __nrf_sections_load_end__ = __nrf_sections_end__
+                0x000000000000785c                __nrf_sections_load_end__ = __nrf_sections_end__
                 0x0000000000000001                . = ASSERT (((__nrf_sections_start__ == __nrf_sections_end__) || ((__nrf_sections_end__ - __FLASH_segment_start__) <= __FLASH_segment_size__)), error: .nrf_sections is too large to fit in FLASH memory segment)
-                0x0000000000007858                __log_dynamic_data_load_start__ = ALIGN (__nrf_sections_end__, 0x4)
+                0x000000000000785c                __log_dynamic_data_load_start__ = ALIGN (__nrf_sections_end__, 0x4)
 
 .log_dynamic_data
-                0x0000000020000000        0x0 load address 0x0000000000007858
+                0x0000000020000000        0x0 load address 0x000000000000785c
                 0x0000000020000000                __log_dynamic_data_start__ = .
  *(SORT_BY_NAME(.log_dynamic_data*))
                 0x0000000020000000                __log_dynamic_data_end__ = (__log_dynamic_data_start__ + SIZEOF (.log_dynamic_data))
                 0x0000000000000000                __log_dynamic_data_size__ = SIZEOF (.log_dynamic_data)
-                0x0000000000007858                __log_dynamic_data_load_end__ = (__log_dynamic_data_load_start__ + SIZEOF (.log_dynamic_data))
+                0x000000000000785c                __log_dynamic_data_load_end__ = (__log_dynamic_data_load_start__ + SIZEOF (.log_dynamic_data))
                 0x0000000000000001                . = ASSERT (((__log_dynamic_data_load_start__ == __log_dynamic_data_load_end__) || ((__log_dynamic_data_load_end__ - __FLASH_segment_start__) <= __FLASH_segment_size__)), error: .log_dynamic_data is too large to fit in FLASH memory segment)
 
 .log_dynamic_data_run
@@ -7548,15 +7548,15 @@ Linker script and memory map
                 0x0000000020000000                __stop_log_dynamic_data = __log_dynamic_data_run_end__
                 0x0000000020000000                __log_dynamic_data_run_load_end__ = __log_dynamic_data_run_end__
                 0x0000000000000001                . = ASSERT (((__log_dynamic_data_run_start__ == __log_dynamic_data_run_end__) || ((__log_dynamic_data_run_end__ - __RAM1_segment_start__) <= __RAM1_segment_size__)), error: .log_dynamic_data_run is too large to fit in RAM1 memory segment)
-                0x0000000000007858                __log_filter_data_load_start__ = ALIGN ((__log_dynamic_data_load_start__ + SIZEOF (.log_dynamic_data)), 0x4)
+                0x000000000000785c                __log_filter_data_load_start__ = ALIGN ((__log_dynamic_data_load_start__ + SIZEOF (.log_dynamic_data)), 0x4)
 
 .log_filter_data
-                0x0000000020000000        0x0 load address 0x0000000000007858
+                0x0000000020000000        0x0 load address 0x000000000000785c
                 0x0000000020000000                __log_filter_data_start__ = .
  *(SORT_BY_NAME(.log_filter_data*))
                 0x0000000020000000                __log_filter_data_end__ = (__log_filter_data_start__ + SIZEOF (.log_filter_data))
                 0x0000000000000000                __log_filter_data_size__ = SIZEOF (.log_filter_data)
-                0x0000000000007858                __log_filter_data_load_end__ = (__log_filter_data_load_start__ + SIZEOF (.log_filter_data))
+                0x000000000000785c                __log_filter_data_load_end__ = (__log_filter_data_load_start__ + SIZEOF (.log_filter_data))
                 0x0000000000000001                . = ASSERT (((__log_filter_data_load_start__ == __log_filter_data_load_end__) || ((__log_filter_data_load_end__ - __FLASH_segment_start__) <= __FLASH_segment_size__)), error: .log_filter_data is too large to fit in FLASH memory segment)
 
 .log_filter_data_run
@@ -7580,64 +7580,64 @@ Linker script and memory map
                 0x0000000000000000                __nrf_sections_run_end_size__ = SIZEOF (.nrf_sections_run_end)
                 0x0000000020000000                __nrf_sections_run_end_load_end__ = __nrf_sections_run_end_end__
                 0x0000000000000001                . = ASSERT (((__nrf_sections_run_end_start__ == __nrf_sections_run_end_end__) || ((__nrf_sections_run_end_end__ - __RAM1_segment_start__) <= __RAM1_segment_size__)), error: .nrf_sections_run_end is too large to fit in RAM1 memory segment)
-                0x0000000000007858                __dtors_load_start__ = ALIGN ((__log_filter_data_load_start__ + SIZEOF (.log_filter_data)), 0x4)
+                0x000000000000785c                __dtors_load_start__ = ALIGN ((__log_filter_data_load_start__ + SIZEOF (.log_filter_data)), 0x4)
 
-.dtors          0x0000000000007858        0x0
-                0x0000000000007858                __dtors_start__ = .
+.dtors          0x000000000000785c        0x0
+                0x000000000000785c                __dtors_start__ = .
  *(SORT_BY_NAME(.dtors.*))
  *(.dtors)
  *(.fini_array)
  *(SORT_BY_NAME(.fini_array.*))
-                0x0000000000007858                __dtors_end__ = (__dtors_start__ + SIZEOF (.dtors))
+                0x000000000000785c                __dtors_end__ = (__dtors_start__ + SIZEOF (.dtors))
                 0x0000000000000000                __dtors_size__ = SIZEOF (.dtors)
-                0x0000000000007858                __dtors_load_end__ = __dtors_end__
+                0x000000000000785c                __dtors_load_end__ = __dtors_end__
                 0x0000000000000001                . = ASSERT (((__dtors_start__ == __dtors_end__) || ((__dtors_end__ - __FLASH_segment_start__) <= __FLASH_segment_size__)), error: .dtors is too large to fit in FLASH memory segment)
-                0x0000000000007858                __ctors_load_start__ = ALIGN (__dtors_end__, 0x4)
+                0x000000000000785c                __ctors_load_start__ = ALIGN (__dtors_end__, 0x4)
 
-.ctors          0x0000000000007858        0x0
-                0x0000000000007858                __ctors_start__ = .
+.ctors          0x000000000000785c        0x0
+                0x000000000000785c                __ctors_start__ = .
  *(SORT_BY_NAME(.ctors.*))
  *(.ctors)
  *(.init_array)
  *(SORT_BY_NAME(.init_array.*))
-                0x0000000000007858                __ctors_end__ = (__ctors_start__ + SIZEOF (.ctors))
+                0x000000000000785c                __ctors_end__ = (__ctors_start__ + SIZEOF (.ctors))
                 0x0000000000000000                __ctors_size__ = SIZEOF (.ctors)
-                0x0000000000007858                __ctors_load_end__ = __ctors_end__
+                0x000000000000785c                __ctors_load_end__ = __ctors_end__
                 0x0000000000000001                . = ASSERT (((__ctors_start__ == __ctors_end__) || ((__ctors_end__ - __FLASH_segment_start__) <= __FLASH_segment_size__)), error: .ctors is too large to fit in FLASH memory segment)
-                0x0000000000007858                __rodata_load_start__ = ALIGN (__ctors_end__, 0x4)
+                0x000000000000785c                __rodata_load_start__ = ALIGN (__ctors_end__, 0x4)
 
-.rodata         0x0000000000007858      0xd6e
-                0x0000000000007858                __rodata_start__ = .
+.rodata         0x000000000000785c      0xd6a
+                0x000000000000785c                __rodata_start__ = .
  *(.rodata .rodata.* .gnu.linkonce.r.*)
- .rodata        0x0000000000007858       0x6d Output/uart_pca10040 Debug/Obj/nrf_log_frontend.o
- *fill*         0x00000000000078c5        0x3 
- .rodata        0x00000000000078c8       0x70 Output/uart_pca10040 Debug/Obj/app_error_weak.o
- .rodata        0x0000000000007938       0x70 Output/uart_pca10040 Debug/Obj/app_uart_fifo.o
- .rodata        0x00000000000079a8       0x54 Output/uart_pca10040 Debug/Obj/app_util_platform.o
- .rodata        0x00000000000079fc       0x4f Output/uart_pca10040 Debug/Obj/nrf_balloc.o
- *fill*         0x0000000000007a4b        0x1 
- .rodata        0x0000000000007a4c       0x4f Output/uart_pca10040 Debug/Obj/nrf_memobj.o
- *fill*         0x0000000000007a9b        0x1 
+ .rodata        0x000000000000785c       0x6d Output/uart_pca10040 Debug/Obj/nrf_log_frontend.o
+ *fill*         0x00000000000078c9        0x3 
+ .rodata        0x00000000000078cc       0x70 Output/uart_pca10040 Debug/Obj/app_error_weak.o
+ .rodata        0x000000000000793c       0x70 Output/uart_pca10040 Debug/Obj/app_uart_fifo.o
+ .rodata        0x00000000000079ac       0x54 Output/uart_pca10040 Debug/Obj/app_util_platform.o
+ .rodata        0x0000000000007a00       0x4f Output/uart_pca10040 Debug/Obj/nrf_balloc.o
+ *fill*         0x0000000000007a4f        0x1 
+ .rodata        0x0000000000007a50       0x4f Output/uart_pca10040 Debug/Obj/nrf_memobj.o
+ *fill*         0x0000000000007a9f        0x1 
  .rodata.m_unknown_str
-                0x0000000000007a9c       0x13 Output/uart_pca10040 Debug/Obj/nrf_strerror.o
- *fill*         0x0000000000007aaf        0x1 
- .rodata        0x0000000000007ab0      0x3bd Output/uart_pca10040 Debug/Obj/nrf_strerror.o
- *fill*         0x0000000000007e6d        0x3 
+                0x0000000000007aa0       0x13 Output/uart_pca10040 Debug/Obj/nrf_strerror.o
+ *fill*         0x0000000000007ab3        0x1 
+ .rodata        0x0000000000007ab4      0x3bd Output/uart_pca10040 Debug/Obj/nrf_strerror.o
+ *fill*         0x0000000000007e71        0x3 
  .rodata.nrf_strerror_array
-                0x0000000000007e70      0x118 Output/uart_pca10040 Debug/Obj/nrf_strerror.o
- .rodata        0x0000000000007f88       0x52 Output/uart_pca10040 Debug/Obj/nrfx_prs.o
- *fill*         0x0000000000007fda        0x2 
- .rodata        0x0000000000007fdc       0xb3 Output/uart_pca10040 Debug/Obj/nrfx_uart.o
- *fill*         0x000000000000808f        0x1 
+                0x0000000000007e74      0x118 Output/uart_pca10040 Debug/Obj/nrf_strerror.o
+ .rodata        0x0000000000007f8c       0x52 Output/uart_pca10040 Debug/Obj/nrfx_prs.o
+ *fill*         0x0000000000007fde        0x2 
+ .rodata        0x0000000000007fe0       0xb3 Output/uart_pca10040 Debug/Obj/nrfx_uart.o
+ *fill*         0x0000000000008093        0x1 
  .rodata.irq_handlers.8635
-                0x0000000000008090        0x4 Output/uart_pca10040 Debug/Obj/nrfx_uart.o
- .rodata        0x0000000000008094       0xb4 Output/uart_pca10040 Debug/Obj/nrfx_uarte.o
+                0x0000000000008094        0x4 Output/uart_pca10040 Debug/Obj/nrfx_uart.o
+ .rodata        0x0000000000008098       0xb4 Output/uart_pca10040 Debug/Obj/nrfx_uarte.o
  .rodata.irq_handlers.8677
-                0x0000000000008148        0x4 Output/uart_pca10040 Debug/Obj/nrfx_uarte.o
- .rodata        0x000000000000814c       0xb5 Output/uart_pca10040 Debug/Obj/nrfx_gpiote.o
- *fill*         0x0000000000008201        0x3 
- .rodata        0x0000000000008204       0xb4 Output/uart_pca10040 Debug/Obj/nrfx_saadc.o
- *fill*         0x00000000000082b8        0x8 
+                0x000000000000814c        0x4 Output/uart_pca10040 Debug/Obj/nrfx_uarte.o
+ .rodata        0x0000000000008150       0xb5 Output/uart_pca10040 Debug/Obj/nrfx_gpiote.o
+ *fill*         0x0000000000008205        0x3 
+ .rodata        0x0000000000008208       0xb4 Output/uart_pca10040 Debug/Obj/nrfx_saadc.o
+ *fill*         0x00000000000082bc        0x4 
  .rodata.delay_machine_code.7667
                 0x00000000000082c0        0x6 Output/uart_pca10040 Debug/Obj/nrfx_saadc.o
  *fill*         0x00000000000082c6        0x2 
@@ -7667,7 +7667,7 @@ Linker script and memory map
                 0x0000000000008528       0x10 Output/uart_pca10040 Debug/Obj/main.o
  .rodata        0x0000000000008538       0x8e Output/uart_pca10040 Debug/Obj/drv_PCAL6408.o
                 0x00000000000085c6                __rodata_end__ = (__rodata_start__ + SIZEOF (.rodata))
-                0x0000000000000d6e                __rodata_size__ = SIZEOF (.rodata)
+                0x0000000000000d6a                __rodata_size__ = SIZEOF (.rodata)
                 0x00000000000085c6                __rodata_load_end__ = __rodata_end__
 
 .rel.dyn        0x00000000000085c8        0x0
@@ -8017,7 +8017,7 @@ OUTPUT(Output/Debug/Exe/uart_pca10040.elf elf32-littlearm)
  .comment       0x0000000000000043       0x44 Output/uart_pca10040 Debug/Obj/drv_PCAL6408.o
  .comment       0x0000000000000043       0x44 Output/uart_pca10040 Debug/Obj/system_nrf52.o
 
-.debug_line     0x0000000000000000    0x13249
+.debug_line     0x0000000000000000    0x1324c
  .debug_line    0x0000000000000000      0x1ed Output/uart_pca10040 Debug/Obj/thumb_crt0.o
  .debug_line    0x00000000000001ed     0x102e Output/uart_pca10040 Debug/Obj/nrf_log_frontend.o
  .debug_line    0x000000000000121b      0x346 Output/uart_pca10040 Debug/Obj/app_error.o
@@ -8042,11 +8042,11 @@ OUTPUT(Output/Debug/Exe/uart_pca10040.elf elf32-littlearm)
  .debug_line    0x000000000000af52      0xd48 Output/uart_pca10040 Debug/Obj/nrfx_ppi.o
  .debug_line    0x000000000000bc9a      0xd91 Output/uart_pca10040 Debug/Obj/nrfx_timer.o
  .debug_line    0x000000000000ca2b     0x12ff Output/uart_pca10040 Debug/Obj/nrfx_twim.o
- .debug_line    0x000000000000dd2a      0xded Output/uart_pca10040 Debug/Obj/main.o
- .debug_line    0x000000000000eb17      0x8b6 Output/uart_pca10040 Debug/Obj/drv_PCAL6408.o
- .debug_line    0x000000000000f3cd       0x88 Output/uart_pca10040 Debug/Obj/ses_startup_nrf52.o
- .debug_line    0x000000000000f455       0xaa Output/uart_pca10040 Debug/Obj/ses_startup_nrf_common.o
- .debug_line    0x000000000000f4ff     0x3d4a Output/uart_pca10040 Debug/Obj/system_nrf52.o
+ .debug_line    0x000000000000dd2a      0xdf0 Output/uart_pca10040 Debug/Obj/main.o
+ .debug_line    0x000000000000eb1a      0x8b6 Output/uart_pca10040 Debug/Obj/drv_PCAL6408.o
+ .debug_line    0x000000000000f3d0       0x88 Output/uart_pca10040 Debug/Obj/ses_startup_nrf52.o
+ .debug_line    0x000000000000f458       0xaa Output/uart_pca10040 Debug/Obj/ses_startup_nrf_common.o
+ .debug_line    0x000000000000f502     0x3d4a Output/uart_pca10040 Debug/Obj/system_nrf52.o
 
 .debug_info     0x0000000000000000    0x243c9
  .debug_info    0x0000000000000000       0x22 Output/uart_pca10040 Debug/Obj/thumb_crt0.o

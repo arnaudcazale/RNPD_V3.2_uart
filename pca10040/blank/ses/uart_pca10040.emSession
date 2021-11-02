@@ -50,12 +50,12 @@
  </TraceWindow>
  <Watch1>
   <Watches active="1" update="Never">
-   <Watchpoint expression="sample" name="sample" radix="16" linenumber="404" filename="../../../main.c"/>
-   <Watchpoint expression="data" name="data" radix="16" linenumber="413" filename="../../../main.c"/>
-   <Watchpoint expression="bit" name="bit" radix="10" linenumber="262" filename="../../../main.c"/>
-   <Watchpoint expression="row_number" name="row_number" radix="10" linenumber="262" filename="../../../main.c"/>
-   <Watchpoint expression="i" name="i" radix="10" linenumber="259" filename="../../../main.c"/>
-   <Watchpoint expression="channel" name="channel" radix="10" linenumber="262" filename="../../../main.c"/>
+   <Watchpoint expression="sample" name="sample" radix="16" linenumber="406" filename="../../../main.c"/>
+   <Watchpoint expression="data" name="data" radix="16" linenumber="415" filename="../../../main.c"/>
+   <Watchpoint expression="bit" name="bit" radix="10" linenumber="264" filename="../../../main.c"/>
+   <Watchpoint expression="row_number" name="row_number" radix="10" linenumber="264" filename="../../../main.c"/>
+   <Watchpoint expression="i" name="i" radix="10" linenumber="261" filename="../../../main.c"/>
+   <Watchpoint expression="channel" name="channel" radix="10" linenumber="264" filename="../../../main.c"/>
   </Watches>
  </Watch1>
  <Watch2>
@@ -68,7 +68,7 @@
   <Watches active="0" update="Never"/>
  </Watch4>
  <Files>
-  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="530" useTextEdit="1" useBinaryEdit="0" left="0" path="../../../main.c" selected="1" top="508" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="533" useTextEdit="1" useBinaryEdit="0" left="0" path="../../../main.c" selected="1" top="517" codecName="Default"/>
   <SessionOpenFile windowGroup="DockEditLeft" x="0" y="240" useTextEdit="1" useBinaryEdit="0" left="0" path="../../../../../../modules/nrfx/mdk/nrf52832_peripherals.h" selected="0" top="218" codecName="Default"/>
   <SessionOpenFile windowGroup="DockEditLeft" x="0" y="157" useTextEdit="1" useBinaryEdit="0" left="0" path="../../../../../../components/libraries/uart/app_uart.h" selected="0" top="132" codecName="Default"/>
   <SessionOpenFile windowGroup="DockEditLeft" x="0" y="199" useTextEdit="1" useBinaryEdit="0" left="0" path="../../../../../../components/libraries/uart/app_uart_fifo.c" selected="0" top="168" codecName="Default"/>
@@ -76,7 +76,7 @@
   <SessionOpenFile windowGroup="DockEditLeft" x="0" y="0" useTextEdit="1" useBinaryEdit="0" left="0" path="../../../../../../components/libraries/uart/retarget.c" selected="0" top="51" codecName="Default"/>
   <SessionOpenFile windowGroup="DockEditLeft" x="0" y="0" useTextEdit="1" useBinaryEdit="0" left="0" path="../../../../../../modules/nrfx/drivers/src/nrfx_uart.c" selected="0" top="192" codecName="Default"/>
   <SessionOpenFile windowGroup="DockEditLeft" x="0" y="1230" useTextEdit="1" useBinaryEdit="0" left="0" path="../config/sdk_config.h" selected="0" top="1208" codecName="Default"/>
-  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="109" useTextEdit="1" useBinaryEdit="0" left="0" path="../../../../../../modules/nrfx/mdk/ses_startup_nrf_common.s" selected="0" top="60" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="107" useTextEdit="1" useBinaryEdit="0" left="0" path="../../../../../../modules/nrfx/mdk/ses_startup_nrf_common.s" selected="0" top="90" codecName="Default"/>
   <SessionOpenFile windowGroup="DockEditLeft" x="0" y="36" useTextEdit="1" useBinaryEdit="0" left="0" path="../../../../../../components/libraries/log/src/nrf_log_backend_rtt.c" selected="0" top="39" codecName="Default"/>
   <SessionOpenFile windowGroup="DockEditLeft" x="0" y="214" useTextEdit="1" useBinaryEdit="0" left="0" path="../../../../../../external/segger_rtt/SEGGER_RTT_Conf.h" selected="0" top="194" codecName="Default"/>
   <SessionOpenFile windowGroup="DockEditLeft" x="0" y="90" useTextEdit="1" useBinaryEdit="0" left="0" path="../../../../../../components/boards/boards.h" selected="0" top="78" codecName="Default"/>

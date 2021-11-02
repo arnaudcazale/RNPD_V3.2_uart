@@ -454,9 +454,9 @@ void process_single_shot(void)
 
 void chenillard_start(void)
 {
-    //restart chenillard from top led
-    cpt = 0;
     if (!nrf_drv_timer_is_enabled(&TIMER_LED)) {
+        //restart chenillard from top led
+        cpt = 0;
         nrf_drv_timer_enable(&TIMER_LED);
     }
 }
@@ -472,7 +472,7 @@ void chenillard_stop(void)
  */
 void timer_led_event_handler(nrf_timer_event_t event_type, void* p_context)
 {
-    uint32_t led_to_invert = ((cpt++) % CHENILLARD_LEDS_NUMBER);
+    uint32_t led_to_invert = (CHENILLARD_LEDS_NUMBER-1) - ( ((cpt++) % CHENILLARD_LEDS_NUMBER) );
 
     switch (event_type)
     {
