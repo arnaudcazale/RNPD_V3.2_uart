@@ -48,6 +48,7 @@ uint32_t drv_PCAL6408_write(unsigned char slave_addr, unsigned char instruction_
 uint32_t drv_PCAL6408_read(unsigned char slave_addr, unsigned char * p_data);
 
 uint32_t set_led(uint32_t led_number);
+uint32_t set_leds(void);
 uint32_t clear_leds(void);
 
 

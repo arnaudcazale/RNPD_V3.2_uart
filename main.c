@@ -92,6 +92,7 @@ static nrf_saadc_value_t sample;
 static int current_enabled_mux = MUX_COUNT - 1;  //init to number of last mux so enabled mux increments to first mux on first scan.
 static volatile bool uart_tx_in_progress = false;
 static volatile bool saadc_convert_in_progress = false;
+static volatile bool flag_leds = false;
 
 static uint32_t cpt = 0;
 
@@ -389,6 +390,10 @@ void process_single_shot(void)
 {
     uint32_t err_code;
 
+    if(flag_leds){
+      set_leds();
+    }
+
     nrf_drv_gpiote_out_clear(MUX);
 
     send(PACKET_START_BYTE);
@@ -423,6 +428,10 @@ void process_single_shot(void)
 
     nrf_drv_gpiote_out_set(MUX);
 
+    if(flag_leds){
+      clear_leds();
+    }
+
     for(int i = 0; i < ROW_COUNT; i ++)
     {
         setRow(i);
@@ -450,6 +459,7 @@ void process_single_shot(void)
             printSerial(data);
         }
     }
+
 }
 
 void chenillard_start(void)
@@ -587,11 +597,19 @@ int main(void)
             }
             else if(cr == 'C')
             {
-              chenillard_start();
+              chenillard_start(); 
             }
             else if(cr == 'D')
             {
               chenillard_stop();
+            }
+            else if(cr == 'X')
+            {
+              flag_leds = true;
+            }
+            else if(cr == 'Y')
+            {
+              flag_leds = false;
             }
             cr = "";
         }

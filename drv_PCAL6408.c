@@ -70,6 +70,18 @@ uint32_t set_led(uint32_t led_number)
     return err_code;
 }
 
+uint32_t set_leds(void)
+{
+    uint32_t err_code;
+
+    //Set all to 0
+    uint8_t data = 0x1F;
+    err_code = drv_PCAL6408_write(PCAL6408_ADDR, PCAL6408_OUTPUT_PORT, &data);
+    APP_ERROR_CHECK(err_code);
+
+    return err_code;
+}
+
 uint32_t clear_leds(void)
 {
     uint32_t err_code;
@@ -78,6 +90,31 @@ uint32_t clear_leds(void)
     uint8_t data = 0x00;
     err_code = drv_PCAL6408_write(PCAL6408_ADDR, PCAL6408_OUTPUT_PORT, &data);
     APP_ERROR_CHECK(err_code);
+
+    return err_code;
+}
+
+uint32_t toggle_leds(void)
+{
+    uint32_t err_code;
+
+    //read leds states
+    uint8_t data;
+    err_code = drv_PCAL6408_read(PCAL6408_ADDR, &data);
+    APP_ERROR_CHECK(err_code);
+
+    //Toggle state
+    if (data == 0) 
+    {
+      data = 0x1F;
+    }else{
+      data = 0x00;
+    }
+
+    err_code = drv_PCAL6408_write(PCAL6408_ADDR, PCAL6408_OUTPUT_PORT, &data);
+    APP_ERROR_CHECK(err_code);
+
+    nrf_delay_ms(1000);
 
     return err_code;
 }
