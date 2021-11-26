@@ -88,11 +88,14 @@ const nrf_drv_timer_t TIMER_LED = NRF_DRV_TIMER_INSTANCE(0);
 
 static uint16_t PACKET_START_BYTE = 0xFF;
 static nrf_saadc_value_t sample;
+static uint8_t  m_buffer_data_byte[96][16];
+
 //static uint8_t sample;
 static int current_enabled_mux = MUX_COUNT - 1;  //init to number of last mux so enabled mux increments to first mux on first scan.
 static volatile bool uart_tx_in_progress = false;
 static volatile bool saadc_convert_in_progress = false;
 static volatile bool flag_leds = false;
+
 
 static uint32_t cpt = 0;
 
@@ -396,7 +399,7 @@ void process_single_shot(void)
 
     nrf_drv_gpiote_out_clear(MUX);
 
-    send(PACKET_START_BYTE);
+    //send(PACKET_START_BYTE);
     
     for(int i = 0; i < ROW_COUNT; i ++)
     {
@@ -422,7 +425,9 @@ void process_single_shot(void)
             shiftColumn(false);
             nrf_delay_us(100);
 
-            printSerial(data);
+            //printSerial(data);
+
+            m_buffer_data_byte[i][j]     = data;
         }
     }
 
@@ -456,7 +461,19 @@ void process_single_shot(void)
             shiftColumn(false);
             nrf_delay_us(100);
 
-            printSerial(data);
+            //printSerial(data);
+
+            m_buffer_data_byte[i+48][j]     = data;
+        }
+    }
+
+    //Send data
+    send(PACKET_START_BYTE);
+    for(uint8_t i = 0; i < ROW_COUNT*2; i ++)
+    {
+        for(uint8_t j = 0; j < COLUMN_COUNT; j ++)
+        {
+            printSerial(m_buffer_data_byte[i][j]);
         }
     }
 
