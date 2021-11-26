@@ -33,6 +33,7 @@
 "Output/uart_pca10040 Debug/Obj/nrfx_timer.o"
 "Output/uart_pca10040 Debug/Obj/nrfx_twi.o"
 "Output/uart_pca10040 Debug/Obj/nrfx_twim.o"
+"Output/uart_pca10040 Debug/Obj/nrfx_wdt.o"
 "Output/uart_pca10040 Debug/Obj/main.o"
 "Output/uart_pca10040 Debug/Obj/drv_PCAL6408.o"
 "Output/uart_pca10040 Debug/Obj/ses_startup_nrf52.o"

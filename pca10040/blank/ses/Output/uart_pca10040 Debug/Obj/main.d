@@ -64,6 +64,9 @@ Output/uart_pca10040\ Debug/Obj/main.o: \
  ../../../../../../integration/nrfx/legacy/nrf_drv_timer.h \
  ../../../../../../modules/nrfx/drivers/include/nrfx_timer.h \
  ../../../../../../modules/nrfx/hal/nrf_timer.h \
+ ../../../../../../integration/nrfx/legacy/nrf_drv_wdt.h \
+ ../../../../../../modules/nrfx/drivers/include/nrfx_wdt.h \
+ ../../../../../../modules/nrfx/hal/nrf_wdt.h \
  C:\Nordic\SDK\nRF5_SDK_17.0.2_d674dde\examples\peripheral\RNPD_V3.2_uart\drv_PCAL6408.h \
  ../../../../../../integration/nrfx/legacy/nrf_drv_twi.h \
  ../../../../../../modules/nrfx/drivers/include/nrfx_twim.h \

@@ -76,6 +76,7 @@
       <file file_name="../../../../../../modules/nrfx/drivers/src/nrfx_timer.c" />
       <file file_name="../../../../../../modules/nrfx/drivers/src/nrfx_twi.c" />
       <file file_name="../../../../../../modules/nrfx/drivers/src/nrfx_twim.c" />
+      <file file_name="../../../../../../modules/nrfx/drivers/src/nrfx_wdt.c" />
     </folder>
     <folder Name="Application">
       <file file_name="../../../main.c" />

@@ -66,6 +66,7 @@
 #include "nrf_drv_saadc.h"
 #include "nrf_drv_ppi.h"
 #include "nrf_drv_timer.h"
+#include "nrf_drv_wdt.h"
 
 #include "drv_PCAL6408.h"
 
@@ -96,6 +97,7 @@ static volatile bool uart_tx_in_progress = false;
 static volatile bool saadc_convert_in_progress = false;
 static volatile bool flag_leds = false;
 
+nrf_drv_wdt_channel_id m_channel_id;
 
 static uint32_t cpt = 0;
 
@@ -128,6 +130,16 @@ void uart_error_handle(app_uart_evt_t * p_event)
     {
         uart_tx_in_progress = false;
     }
+}
+
+/**
+ * @brief WDT events handler.
+ */
+void wdt_event_handler(void)
+{
+    set_leds();
+
+    //NOTE: The max amount of time we can spend in WDT interrupt is two cycles of 32768[Hz] clock - after that, reset occurs
 }
 
 /**
@@ -590,12 +602,24 @@ int main(void)
 
     APP_ERROR_CHECK(err_code);
 
+    //Configure WDT.
+    nrf_drv_wdt_config_t config = NRF_DRV_WDT_DEAFULT_CONFIG;
+    err_code = nrf_drv_wdt_init(&config, wdt_event_handler);
+    APP_ERROR_CHECK(err_code);
+    err_code = nrf_drv_wdt_channel_alloc(&m_channel_id);
+    APP_ERROR_CHECK(err_code);
+    nrf_drv_wdt_enable();
+
 #ifndef ENABLE_LOOPBACK_TEST
     //printf("\r\nUART example started.\r\n");
 
     while (true)
     {
         uint8_t cr;
+
+        //feed watchdog for avoid reset
+        nrf_drv_wdt_channel_feed(m_channel_id);
+
         //while (app_uart_get(&cr) != NRF_SUCCESS);
         //while (app_uart_put(cr) != NRF_SUCCESS);
 
